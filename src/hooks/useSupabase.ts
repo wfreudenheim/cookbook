@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
-import type { Recipe } from '../types/recipe';
 import type { User } from '@supabase/supabase-js';
 import type { Database } from '../types/database';
+
+type Tables = Database['public']['Tables'];
+type RecipeInsert = Tables['recipes']['Insert'];
+type RecipeUpdate = Tables['recipes']['Update'];
 
 export function useSupabase() {
   const [user, setUser] = useState<User | null>(null);
@@ -35,10 +38,13 @@ export function useSupabase() {
     return data;
   };
 
-  const createRecipe = async (recipe: Omit<Database['public']['Tables']['recipes']['Insert'], 'id' | 'created_at' | 'updated_at'>) => {
+  const createRecipe = async (recipe: Omit<RecipeInsert, 'id' | 'created_at' | 'updated_at'>) => {
     const { data, error } = await supabase
       .from('recipes')
-      .insert({ ...recipe, created_by: user?.id })
+      .insert({
+        ...recipe,
+        created_by: user?.id
+      } as RecipeInsert)
       .select()
       .single();
     
@@ -46,10 +52,10 @@ export function useSupabase() {
     return data;
   };
 
-  const updateRecipe = async (id: string, updates: Partial<Omit<Database['public']['Tables']['recipes']['Update'], 'id' | 'created_at' | 'updated_at'>>) => {
+  const updateRecipe = async (id: string, updates: Partial<Omit<RecipeUpdate, 'id' | 'created_at' | 'updated_at'>>) => {
     const { data, error } = await supabase
       .from('recipes')
-      .update(updates)
+      .update(updates as RecipeUpdate)
       .eq('id', id)
       .select()
       .single();
