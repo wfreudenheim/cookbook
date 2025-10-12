@@ -73,7 +73,7 @@ export const GroceryList = ({ onBack }: GroceryListProps) => {
         .join('\n\n');
 
       // Use the recipe parsing endpoint to clean it up
-      const response = await fetch('http://localhost:3000/api/parse-recipe', {
+      const response = await fetch('/api/parse-recipe', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
