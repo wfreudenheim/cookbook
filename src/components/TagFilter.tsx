@@ -41,14 +41,16 @@ export const TagFilter = ({ selectedTags, onTagToggle, tagCounts }: TagFilterPro
                   <button
                     key={tag}
                     onClick={() => onTagToggle(tag)}
-                    className={`text-sm transition-colors duration-200 hover:text-accent-primary ${
-                      isSelected ? 'text-accent-primary' : 'text-text-secondary'
+                    className={`text-sm px-3 py-1 rounded-sm transition-all duration-200 ${
+                      isSelected 
+                        ? 'bg-accent-primary text-white font-medium shadow-sm' 
+                        : 'text-text-secondary hover:text-accent-primary hover:bg-accent-primary/10'
                     }`}
                   >
                     {tag}
                     {count !== undefined && count > 0 && (
-                      <span className={`${isSelected ? 'text-accent-primary/70' : 'text-text-secondary/70'}`}>
-                        {' '}({count})
+                      <span className={`ml-1 ${isSelected ? 'text-white/80' : 'text-text-secondary/70'}`}>
+                        ({count})
                       </span>
                     )}
                   </button>
