@@ -22,7 +22,7 @@ const getTagCategory = (tag: string): string => {
 
 function AppContent() {
   const { user } = useAuth();
-  const { recipes, loading, addRecipe, updateRecipe, deleteRecipe } = useRecipes();
+  const { recipes, loading, addRecipe, updateRecipe } = useRecipes();
   const [currentView, setCurrentView] = React.useState<View>('grid');
   const [selectedRecipe, setSelectedRecipe] = React.useState<string | null>(null);
   const [recipeToEdit, setRecipeToEdit] = React.useState<Recipe | undefined>();
