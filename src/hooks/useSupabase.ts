@@ -1,12 +1,6 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
 import type { User } from '@supabase/supabase-js';
-import type { Database } from '../types/database';
-
-type DbTables = Database['public']['Tables'];
-type Recipe = DbTables['recipes']['Row'];
-type RecipeInsert = DbTables['recipes']['Insert'];
-type RecipeUpdate = DbTables['recipes']['Update'];
 
 export function useSupabase() {
   const [user, setUser] = useState<User | null>(null);
@@ -36,35 +30,35 @@ export function useSupabase() {
       .select('*');
     
     if (error) throw error;
-    return data as Recipe[];
+    return data;
   };
 
-  const createRecipe = async (recipe: Omit<RecipeInsert, 'created_by'>) => {
+  const createRecipe = async (recipe: any) => {
+    const recipeData = {
+      ...recipe,
+      created_by: user?.id
+    };
+
     const { data, error } = await supabase
       .from('recipes')
-      .insert([{  // Wrap in array for Supabase's typing
-        ...recipe,
-        created_by: user?.id || undefined
-      }] satisfies RecipeInsert[])
+      .insert(recipeData)
       .select()
       .single();
     
     if (error) throw error;
-    return data as Recipe;
+    return data;
   };
 
-  const updateRecipe = async (id: string, updates: Partial<RecipeUpdate>) => {
+  const updateRecipe = async (id: string, updates: any) => {
     const { data, error } = await supabase
       .from('recipes')
-      .update([{  // Wrap in array for Supabase's typing
-        ...updates
-      }] satisfies RecipeUpdate[])
+      .update(updates)
       .eq('id', id)
       .select()
       .single();
     
     if (error) throw error;
-    return data as Recipe;
+    return data;
   };
 
   const deleteRecipe = async (id: string) => {
