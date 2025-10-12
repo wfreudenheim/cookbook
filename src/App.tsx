@@ -7,7 +7,7 @@ import { GroceryList } from './components/GroceryList';
 import { Login } from './components/Login';
 import { GroceryProvider } from './context/GroceryContext';
 import { AuthProvider, useAuth } from './context/AuthContext';
-import { dummyRecipes } from './data/dummyRecipes';
+import { useRecipes } from './hooks/useRecipes';
 import type { Recipe } from './types/recipe';
 
 type View = 'grid' | 'detail' | 'add' | 'grocery';
@@ -20,34 +20,14 @@ const getTagCategory = (tag: string): string => {
   return '';
 };
 
-// Load recipes from localStorage or use dummy data
-const loadRecipes = (): Recipe[] => {
-  const saved = localStorage.getItem('recipes');
-  if (saved) {
-    const parsed = JSON.parse(saved);
-    // Convert string dates back to Date objects
-    return parsed.map((recipe: any) => ({
-      ...recipe,
-      createdAt: new Date(recipe.createdAt),
-      updatedAt: new Date(recipe.updatedAt)
-    }));
-  }
-  return dummyRecipes;
-};
-
 function AppContent() {
   const { user } = useAuth();
+  const { recipes, loading, addRecipe, updateRecipe, deleteRecipe } = useRecipes();
   const [currentView, setCurrentView] = React.useState<View>('grid');
   const [selectedRecipe, setSelectedRecipe] = React.useState<string | null>(null);
   const [recipeToEdit, setRecipeToEdit] = React.useState<Recipe | undefined>();
   const [searchQuery, setSearchQuery] = React.useState('');
   const [selectedTags, setSelectedTags] = React.useState<string[]>([]);
-  const [recipes, setRecipes] = React.useState<Recipe[]>(loadRecipes);
-
-  // Save recipes to localStorage whenever they change
-  React.useEffect(() => {
-    localStorage.setItem('recipes', JSON.stringify(recipes));
-  }, [recipes]);
 
   // Debounced search query
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
@@ -131,27 +111,21 @@ function AppContent() {
     );
   };
 
-  const handleAddRecipe = (recipe: Omit<Recipe, 'id' | 'createdAt' | 'updatedAt'>) => {
-    if (recipeToEdit) {
-      // Editing existing recipe
-      const updatedRecipe = {
-        ...recipeToEdit,
-        ...recipe,
-        updatedAt: new Date()
-      };
-      setRecipes(prev => prev.map(r => r.id === recipeToEdit.id ? updatedRecipe : r));
-      setRecipeToEdit(undefined);
-    } else {
-      // Adding new recipe
-      const newRecipe: Recipe = {
-        ...recipe,
-        id: (recipes.length + 1).toString(),
-        createdAt: new Date(),
-        updatedAt: new Date()
-      };
-      setRecipes([...recipes, newRecipe]);
+  const handleAddRecipe = async (recipe: Omit<Recipe, 'id' | 'createdAt' | 'updatedAt'>) => {
+    try {
+      if (recipeToEdit) {
+        // Editing existing recipe
+        await updateRecipe(recipeToEdit.id, recipe);
+        setRecipeToEdit(undefined);
+      } else {
+        // Adding new recipe
+        await addRecipe(recipe);
+      }
+      setCurrentView('grid');
+    } catch (error) {
+      console.error('Error saving recipe:', error);
+      alert('Failed to save recipe. Please try again.');
     }
-    setCurrentView('grid');
   };
 
   const handleNavigate = (view: View) => {
@@ -174,7 +148,11 @@ function AppContent() {
         onNavigate={handleNavigate}
       />
       <main>
-        {currentView === 'detail' && selectedRecipe ? (
+        {loading ? (
+          <div className="max-w-6xl mx-auto px-6 py-8 text-center text-text-secondary">
+            Loading recipes...
+          </div>
+        ) : currentView === 'detail' && selectedRecipe ? (
           <RecipeDetail 
             recipe={recipes.find(r => r.id === selectedRecipe)!}
             onBack={handleBackClick}
@@ -194,15 +172,29 @@ function AppContent() {
           <GroceryList onBack={() => handleNavigate('grid')} />
         ) : (
           <div className="max-w-6xl mx-auto px-6 py-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filteredRecipes.map(recipe => (
-                <RecipeCard 
-                  key={recipe.id} 
-                  recipe={recipe}
-                  onClick={() => handleRecipeClick(recipe.id)}
-                />
-              ))}
-            </div>
+            {filteredRecipes.length === 0 ? (
+              <div className="text-center text-text-secondary">
+                <p className="mb-4">No recipes yet!</p>
+                {user && (
+                  <button 
+                    onClick={() => handleNavigate('add')}
+                    className="px-4 py-2 bg-accent-primary text-white hover:bg-accent-secondary transition-colors duration-200"
+                  >
+                    Add Your First Recipe
+                  </button>
+                )}
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {filteredRecipes.map(recipe => (
+                  <RecipeCard 
+                    key={recipe.id} 
+                    recipe={recipe}
+                    onClick={() => handleRecipeClick(recipe.id)}
+                  />
+                ))}
+              </div>
+            )}
           </div>
         )}
       </main>
