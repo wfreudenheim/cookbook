@@ -89,10 +89,10 @@ export const GroceryList = ({ onBack }: GroceryListProps) => {
       
       // Convert Claude's response back to our format
       const newList: OrganizedGroceryList = {};
-      Object.entries(data).forEach(([section, items]: [string, ClaudeIngredient[]]) => {
+      Object.entries(data).forEach(([sectionName, items]: [string, ClaudeIngredient[]]) => {
         if (!items || !Array.isArray(items)) return;
         
-        newList[section as StoreSection] = items
+        newList[sectionName as StoreSection] = items
           .filter(item => item && typeof item === 'object' && 'name' in item && item.name)
           .map(item => ({
             name: item.name,

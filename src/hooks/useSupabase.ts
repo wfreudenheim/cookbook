@@ -1,19 +1,22 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
-import { Recipe } from '../types/recipe';
+import type { Recipe } from '../types/recipe';
+import type { User } from '@supabase/supabase-js';
 
 export function useSupabase() {
-  const [user, setUser] = useState(supabase.auth.getUser());
+  const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // Set initial user
+    supabase.auth.getUser().then(({ data: { user } }) => {
+      setUser(user);
+      setLoading(false);
+    });
+
     // Set up auth state listener
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
-      if (session) {
-        setUser(session.user);
-      } else {
-        setUser(null);
-      }
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setUser(session?.user ?? null);
       setLoading(false);
     });
 
@@ -34,7 +37,7 @@ export function useSupabase() {
   const createRecipe = async (recipe: Omit<Recipe, 'id' | 'created_at' | 'updated_at'>) => {
     const { data, error } = await supabase
       .from('recipes')
-      .insert(recipe)
+      .insert({ ...recipe, created_by: user?.id })
       .select()
       .single();
     
@@ -42,7 +45,7 @@ export function useSupabase() {
     return data;
   };
 
-  const updateRecipe = async (id: string, updates: Partial<Recipe>) => {
+  const updateRecipe = async (id: string, updates: Partial<Omit<Recipe, 'id' | 'created_at' | 'updated_at'>>) => {
     const { data, error } = await supabase
       .from('recipes')
       .update(updates)
