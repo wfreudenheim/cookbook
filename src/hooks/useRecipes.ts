@@ -9,19 +9,37 @@ export function useRecipes() {
   const [error, setError] = useState<string | null>(null);
   const { user } = useAuth();
 
-  // Load recipes from Supabase
+  // Load recipes from Supabase with tags
   const loadRecipes = async () => {
     try {
       setLoading(true);
-      const { data, error } = await supabase
+      
+      // Fetch recipes
+      const { data: recipesData, error: recipesError } = await supabase
         .from('recipes')
         .select('*')
         .order('created_at', { ascending: false });
 
-      if (error) throw error;
+      if (recipesError) throw recipesError;
+
+      // Fetch all tags
+      const { data: tagsData, error: tagsError } = await supabase
+        .from('recipe_tags')
+        .select('*');
+
+      if (tagsError) throw tagsError;
+
+      // Group tags by recipe_id
+      const tagsByRecipe: Record<string, string[]> = {};
+      (tagsData || []).forEach((tag: any) => {
+        if (!tagsByRecipe[tag.recipe_id]) {
+          tagsByRecipe[tag.recipe_id] = [];
+        }
+        tagsByRecipe[tag.recipe_id].push(tag.tag_name);
+      });
 
       // Transform Supabase data to our Recipe type
-      const transformedRecipes: Recipe[] = (data || []).map((item: any) => ({
+      const transformedRecipes: Recipe[] = (recipesData || []).map((item: any) => ({
         id: item.id,
         title: item.title,
         sourceUrl: item.source_url,
@@ -31,7 +49,7 @@ export function useRecipes() {
         servings: item.servings,
         prepTime: item.prep_time,
         cookTime: item.cook_time,
-        tags: [], // We'll handle tags separately if needed
+        tags: tagsByRecipe[item.id] || [],
         photos: [],
         notes: [],
         createdAt: new Date(item.created_at),
@@ -53,7 +71,7 @@ export function useRecipes() {
     loadRecipes();
   }, []);
 
-  // Add a new recipe
+  // Add a new recipe with tags
   const addRecipe = async (recipe: Omit<Recipe, 'id' | 'createdAt' | 'updatedAt'>) => {
     try {
       if (!user) {
@@ -78,6 +96,20 @@ export function useRecipes() {
 
       if (error) throw error;
 
+      // Add tags if any
+      if (recipe.tags && recipe.tags.length > 0) {
+        const tagInserts = recipe.tags.map(tag => ({
+          recipe_id: data.id,
+          tag_name: tag
+        }));
+
+        const { error: tagsError } = await supabase
+          .from('recipe_tags')
+          .insert(tagInserts);
+
+        if (tagsError) throw tagsError;
+      }
+
       // Reload recipes to get the fresh list
       await loadRecipes();
       return data;
@@ -87,13 +119,14 @@ export function useRecipes() {
     }
   };
 
-  // Update an existing recipe
+  // Update an existing recipe with tags
   const updateRecipe = async (id: string, updates: Partial<Recipe>) => {
     try {
       if (!user) {
         throw new Error('Must be logged in to update recipes');
       }
 
+      // Update recipe data
       const { error } = await supabase
         .from('recipes')
         .update({
@@ -109,6 +142,31 @@ export function useRecipes() {
         .eq('id', id);
 
       if (error) throw error;
+
+      // Update tags if provided
+      if (updates.tags !== undefined) {
+        // Delete existing tags
+        const { error: deleteError } = await supabase
+          .from('recipe_tags')
+          .delete()
+          .eq('recipe_id', id);
+
+        if (deleteError) throw deleteError;
+
+        // Insert new tags
+        if (updates.tags.length > 0) {
+          const tagInserts = updates.tags.map(tag => ({
+            recipe_id: id,
+            tag_name: tag
+          }));
+
+          const { error: tagsError } = await supabase
+            .from('recipe_tags')
+            .insert(tagInserts);
+
+          if (tagsError) throw tagsError;
+        }
+      }
 
       // Reload recipes to get the fresh list
       await loadRecipes();
