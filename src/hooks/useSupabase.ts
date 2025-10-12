@@ -5,24 +5,8 @@ import type { Database } from '../types/database';
 
 type DbTables = Database['public']['Tables'];
 type Recipe = DbTables['recipes']['Row'];
-
-// Define the shape of a new recipe (excluding auto-generated fields)
-interface NewRecipe {
-  title: string;
-  source_url: string | null;
-  source_type: string | null;
-  ingredients: {
-    name: string;
-    amount: string;
-    unit: string;
-    notes?: string;
-  }[];
-  instructions: string[];
-  servings: number;
-  prep_time: number | null;
-  cook_time: number | null;
-  created_by?: string;
-}
+type RecipeInsert = DbTables['recipes']['Insert'];
+type RecipeUpdate = DbTables['recipes']['Update'];
 
 export function useSupabase() {
   const [user, setUser] = useState<User | null>(null);
@@ -55,15 +39,13 @@ export function useSupabase() {
     return data as Recipe[];
   };
 
-  const createRecipe = async (recipe: Omit<NewRecipe, 'created_by'>) => {
-    const newRecipe: NewRecipe = {
-      ...recipe,
-      created_by: user?.id ?? null
-    };
-
+  const createRecipe = async (recipe: Omit<RecipeInsert, 'created_by'>) => {
     const { data, error } = await supabase
       .from('recipes')
-      .insert(newRecipe)
+      .insert([{  // Wrap in array for Supabase's typing
+        ...recipe,
+        created_by: user?.id || undefined
+      }] satisfies RecipeInsert[])
       .select()
       .single();
     
@@ -71,10 +53,12 @@ export function useSupabase() {
     return data as Recipe;
   };
 
-  const updateRecipe = async (id: string, updates: Partial<NewRecipe>) => {
+  const updateRecipe = async (id: string, updates: Partial<RecipeUpdate>) => {
     const { data, error } = await supabase
       .from('recipes')
-      .update(updates)
+      .update([{  // Wrap in array for Supabase's typing
+        ...updates
+      }] satisfies RecipeUpdate[])
       .eq('id', id)
       .select()
       .single();
