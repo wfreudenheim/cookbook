@@ -4,6 +4,7 @@ import type { User } from '@supabase/supabase-js';
 import type { Database } from '../types/database';
 
 type Tables = Database['public']['Tables'];
+type Recipe = Tables['recipes']['Row'];
 type RecipeInsert = Tables['recipes']['Insert'];
 type RecipeUpdate = Tables['recipes']['Update'];
 
@@ -35,33 +36,35 @@ export function useSupabase() {
       .select('*');
     
     if (error) throw error;
-    return data;
+    return data as Recipe[];
   };
 
   const createRecipe = async (recipe: Omit<RecipeInsert, 'id' | 'created_at' | 'updated_at'>) => {
     const { data, error } = await supabase
       .from('recipes')
-      .insert({
+      .insert([{  // Note: Wrap in array to match Supabase's expected type
         ...recipe,
         created_by: user?.id
-      } as RecipeInsert)
+      }])
       .select()
       .single();
     
     if (error) throw error;
-    return data;
+    return data as Recipe;
   };
 
   const updateRecipe = async (id: string, updates: Partial<Omit<RecipeUpdate, 'id' | 'created_at' | 'updated_at'>>) => {
     const { data, error } = await supabase
       .from('recipes')
-      .update(updates as RecipeUpdate)
+      .update([{  // Note: Wrap in array to match Supabase's expected type
+        ...updates
+      }])
       .eq('id', id)
       .select()
       .single();
     
     if (error) throw error;
-    return data;
+    return data as Recipe;
   };
 
   const deleteRecipe = async (id: string) => {
