@@ -3,10 +3,26 @@ import { supabase } from '../lib/supabase';
 import type { User } from '@supabase/supabase-js';
 import type { Database } from '../types/database';
 
-type Tables = Database['public']['Tables'];
-type Recipe = Tables['recipes']['Row'];
-type RecipeInsert = Tables['recipes']['Insert'];
-type RecipeUpdate = Tables['recipes']['Update'];
+type DbTables = Database['public']['Tables'];
+type Recipe = DbTables['recipes']['Row'];
+
+// Define the shape of a new recipe (excluding auto-generated fields)
+interface NewRecipe {
+  title: string;
+  source_url: string | null;
+  source_type: string | null;
+  ingredients: {
+    name: string;
+    amount: string;
+    unit: string;
+    notes?: string;
+  }[];
+  instructions: string[];
+  servings: number;
+  prep_time: number | null;
+  cook_time: number | null;
+  created_by?: string;
+}
 
 export function useSupabase() {
   const [user, setUser] = useState<User | null>(null);
@@ -39,13 +55,15 @@ export function useSupabase() {
     return data as Recipe[];
   };
 
-  const createRecipe = async (recipe: Omit<RecipeInsert, 'id' | 'created_at' | 'updated_at'>) => {
+  const createRecipe = async (recipe: Omit<NewRecipe, 'created_by'>) => {
+    const newRecipe: NewRecipe = {
+      ...recipe,
+      created_by: user?.id ?? null
+    };
+
     const { data, error } = await supabase
       .from('recipes')
-      .insert([{  // Note: Wrap in array to match Supabase's expected type
-        ...recipe,
-        created_by: user?.id
-      }])
+      .insert(newRecipe)
       .select()
       .single();
     
@@ -53,12 +71,10 @@ export function useSupabase() {
     return data as Recipe;
   };
 
-  const updateRecipe = async (id: string, updates: Partial<Omit<RecipeUpdate, 'id' | 'created_at' | 'updated_at'>>) => {
+  const updateRecipe = async (id: string, updates: Partial<NewRecipe>) => {
     const { data, error } = await supabase
       .from('recipes')
-      .update([{  // Note: Wrap in array to match Supabase's expected type
-        ...updates
-      }])
+      .update(updates)
       .eq('id', id)
       .select()
       .single();
