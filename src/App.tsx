@@ -80,7 +80,7 @@ function App() {
         }, {} as Record<string, string[]>);
 
         // Check each category
-        for (const [category, tags] of Object.entries(selectedByCategory)) {
+        for (const [_category, tags] of Object.entries(selectedByCategory)) {
           // OR within category - recipe must match at least one tag
           if (tags.length > 0) {
             const hasMatchInCategory = tags.some(tag => recipe.tags.includes(tag));

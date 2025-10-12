@@ -1,4 +1,3 @@
-import type { Recipe } from '../types/recipe';
 
 interface ParsedRecipe {
   title: string;

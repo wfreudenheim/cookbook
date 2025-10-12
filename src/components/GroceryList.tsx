@@ -105,7 +105,7 @@ export const GroceryList = ({ onBack }: GroceryListProps) => {
       });
 
       // Preserve recipe sources from the original list
-      Object.entries(newList).forEach(([section, items]) => {
+      Object.entries(newList).forEach(([_section, items]) => {
         items.forEach(item => {
           if (!item.name) return;
           
