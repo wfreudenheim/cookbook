@@ -2,6 +2,7 @@ import React from 'react';
 import { TagFilter } from './TagFilter';
 import { GroceryDropdown } from './GroceryDropdown';
 import { useGroceryContext } from '../context/GroceryContext';
+import { useAuth } from '../context/AuthContext';
 
 interface HeaderProps {
   searchQuery: string;
@@ -24,6 +25,7 @@ export const Header = ({
 }: HeaderProps) => {
   const [showGroceryDropdown, setShowGroceryDropdown] = React.useState(false);
   const { selectedRecipes } = useGroceryContext();
+  const { user, signOut } = useAuth();
 
   return (
     <header className="border-b border-border-light">
@@ -55,12 +57,14 @@ export const Header = ({
           >
             All Recipes
           </button>
-          <button 
-            onClick={() => onNavigate('add')}
-            className="text-text-primary hover:text-accent-primary transition-colors duration-200"
-          >
-            Add Recipe
-          </button>
+          {user && (
+            <button 
+              onClick={() => onNavigate('add')}
+              className="text-text-primary hover:text-accent-primary transition-colors duration-200"
+            >
+              Add Recipe
+            </button>
+          )}
           <div className="relative">
             <button 
               onClick={() => setShowGroceryDropdown(!showGroceryDropdown)}
@@ -80,6 +84,21 @@ export const Header = ({
               />
             )}
           </div>
+          {user ? (
+            <button 
+              onClick={signOut}
+              className="text-text-secondary hover:text-accent-primary transition-colors duration-200 text-sm"
+            >
+              Sign Out
+            </button>
+          ) : (
+            <button 
+              onClick={() => onNavigate('add')}
+              className="text-text-secondary hover:text-accent-primary transition-colors duration-200 text-sm"
+            >
+              Sign In
+            </button>
+          )}
         </nav>
       </div>
 

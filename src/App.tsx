@@ -4,7 +4,9 @@ import { RecipeCard } from './components/RecipeCard';
 import { RecipeDetail } from './components/RecipeDetail';
 import { AddRecipe } from './components/AddRecipe';
 import { GroceryList } from './components/GroceryList';
+import { Login } from './components/Login';
 import { GroceryProvider } from './context/GroceryContext';
+import { AuthProvider, useAuth } from './context/AuthContext';
 import { dummyRecipes } from './data/dummyRecipes';
 import type { Recipe } from './types/recipe';
 
@@ -33,7 +35,8 @@ const loadRecipes = (): Recipe[] => {
   return dummyRecipes;
 };
 
-function App() {
+function AppContent() {
+  const { user } = useAuth();
   const [currentView, setCurrentView] = React.useState<View>('grid');
   const [selectedRecipe, setSelectedRecipe] = React.useState<string | null>(null);
   const [recipeToEdit, setRecipeToEdit] = React.useState<Recipe | undefined>();
@@ -160,48 +163,60 @@ function App() {
   };
 
   return (
-    <GroceryProvider>
-      <div className="min-h-screen bg-background-secondary">
-        <Header 
-          searchQuery={searchQuery}
-          onSearchChange={setSearchQuery}
-          selectedTags={selectedTags}
-          onTagToggle={handleTagToggle}
-          tagCounts={tagCounts}
-          showFilters={currentView === 'grid'}
-          onNavigate={handleNavigate}
-        />
-        <main>
-          {currentView === 'detail' && selectedRecipe ? (
-            <RecipeDetail 
-              recipe={recipes.find(r => r.id === selectedRecipe)!}
-              onBack={handleBackClick}
-              onEdit={handleEditClick}
-            />
-          ) : currentView === 'add' ? (
+    <div className="min-h-screen bg-background-secondary">
+      <Header 
+        searchQuery={searchQuery}
+        onSearchChange={setSearchQuery}
+        selectedTags={selectedTags}
+        onTagToggle={handleTagToggle}
+        tagCounts={tagCounts}
+        showFilters={currentView === 'grid'}
+        onNavigate={handleNavigate}
+      />
+      <main>
+        {currentView === 'detail' && selectedRecipe ? (
+          <RecipeDetail 
+            recipe={recipes.find(r => r.id === selectedRecipe)!}
+            onBack={handleBackClick}
+            onEdit={handleEditClick}
+          />
+        ) : currentView === 'add' ? (
+          user ? (
             <AddRecipe 
               onSave={handleAddRecipe}
               onCancel={handleBackClick}
               initialRecipe={recipeToEdit}
             />
-          ) : currentView === 'grocery' ? (
-            <GroceryList onBack={() => handleNavigate('grid')} />
           ) : (
-            <div className="max-w-6xl mx-auto px-6 py-8">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {filteredRecipes.map(recipe => (
-                  <RecipeCard 
-                    key={recipe.id} 
-                    recipe={recipe}
-                    onClick={() => handleRecipeClick(recipe.id)}
-                  />
-                ))}
-              </div>
+            <Login />
+          )
+        ) : currentView === 'grocery' ? (
+          <GroceryList onBack={() => handleNavigate('grid')} />
+        ) : (
+          <div className="max-w-6xl mx-auto px-6 py-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {filteredRecipes.map(recipe => (
+                <RecipeCard 
+                  key={recipe.id} 
+                  recipe={recipe}
+                  onClick={() => handleRecipeClick(recipe.id)}
+                />
+              ))}
             </div>
-          )}
-        </main>
-      </div>
-    </GroceryProvider>
+          </div>
+        )}
+      </main>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <AuthProvider>
+      <GroceryProvider>
+        <AppContent />
+      </GroceryProvider>
+    </AuthProvider>
   );
 }
 
