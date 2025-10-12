@@ -19,10 +19,18 @@ module.exports = async (req, res) => {
   }
 
   try {
+    console.log('Received request:', req.method, req.body);
+    
     const { recipeText } = req.body;
     
     if (!recipeText) {
+      console.error('No recipe text provided');
       return res.status(400).json({ error: 'Recipe text is required' });
+    }
+    
+    if (!process.env.ANTHROPIC_API_KEY) {
+      console.error('ANTHROPIC_API_KEY not set');
+      return res.status(500).json({ error: 'API key not configured' });
     }
 
     // Check if this is a grocery list organization request
@@ -122,6 +130,10 @@ ${recipeText}`
     return res.json(parsedContent);
   } catch (error) {
     console.error('Error parsing recipe:', error);
-    return res.status(500).json({ error: 'Failed to parse recipe' });
+    console.error('Error details:', error.message, error.stack);
+    return res.status(500).json({ 
+      error: 'Failed to parse recipe',
+      details: error.message 
+    });
   }
 };
