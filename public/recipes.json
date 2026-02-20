@@ -1,17 +1,123 @@
 [
   {
+    "title": "Crispy Cheese Smashed Sweet Potato Pancakes + Chilli Fried Egg",
+    "ingredients": [
+      {
+        "amount": "4-6",
+        "unit": "",
+        "name": "sweet potatoes",
+        "notes": "medium or small"
+      },
+      {
+        "amount": "4-6",
+        "unit": "small handfuls",
+        "name": "cheddar cheese",
+        "notes": "grated; plant-based or vegan cheese works well as a substitute"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "salt and pepper",
+        "notes": "to taste"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "eggs"
+      },
+      {
+        "amount": "1-2",
+        "unit": "tbsp",
+        "name": "crispy chilli oil",
+        "notes": "such as Lao Gan Ma; chilli crisp also works; pesto can be substituted with a little extra oil for frying"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "creme fraiche or yoghurt",
+        "notes": "for garnish; use plant-based alternative for vegan"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "pickled red onions",
+        "notes": "for garnish"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "chives or spring onion",
+        "notes": "sliced, for garnish"
+      }
+    ],
+    "instructions": [
+      "Prick the sweet potatoes all over, then microwave on high until tender, around 15-20 minutes.",
+      "Smash each potato flat between two sheets of baking paper using a burger press, spatula, or pan.",
+      "Heat a non-stick frying pan over medium-high heat. Add small rounds of cheese directly to the dry pan, roughly the same size as the smashed potatoes.",
+      "Place a smashed sweet potato on top of each cheese round. Cook until the cheese is golden and crispy, then flip and cook until golden and crispy on the other side. Work in batches if needed.",
+      "Wipe the pan clean. Heat the chilli oil over medium heat, crack in the eggs, and cook to your liking. Optionally cover with a lid or bowl for 15-20 seconds near the end to set any remaining raw egg white.",
+      "To serve, stack the sweet potato pancakes, top with the fried egg, a dollop of creme fraiche or yoghurt, pickled red onions, extra chilli crisp, and sliced chives or spring onion."
+    ],
+    "servings": 2,
+    "tags": [
+      "snack",
+      "vegetarian",
+      "american",
+      "breakfast"
+    ],
+    "sourceType": "instagram",
+    "sourceUrl": "https://www.instagram.com/p/DM41gQpMyFZ/",
+    "photos": [],
+    "notes": [],
+    "id": "e2c6f625-d9ee-420b-a136-12b90bdb6b8e",
+    "createdAt": "2026-02-20T20:37:22.683Z",
+    "updatedAt": "2026-02-20T20:37:22.683Z"
+  },
+  {
     "id": "seed-001",
     "title": "Korean Beef Bulgogi",
     "sourceType": "instagram",
     "sourceUrl": "https://instagram.com/p/example-bulgogi",
     "ingredients": [
-      { "name": "beef sirloin", "amount": "1", "unit": "lb", "notes": "thinly sliced" },
-      { "name": "soy sauce", "amount": "1/3", "unit": "cup" },
-      { "name": "brown sugar", "amount": "3", "unit": "tbsp" },
-      { "name": "sesame oil", "amount": "2", "unit": "tbsp" },
-      { "name": "garlic", "amount": "4", "unit": "cloves", "notes": "minced" },
-      { "name": "ginger", "amount": "1", "unit": "tbsp", "notes": "grated" },
-      { "name": "pear", "amount": "1/2", "unit": "medium", "notes": "grated" }
+      {
+        "name": "beef sirloin",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "thinly sliced"
+      },
+      {
+        "name": "soy sauce",
+        "amount": "1/3",
+        "unit": "cup"
+      },
+      {
+        "name": "brown sugar",
+        "amount": "3",
+        "unit": "tbsp"
+      },
+      {
+        "name": "sesame oil",
+        "amount": "2",
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": "4",
+        "unit": "cloves",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "grated"
+      },
+      {
+        "name": "pear",
+        "amount": "1/2",
+        "unit": "medium",
+        "notes": "grated"
+      }
     ],
     "instructions": [
       "Combine soy sauce, brown sugar, sesame oil, garlic, ginger, and pear in a bowl",
@@ -23,7 +129,11 @@
     "servings": 4,
     "prepTime": 20,
     "cookTime": 15,
-    "tags": ["dinner", "beef", "asian"],
+    "tags": [
+      "dinner",
+      "beef",
+      "asian"
+    ],
     "photos": [],
     "notes": [],
     "createdAt": "2024-03-01T00:00:00.000Z",
@@ -34,11 +144,34 @@
     "title": "Classic Pasta Carbonara",
     "sourceType": "manual",
     "ingredients": [
-      { "name": "spaghetti", "amount": "1", "unit": "lb" },
-      { "name": "guanciale", "amount": "8", "unit": "oz", "notes": "diced" },
-      { "name": "eggs", "amount": "4", "unit": "large" },
-      { "name": "pecorino romano", "amount": "1", "unit": "cup", "notes": "freshly grated" },
-      { "name": "black pepper", "amount": "2", "unit": "tsp", "notes": "freshly ground" }
+      {
+        "name": "spaghetti",
+        "amount": "1",
+        "unit": "lb"
+      },
+      {
+        "name": "guanciale",
+        "amount": "8",
+        "unit": "oz",
+        "notes": "diced"
+      },
+      {
+        "name": "eggs",
+        "amount": "4",
+        "unit": "large"
+      },
+      {
+        "name": "pecorino romano",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "freshly grated"
+      },
+      {
+        "name": "black pepper",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "freshly ground"
+      }
     ],
     "instructions": [
       "Bring a large pot of salted water to boil",
@@ -51,7 +184,10 @@
     "servings": 4,
     "prepTime": 10,
     "cookTime": 20,
-    "tags": ["dinner", "italian"],
+    "tags": [
+      "dinner",
+      "italian"
+    ],
     "photos": [],
     "notes": [],
     "createdAt": "2024-03-02T00:00:00.000Z",
@@ -63,11 +199,32 @@
     "sourceType": "instagram",
     "sourceUrl": "https://instagram.com/p/example-oats",
     "ingredients": [
-      { "name": "rolled oats", "amount": "1", "unit": "cup" },
-      { "name": "almond milk", "amount": "1", "unit": "cup" },
-      { "name": "chia seeds", "amount": "2", "unit": "tbsp" },
-      { "name": "maple syrup", "amount": "2", "unit": "tbsp" },
-      { "name": "mixed berries", "amount": "2", "unit": "cups", "notes": "fresh or frozen" }
+      {
+        "name": "rolled oats",
+        "amount": "1",
+        "unit": "cup"
+      },
+      {
+        "name": "almond milk",
+        "amount": "1",
+        "unit": "cup"
+      },
+      {
+        "name": "chia seeds",
+        "amount": "2",
+        "unit": "tbsp"
+      },
+      {
+        "name": "maple syrup",
+        "amount": "2",
+        "unit": "tbsp"
+      },
+      {
+        "name": "mixed berries",
+        "amount": "2",
+        "unit": "cups",
+        "notes": "fresh or frozen"
+      }
     ],
     "instructions": [
       "Mix oats, almond milk, chia seeds, and 1 tbsp maple syrup",
@@ -78,7 +235,10 @@
     "servings": 2,
     "prepTime": 5,
     "cookTime": 10,
-    "tags": ["breakfast", "vegetarian"],
+    "tags": [
+      "breakfast",
+      "vegetarian"
+    ],
     "photos": [],
     "notes": [],
     "createdAt": "2024-03-03T00:00:00.000Z",
