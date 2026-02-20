@@ -18,6 +18,7 @@ export async function parseRecipeText(recipeText: string): Promise<ParsedRecipe>
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
+        'X-Passphrase': localStorage.getItem('cookbook_passphrase') || '',
       },
       body: JSON.stringify({ recipeText })
     });

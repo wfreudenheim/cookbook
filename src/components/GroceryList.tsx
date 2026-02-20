@@ -75,9 +75,12 @@ export const GroceryList = ({ onBack }: GroceryListProps) => {
       // Use the recipe parsing endpoint to clean it up
       const response = await fetch('/api/parse-recipe', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ 
-          recipeText: `Please organize this grocery list and clean up the quantities:\n\n${listText}` 
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Passphrase': localStorage.getItem('cookbook_passphrase') || '',
+        },
+        body: JSON.stringify({
+          recipeText: `Please organize this grocery list and clean up the quantities:\n\n${listText}`
         })
       });
 

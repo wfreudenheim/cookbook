@@ -4,9 +4,7 @@ import { RecipeCard } from './components/RecipeCard';
 import { RecipeDetail } from './components/RecipeDetail';
 import { AddRecipe } from './components/AddRecipe';
 import { GroceryList } from './components/GroceryList';
-import { Login } from './components/Login';
 import { GroceryProvider } from './context/GroceryContext';
-import { AuthProvider, useAuth } from './context/AuthContext';
 import { useRecipes } from './hooks/useRecipes';
 import type { Recipe } from './types/recipe';
 
@@ -21,13 +19,45 @@ const getTagCategory = (tag: string): string => {
 };
 
 function AppContent() {
-  const { user } = useAuth();
-  const { recipes, loading, addRecipe, updateRecipe } = useRecipes();
+  const { recipes, loading, addRecipe, updateRecipe, deleteRecipe } = useRecipes();
   const [currentView, setCurrentView] = React.useState<View>('grid');
   const [selectedRecipe, setSelectedRecipe] = React.useState<string | null>(null);
   const [recipeToEdit, setRecipeToEdit] = React.useState<Recipe | undefined>();
   const [searchQuery, setSearchQuery] = React.useState('');
   const [selectedTags, setSelectedTags] = React.useState<string[]>([]);
+
+  // Passphrase state
+  const [isAuthenticated, setIsAuthenticated] = React.useState(
+    () => !!localStorage.getItem('cookbook_passphrase')
+  );
+
+  const handlePassphraseSubmit = async (passphrase: string) => {
+    try {
+      const response = await fetch('/api/verify-passphrase', {
+        method: 'POST',
+        headers: { 'X-Passphrase': passphrase },
+      });
+      if (response.ok) {
+        localStorage.setItem('cookbook_passphrase', passphrase);
+        setIsAuthenticated(true);
+        return true;
+      }
+      // 401 means wrong passphrase
+      if (response.status === 401) return false;
+    } catch {
+      // API unavailable (e.g. local dev without vercel) —
+      // store passphrase optimistically, it'll be validated on first write
+    }
+    // If we got here via catch or a non-401 response, store it anyway
+    localStorage.setItem('cookbook_passphrase', passphrase);
+    setIsAuthenticated(true);
+    return true;
+  };
+
+  const handlePassphraseClear = () => {
+    localStorage.removeItem('cookbook_passphrase');
+    setIsAuthenticated(false);
+  };
 
   // Debounced search query
   const [debouncedSearch, setDebouncedSearch] = React.useState('');
@@ -44,17 +74,16 @@ function AppContent() {
       // Search filter
       if (debouncedSearch) {
         const searchLower = debouncedSearch.toLowerCase();
-        const matchesSearch = 
+        const matchesSearch =
           recipe.title.toLowerCase().includes(searchLower) ||
           recipe.ingredients.some(i => i.name.toLowerCase().includes(searchLower)) ||
           recipe.tags.some(tag => tag.toLowerCase().includes(searchLower));
-        
+
         if (!matchesSearch) return false;
       }
 
       // Tag filter
       if (selectedTags.length > 0) {
-        // Group selected tags by category
         const selectedByCategory = selectedTags.reduce((acc, tag) => {
           const category = getTagCategory(tag);
           if (!acc[category]) acc[category] = [];
@@ -62,9 +91,7 @@ function AppContent() {
           return acc;
         }, {} as Record<string, string[]>);
 
-        // Check each category
         for (const [_category, tags] of Object.entries(selectedByCategory)) {
-          // OR within category - recipe must match at least one tag
           if (tags.length > 0) {
             const hasMatchInCategory = tags.some(tag => recipe.tags.includes(tag));
             if (!hasMatchInCategory) return false;
@@ -76,7 +103,7 @@ function AppContent() {
     });
   }, [debouncedSearch, selectedTags, recipes]);
 
-  // Calculate tag counts from current filtered recipes
+  // Calculate tag counts from all recipes
   const tagCounts = React.useMemo(() => {
     const counts: Record<string, number> = {};
     recipes.forEach(recipe => {
@@ -103,9 +130,22 @@ function AppContent() {
     setCurrentView('add');
   };
 
+  const handleDeleteRecipe = async (recipe: Recipe) => {
+    if (window.confirm(`Delete "${recipe.title}"? This cannot be undone.`)) {
+      try {
+        await deleteRecipe(recipe.id);
+        setSelectedRecipe(null);
+        setCurrentView('grid');
+      } catch (error) {
+        console.error('Error deleting recipe:', error);
+        alert('Failed to delete recipe. Please try again.');
+      }
+    }
+  };
+
   const handleTagToggle = (tag: string) => {
-    setSelectedTags(prev => 
-      prev.includes(tag) 
+    setSelectedTags(prev =>
+      prev.includes(tag)
         ? prev.filter(t => t !== tag)
         : [...prev, tag]
     );
@@ -114,11 +154,9 @@ function AppContent() {
   const handleAddRecipe = async (recipe: Omit<Recipe, 'id' | 'createdAt' | 'updatedAt'>) => {
     try {
       if (recipeToEdit) {
-        // Editing existing recipe
         await updateRecipe(recipeToEdit.id, recipe);
         setRecipeToEdit(undefined);
       } else {
-        // Adding new recipe
         await addRecipe(recipe);
       }
       setCurrentView('grid');
@@ -138,7 +176,7 @@ function AppContent() {
 
   return (
     <div className="min-h-screen bg-background-secondary">
-      <Header 
+      <Header
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
         selectedTags={selectedTags}
@@ -146,6 +184,9 @@ function AppContent() {
         tagCounts={tagCounts}
         showFilters={currentView === 'grid'}
         onNavigate={handleNavigate}
+        isAuthenticated={isAuthenticated}
+        onPassphraseSubmit={handlePassphraseSubmit}
+        onPassphraseClear={handlePassphraseClear}
       />
       <main>
         {loading ? (
@@ -153,21 +194,19 @@ function AppContent() {
             Loading recipes...
           </div>
         ) : currentView === 'detail' && selectedRecipe ? (
-          <RecipeDetail 
+          <RecipeDetail
             recipe={recipes.find(r => r.id === selectedRecipe)!}
             onBack={handleBackClick}
             onEdit={handleEditClick}
+            onDelete={handleDeleteRecipe}
+            isAuthenticated={isAuthenticated}
           />
         ) : currentView === 'add' ? (
-          user ? (
-            <AddRecipe 
-              onSave={handleAddRecipe}
-              onCancel={handleBackClick}
-              initialRecipe={recipeToEdit}
-            />
-          ) : (
-            <Login />
-          )
+          <AddRecipe
+            onSave={handleAddRecipe}
+            onCancel={handleBackClick}
+            initialRecipe={recipeToEdit}
+          />
         ) : currentView === 'grocery' ? (
           <GroceryList onBack={() => handleNavigate('grid')} />
         ) : (
@@ -175,8 +214,8 @@ function AppContent() {
             {filteredRecipes.length === 0 ? (
               <div className="text-center text-text-secondary">
                 <p className="mb-4">No recipes yet!</p>
-                {user && (
-                  <button 
+                {isAuthenticated && (
+                  <button
                     onClick={() => handleNavigate('add')}
                     className="px-4 py-2 bg-accent-primary text-white hover:bg-accent-secondary transition-colors duration-200"
                   >
@@ -187,8 +226,8 @@ function AppContent() {
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {filteredRecipes.map(recipe => (
-                  <RecipeCard 
-                    key={recipe.id} 
+                  <RecipeCard
+                    key={recipe.id}
                     recipe={recipe}
                     onClick={() => handleRecipeClick(recipe.id)}
                   />
@@ -204,11 +243,9 @@ function AppContent() {
 
 function App() {
   return (
-    <AuthProvider>
-      <GroceryProvider>
-        <AppContent />
-      </GroceryProvider>
-    </AuthProvider>
+    <GroceryProvider>
+      <AppContent />
+    </GroceryProvider>
   );
 }
 

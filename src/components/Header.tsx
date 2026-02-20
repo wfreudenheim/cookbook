@@ -2,7 +2,6 @@ import React from 'react';
 import { TagFilter } from './TagFilter';
 import { GroceryDropdown } from './GroceryDropdown';
 import { useGroceryContext } from '../context/GroceryContext';
-import { useAuth } from '../context/AuthContext';
 
 interface HeaderProps {
   searchQuery: string;
@@ -12,27 +11,46 @@ interface HeaderProps {
   tagCounts: Record<string, number>;
   showFilters?: boolean;
   onNavigate: (view: 'grid' | 'add' | 'grocery') => void;
+  isAuthenticated: boolean;
+  onPassphraseSubmit: (passphrase: string) => Promise<boolean>;
+  onPassphraseClear: () => void;
 }
 
-export const Header = ({ 
-  searchQuery, 
-  onSearchChange, 
-  selectedTags, 
-  onTagToggle, 
+export const Header = ({
+  searchQuery,
+  onSearchChange,
+  selectedTags,
+  onTagToggle,
   tagCounts,
   showFilters = true,
-  onNavigate
+  onNavigate,
+  isAuthenticated,
+  onPassphraseSubmit,
+  onPassphraseClear,
 }: HeaderProps) => {
   const [showGroceryDropdown, setShowGroceryDropdown] = React.useState(false);
   const { selectedRecipes } = useGroceryContext();
-  const { user, signOut } = useAuth();
+  const [showPassphraseInput, setShowPassphraseInput] = React.useState(false);
+  const [passphraseValue, setPassphraseValue] = React.useState('');
+  const [passphraseError, setPassphraseError] = React.useState(false);
+
+  const handlePassphraseSubmit = async () => {
+    const valid = await onPassphraseSubmit(passphraseValue);
+    if (valid) {
+      setShowPassphraseInput(false);
+      setPassphraseValue('');
+      setPassphraseError(false);
+    } else {
+      setPassphraseError(true);
+    }
+  };
 
   return (
     <header className="border-b border-border-light">
       {/* Main header */}
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-12">
-          <h1 
+          <h1
             onClick={() => onNavigate('grid')}
             className="text-text-primary text-lg cursor-pointer hover:text-accent-primary transition-colors duration-200"
           >
@@ -51,14 +69,14 @@ export const Header = ({
           )}
         </div>
         <nav className="flex items-center space-x-8">
-          <button 
+          <button
             onClick={() => onNavigate('grid')}
             className="text-text-primary hover:text-accent-primary transition-colors duration-200"
           >
             All Recipes
           </button>
-          {user && (
-            <button 
+          {isAuthenticated && (
+            <button
               onClick={() => onNavigate('add')}
               className="text-text-primary hover:text-accent-primary transition-colors duration-200"
             >
@@ -66,7 +84,7 @@ export const Header = ({
             </button>
           )}
           <div className="relative">
-            <button 
+            <button
               onClick={() => setShowGroceryDropdown(!showGroceryDropdown)}
               className="text-text-primary hover:text-accent-primary transition-colors duration-200"
             >
@@ -75,7 +93,7 @@ export const Header = ({
               )}
             </button>
             {showGroceryDropdown && (
-              <GroceryDropdown 
+              <GroceryDropdown
                 onClose={() => setShowGroceryDropdown(false)}
                 onGenerateList={() => {
                   setShowGroceryDropdown(false);
@@ -84,19 +102,51 @@ export const Header = ({
               />
             )}
           </div>
-          {user ? (
-            <button 
-              onClick={signOut}
+          {isAuthenticated ? (
+            <button
+              onClick={onPassphraseClear}
               className="text-text-secondary hover:text-accent-primary transition-colors duration-200 text-sm"
             >
-              Sign Out
+              Lock
             </button>
+          ) : showPassphraseInput ? (
+            <div className="flex items-center space-x-2">
+              <input
+                type="password"
+                placeholder="Passphrase"
+                value={passphraseValue}
+                onChange={(e) => {
+                  setPassphraseValue(e.target.value);
+                  setPassphraseError(false);
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') handlePassphraseSubmit();
+                  if (e.key === 'Escape') {
+                    setShowPassphraseInput(false);
+                    setPassphraseValue('');
+                    setPassphraseError(false);
+                  }
+                }}
+                autoFocus
+                className={`w-32 px-2 py-1 text-sm border outline-none transition-colors duration-200 ${
+                  passphraseError
+                    ? 'border-error text-error'
+                    : 'border-border-light focus:border-accent-primary'
+                }`}
+              />
+              <button
+                onClick={handlePassphraseSubmit}
+                className="text-sm text-accent-primary hover:text-accent-secondary transition-colors duration-200"
+              >
+                Unlock
+              </button>
+            </div>
           ) : (
-            <button 
-              onClick={() => onNavigate('add')}
+            <button
+              onClick={() => setShowPassphraseInput(true)}
               className="text-text-secondary hover:text-accent-primary transition-colors duration-200 text-sm"
             >
-              Sign In
+              Unlock
             </button>
           )}
         </nav>
@@ -106,7 +156,7 @@ export const Header = ({
       {showFilters && (
         <div className="border-t border-border-light bg-background-primary/50">
           <div className="max-w-6xl mx-auto px-6 py-4">
-            <TagFilter 
+            <TagFilter
               selectedTags={selectedTags}
               onTagToggle={onTagToggle}
               tagCounts={tagCounts}
@@ -116,4 +166,4 @@ export const Header = ({
       )}
     </header>
   );
-}; 
+};

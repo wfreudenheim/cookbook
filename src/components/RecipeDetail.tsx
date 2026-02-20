@@ -4,6 +4,8 @@ interface RecipeDetailProps {
   recipe: Recipe;
   onBack: () => void;
   onEdit: (recipe: Recipe) => void;
+  onDelete: (recipe: Recipe) => void;
+  isAuthenticated: boolean;
 }
 
 const getSourceDisplay = (sourceType?: string, sourceUrl?: string) => {
@@ -16,7 +18,7 @@ const getSourceDisplay = (sourceType?: string, sourceUrl?: string) => {
   return sourceType;
 };
 
-export const RecipeDetail = ({ recipe, onBack, onEdit }: RecipeDetailProps) => {
+export const RecipeDetail = ({ recipe, onBack, onEdit, onDelete, isAuthenticated }: RecipeDetailProps) => {
   const { title, sourceUrl, sourceType, ingredients, instructions, servings, tags } = recipe;
 
   return (
@@ -28,12 +30,22 @@ export const RecipeDetail = ({ recipe, onBack, onEdit }: RecipeDetailProps) => {
         >
           ← Back to Recipes
         </button>
-        <button 
-          onClick={() => onEdit(recipe)}
-          className="text-text-secondary hover:text-accent-primary transition-colors duration-200"
-        >
-          Edit
-        </button>
+        {isAuthenticated && (
+          <div className="flex items-center space-x-6">
+            <button
+              onClick={() => onEdit(recipe)}
+              className="text-text-secondary hover:text-accent-primary transition-colors duration-200"
+            >
+              Edit
+            </button>
+            <button
+              onClick={() => onDelete(recipe)}
+              className="text-text-secondary hover:text-error transition-colors duration-200"
+            >
+              Delete
+            </button>
+          </div>
+        )}
       </div>
 
       <div className="mb-6">
