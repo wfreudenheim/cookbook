@@ -42,7 +42,7 @@ module.exports = async (req, res) => {
     // Check if this is a grocery list organization request
     if (recipeText.includes('Please organize this grocery list')) {
       const response = await anthropic.messages.create({
-        model: 'claude-3-opus-20240229',
+        model: 'claude-sonnet-4-6',
         max_tokens: 4096,
         messages: [
           {
@@ -88,7 +88,7 @@ Return a JSON object with this structure:
 
     // Regular recipe parsing
     const response = await anthropic.messages.create({
-      model: 'claude-3-opus-20240229',
+      model: 'claude-sonnet-4-6',
       max_tokens: 4096,
       messages: [
         {
