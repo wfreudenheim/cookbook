@@ -210,7 +210,7 @@ function AppContent() {
         ) : currentView === 'grocery' ? (
           <GroceryList onBack={() => handleNavigate('grid')} />
         ) : (
-          <div className="max-w-6xl mx-auto px-6 py-8">
+          <div className="max-w-6xl mx-auto px-4 md:px-6 py-4 md:py-8">
             {filteredRecipes.length === 0 ? (
               <div className="text-center text-text-secondary">
                 <p className="mb-4">No recipes yet!</p>
@@ -224,7 +224,7 @@ function AppContent() {
                 )}
               </div>
             ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
                 {filteredRecipes.map(recipe => (
                   <RecipeCard
                     key={recipe.id}
