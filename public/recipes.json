@@ -1,5 +1,91 @@
 [
   {
+    "title": "High-Protein Sweet Potato Brownies",
+    "ingredients": [
+      {
+        "amount": "300",
+        "unit": "g",
+        "name": "sweet potatoes"
+      },
+      {
+        "amount": "80",
+        "unit": "g",
+        "name": "honey",
+        "notes": "or maple syrup"
+      },
+      {
+        "amount": "6",
+        "unit": "g",
+        "name": "vanilla extract"
+      },
+      {
+        "amount": "120",
+        "unit": "g",
+        "name": "Greek yogurt"
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "egg"
+      },
+      {
+        "amount": "",
+        "unit": "pinch",
+        "name": "salt"
+      },
+      {
+        "amount": "40",
+        "unit": "g",
+        "name": "cocoa powder"
+      },
+      {
+        "amount": "30",
+        "unit": "g",
+        "name": "chocolate protein powder",
+        "notes": "approximately 1 scoop"
+      },
+      {
+        "amount": "90",
+        "unit": "g",
+        "name": "oat flour"
+      },
+      {
+        "amount": "7",
+        "unit": "g",
+        "name": "baking powder"
+      },
+      {
+        "amount": "",
+        "unit": "",
+        "name": "chocolate chips",
+        "notes": "generous amount, plus extra for topping"
+      }
+    ],
+    "instructions": [
+      "Preheat oven to 180°C / 350°F.",
+      "Halve the sweet potatoes and place them face down on a lined baking tray. Bake for 60–90 minutes until soft and caramelised.",
+      "Scoop the flesh into a bowl and mash until smooth.",
+      "Mix in all wet ingredients: honey, vanilla extract, Greek yogurt, and egg. Add a pinch of salt.",
+      "Sift in the cocoa powder and oat flour, then add the baking powder and protein powder. Mix until smooth. Note: adding more than 1 scoop of protein powder may result in drier brownies.",
+      "Fold in a generous amount of chocolate chips, then pour the batter into a lined baking tray. Add more chocolate chips on top.",
+      "Bake for 20–25 minutes, adjusting time based on desired fudginess.",
+      "Allow to cool before serving."
+    ],
+    "servings": 4,
+    "tags": [
+      "dessert",
+      "snack",
+      "american",
+      "vegetarian"
+    ],
+    "sourceType": "manual",
+    "photos": [],
+    "notes": [],
+    "id": "8c629115-ddb0-40c1-a6f9-21de2a141865",
+    "createdAt": "2026-02-27T00:33:12.602Z",
+    "updatedAt": "2026-02-27T00:33:12.602Z"
+  },
+  {
     "title": "Indonesian Fried Rice (Nasi Goreng)",
     "ingredients": [
       {
