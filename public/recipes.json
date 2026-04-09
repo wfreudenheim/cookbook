@@ -1,5 +1,109 @@
 [
   {
+    "title": "Korean-Style Ground Turkey Rice Bowl",
+    "ingredients": [
+      {
+        "amount": "1",
+        "unit": "lb",
+        "name": "ground turkey",
+        "notes": ""
+      },
+      {
+        "amount": "1",
+        "unit": "cup",
+        "name": "jasmine or short grain rice",
+        "notes": ""
+      },
+      {
+        "amount": "3",
+        "unit": "tbsp",
+        "name": "soy sauce",
+        "notes": ""
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "sesame oil",
+        "notes": "plus more for drizzling"
+      },
+      {
+        "amount": "3",
+        "unit": "cloves",
+        "name": "garlic",
+        "notes": "minced"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "fresh ginger",
+        "notes": "grated"
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "honey",
+        "notes": ""
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "gochujang",
+        "notes": "sriracha can be substituted"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "eggs",
+        "notes": ""
+      },
+      {
+        "amount": "1",
+        "unit": "",
+        "name": "cucumber",
+        "notes": "thinly sliced"
+      },
+      {
+        "amount": "2",
+        "unit": "",
+        "name": "green onions",
+        "notes": "sliced"
+      },
+      {
+        "amount": "1",
+        "unit": "tsp",
+        "name": "sesame seeds",
+        "notes": ""
+      },
+      {
+        "amount": "1",
+        "unit": "tbsp",
+        "name": "neutral oil",
+        "notes": "avocado or vegetable oil"
+      }
+    ],
+    "instructions": [
+      "Cook rice according to package instructions.",
+      "In a small bowl, mix together soy sauce, sesame oil, honey, and gochujang. Taste and adjust to your liking.",
+      "Heat neutral oil in a large skillet over medium-high heat. Add ground turkey and break it up as it cooks. Season lightly with salt and cook until no pink remains, about 6-8 minutes.",
+      "Add garlic and ginger to the turkey and cook for 1 minute until fragrant. Pour sauce over everything, stir to coat, and cook for another 2 minutes until the sauce caramelizes slightly.",
+      "In a separate pan, fry eggs over medium heat until whites are set but yolks are still runny.",
+      "Spoon rice into bowls and top with turkey, a fried egg, sliced cucumber, green onions, and sesame seeds. Finish with a drizzle of sesame oil."
+    ],
+    "servings": 2,
+    "tags": [
+      "dinner",
+      "lunch",
+      "asian",
+      "chicken"
+    ],
+    "sourceType": "manual",
+    "photos": [],
+    "notes": [],
+    "id": "d1664ea8-44b6-46f2-8607-2e432b185f51",
+    "createdAt": "2026-04-09T16:52:08.977Z",
+    "updatedAt": "2026-04-09T16:52:08.977Z"
+  },
+  {
     "title": "Pandan Chiffon Cake",
     "ingredients": [
       {
