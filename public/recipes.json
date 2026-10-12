@@ -1,5 +1,73 @@
 [
   {
+    "title": "Instant Pot Khichdi (Swaad Mix)",
+    "ingredients": [
+      {
+        "name": "Swaad Khichdi Mix (dry)",
+        "amount": "2",
+        "unit": "cup"
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup"
+      },
+      {
+        "name": "Ghee",
+        "amount": "2",
+        "unit": "tbsp"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "2",
+        "unit": "tsp"
+      },
+      {
+        "name": "roasted peanuts",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": "2",
+        "unit": "tsp"
+      },
+      {
+        "name": "plain yogurt",
+        "amount": "",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Rinse the khichdi mix thoroughly and drain.",
+      "Set Instant Pot to Sauté. Melt the ghee and add cumin seeds. Cook for 30–60 seconds until fragrant.",
+      "Add turmeric and stir briefly.",
+      "Add rinsed khichdi mix, peanuts, salt, and 4¼ cups water. Stir well, scraping the bottom.",
+      "Close lid and set to High Pressure for 10 minutes.",
+      "Allow natural pressure release for 15–20 minutes, then release any remaining pressure.",
+      "Open and stir thoroughly. Add a splash of hot water if too thick.",
+      "Serve warm with yogurt or extra ghee."
+    ],
+    "servings": 4,
+    "tags": [
+      "dinner",
+      "lunch",
+      "asian",
+      "vegetarian"
+    ],
+    "sourceType": "manual",
+    "photos": [],
+    "notes": [],
+    "id": "e169da10-fe51-4a55-8f8e-8e9a9cb1201e",
+    "createdAt": "2026-10-12T12:03:15.435Z",
+    "updatedAt": "2026-10-12T12:03:15.435Z"
+  },
+  {
     "title": "Beef Mince and Gnocchi",
     "ingredients": [
       {
