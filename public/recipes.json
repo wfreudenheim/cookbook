@@ -1,5 +1,60 @@
 [
   {
+    "title": "Breakfast Smoothie (Dry Mix Prep)",
+    "ingredients": [
+      {
+        "name": "rolled oats",
+        "amount": "1 1/3",
+        "unit": "cup"
+      },
+      {
+        "name": "ground flaxseed",
+        "amount": ".5",
+        "unit": "cup"
+      },
+      {
+        "name": "chia seeds",
+        "amount": ".5",
+        "unit": "cup"
+      },
+      {
+        "name": "chopped walnuts",
+        "amount": ".5",
+        "unit": "cup"
+      },
+      {
+        "name": "pumpkin seeds",
+        "amount": ".5",
+        "unit": "cup"
+      },
+      {
+        "name": "caco powder",
+        "amount": ".5",
+        "unit": "cup"
+      },
+      {
+        "name": "cinnamon",
+        "amount": "1",
+        "unit": "tbsp"
+      }
+    ],
+    "instructions": [
+      ""
+    ],
+    "servings": 4,
+    "tags": [
+      "breakfast",
+      "other",
+      "vegetarian"
+    ],
+    "sourceType": "manual",
+    "photos": [],
+    "notes": [],
+    "id": "ed24803b-2b7f-4165-8b16-c36ec6994de7",
+    "createdAt": "2026-10-12T12:05:40.315Z",
+    "updatedAt": "2026-10-12T12:05:40.315Z"
+  },
+  {
     "title": "Instant Pot Khichdi (Swaad Mix)",
     "ingredients": [
       {
