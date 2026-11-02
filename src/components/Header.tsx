@@ -39,6 +39,7 @@ export const Header = ({
   const [showPassphraseInput, setShowPassphraseInput] = React.useState(false);
   const [passphraseValue, setPassphraseValue] = React.useState('');
   const [passphraseError, setPassphraseError] = React.useState(false);
+  const [showMobileFilters, setShowMobileFilters] = React.useState(false);
 
   const handlePassphraseSubmit = async () => {
     const valid = await onPassphraseSubmit(passphraseValue);
@@ -264,23 +265,36 @@ export const Header = ({
       {/* Filter section */}
       {showFilters && (
         <div className="border-t border-border-light bg-background-primary/50">
-          <div className="max-w-6xl mx-auto px-4 md:px-6 py-3 md:py-4">
-            <TagFilter
-              selectedTags={selectedTags}
-              onTagToggle={onTagToggle}
-              tagCounts={tagCounts}
-            />
-            {bookRecipeCount > 0 && (
-              <label className="mt-2 md:mt-4 flex items-center gap-2 text-xs md:text-sm text-text-secondary cursor-pointer select-none">
-                <input
-                  type="checkbox"
-                  checked={includeBookRecipes}
-                  onChange={onIncludeBookRecipesToggle}
-                  className="accent-accent-primary"
-                />
-                Include cookbook recipes ({bookRecipeCount})
-              </label>
-            )}
+          <div className="max-w-6xl mx-auto px-4 md:px-6 py-3 md:py-4 flex flex-col">
+            {/* Phones: tag filters fold away behind the Filters button */}
+            <div className={`${showMobileFilters ? 'mt-3' : 'hidden'} md:block md:mt-0`}>
+              <TagFilter
+                selectedTags={selectedTags}
+                onTagToggle={onTagToggle}
+                tagCounts={tagCounts}
+              />
+            </div>
+            <div className="order-first md:order-last flex items-center justify-between md:mt-4">
+              <button
+                onClick={() => setShowMobileFilters(!showMobileFilters)}
+                className="md:hidden text-sm text-text-primary hover:text-accent-primary transition-colors duration-200"
+              >
+                Filters {selectedTags.length > 0 && (
+                  <span className="text-accent-primary">[{selectedTags.length}]</span>
+                )} <span className="text-text-secondary">{showMobileFilters ? '▴' : '▾'}</span>
+              </button>
+              {bookRecipeCount > 0 && (
+                <label className="flex items-center gap-2 text-xs md:text-sm text-text-secondary cursor-pointer select-none">
+                  <input
+                    type="checkbox"
+                    checked={includeBookRecipes}
+                    onChange={onIncludeBookRecipesToggle}
+                    className="accent-accent-primary"
+                  />
+                  Include cookbook recipes ({bookRecipeCount})
+                </label>
+              )}
+            </div>
           </div>
         </div>
       )}

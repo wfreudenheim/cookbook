@@ -135,10 +135,16 @@ export const BooksView = ({ books, recipes, selectedBookId, onSelectBook, onReci
                         onClick={() => onRecipeClick(recipe.id)}
                         className="flex items-center gap-3 py-2.5 px-1 border-b border-border-light cursor-pointer hover:bg-accent-primary/5 transition-colors duration-200"
                       >
-                        <span className="flex-1 min-w-0 text-text-primary hover:text-accent-primary">{recipe.title}</span>
+                        <div className="flex-1 min-w-0">
+                          <span className="text-text-primary hover:text-accent-primary">{recipe.title}</span>
+                          {/* Phones: time and page go on a second line */}
+                          <div className="sm:hidden text-xs text-text-secondary mt-0.5">
+                            {[formatTime(recipe), recipe.page && `p. ${recipe.page}`].filter(Boolean).join(' · ')}
+                          </div>
+                        </div>
                         <span className="hidden sm:inline text-xs text-text-secondary whitespace-nowrap">{formatTime(recipe)}</span>
                         {recipe.page && (
-                          <span className="text-xs text-text-secondary/70 whitespace-nowrap w-12 text-right">p. {recipe.page}</span>
+                          <span className="hidden sm:inline text-xs text-text-secondary/70 whitespace-nowrap w-12 text-right">p. {recipe.page}</span>
                         )}
                         <button
                           onClick={(e) => handleGroceryClick(e, recipe)}
