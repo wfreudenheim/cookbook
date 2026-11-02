@@ -3,6 +3,7 @@ export const TAG_CATEGORIES: Record<string, string[]> = {
   'Cuisine': ['asian', 'indian', 'italian', 'mexican', 'american', 'other'],
   'Protein': ['chicken', 'beef', 'pork', 'lamb', 'fish', 'vegetarian'],
   'Method': ['instant-pot'],
+  'Effort': ['quick'],
 };
 
 export const getTagCategory = (tag: string): string => {

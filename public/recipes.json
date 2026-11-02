@@ -114,7 +114,8 @@
       "lunch",
       "asian",
       "vegetarian",
-      "instant-pot"
+      "instant-pot",
+      "quick"
     ],
     "sourceType": "manual",
     "photos": [],
@@ -223,7 +224,8 @@
     "tags": [
       "dinner",
       "american",
-      "beef"
+      "beef",
+      "quick"
     ],
     "sourceType": "instagram",
     "sourceUrl": "https://www.instagram.com/p/DBhDFjGoIzv/",
@@ -328,7 +330,8 @@
       "dinner",
       "lunch",
       "asian",
-      "chicken"
+      "chicken",
+      "quick"
     ],
     "sourceType": "manual",
     "photos": [],
@@ -627,7 +630,8 @@
       "dinner",
       "lunch",
       "asian",
-      "chicken"
+      "chicken",
+      "quick"
     ],
     "sourceType": "manual",
     "photos": [],
@@ -823,7 +827,8 @@
     "cookTime": 20,
     "tags": [
       "dinner",
-      "italian"
+      "italian",
+      "quick"
     ],
     "photos": [],
     "notes": [],
@@ -1890,7 +1895,8 @@
       "lunch",
       "indian",
       "instant-pot",
-      "vegetarian"
+      "vegetarian",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",
@@ -2429,7 +2435,8 @@
       "indian",
       "instant-pot",
       "vegetarian",
-      "vegan"
+      "vegan",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",
@@ -2546,7 +2553,8 @@
       "lunch",
       "indian",
       "instant-pot",
-      "vegetarian"
+      "vegetarian",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",
@@ -2892,7 +2900,8 @@
       "indian",
       "instant-pot",
       "vegetarian",
-      "vegan"
+      "vegan",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",
@@ -3344,7 +3353,8 @@
       "indian",
       "instant-pot",
       "vegetarian",
-      "vegan"
+      "vegan",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",
@@ -3877,7 +3887,8 @@
       "lunch",
       "indian",
       "instant-pot",
-      "vegetarian"
+      "vegetarian",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",
@@ -4727,7 +4738,8 @@
       "lunch",
       "indian",
       "instant-pot",
-      "fish"
+      "fish",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",
@@ -4969,7 +4981,8 @@
       "lunch",
       "indian",
       "instant-pot",
-      "chicken"
+      "chicken",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",
@@ -5074,7 +5087,8 @@
       "lunch",
       "indian",
       "instant-pot",
-      "chicken"
+      "chicken",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",
@@ -5631,7 +5645,8 @@
       "lunch",
       "indian",
       "instant-pot",
-      "beef"
+      "beef",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",
@@ -5885,7 +5900,8 @@
       "lunch",
       "indian",
       "instant-pot",
-      "beef"
+      "beef",
+      "quick"
     ],
     "sourceType": "other",
     "bookId": "indian-instant-pot",

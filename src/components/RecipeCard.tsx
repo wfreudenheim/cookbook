@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Recipe } from '../types/recipe';
 import { useGroceryContext } from '../context/GroceryContext';
+import { ClockIcon, isQuick } from './ClockIcon';
 
 interface RecipeCardProps {
   recipe: Recipe;
@@ -36,7 +37,10 @@ export const RecipeCard = ({ recipe, onClick }: RecipeCardProps) => {
       </button>
 
       <div className="p-4 md:p-6 space-y-2 md:space-y-4">
-        <h3 className="text-text-primary text-base md:text-xl font-normal leading-snug pr-8">{title}</h3>
+        <h3 className="text-text-primary text-base md:text-xl font-normal leading-snug pr-8">
+          {isQuick(recipe) && <ClockIcon className="w-4 h-4 md:w-5 md:h-5 mr-1.5 -mt-1 text-accent-primary" />}
+          {title}
+        </h3>
         <div className="flex flex-wrap gap-1.5 md:gap-2">
           {tags.map(tag => (
             <span

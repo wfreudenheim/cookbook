@@ -1,5 +1,6 @@
 
 import { TAG_CATEGORIES } from '../utils/tags';
+import { ClockIcon, QUICK_TAG } from './ClockIcon';
 
 interface TagFilterProps {
   selectedTags: string[];
@@ -27,6 +28,7 @@ export const TagFilter = ({ selectedTags, onTagToggle, tagCounts }: TagFilterPro
                     : 'text-text-secondary hover:text-accent-primary hover:bg-accent-primary/10'
                 }`}
               >
+                {tag === QUICK_TAG && <ClockIcon className="w-3.5 h-3.5 mr-1 -mt-0.5" />}
                 {tag}
                 {count !== undefined && count > 0 && (
                   <span className={`ml-1 ${isSelected ? 'text-white/80' : 'text-text-secondary/70'}`}>

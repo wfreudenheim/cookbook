@@ -2,6 +2,7 @@ import React from 'react';
 import type { Recipe } from '../types/recipe';
 import type { Book } from '../types/book';
 import { useGroceryContext } from '../context/GroceryContext';
+import { ClockIcon, isQuick } from './ClockIcon';
 
 interface BooksViewProps {
   books: Book[];
@@ -22,6 +23,7 @@ const formatTime = (recipe: Recipe) => {
 
 export const BooksView = ({ books, recipes, selectedBookId, onSelectBook, onRecipeClick }: BooksViewProps) => {
   const [query, setQuery] = React.useState('');
+  const [quickOnly, setQuickOnly] = React.useState(false);
   const { isRecipeSelected, addRecipe, removeRecipe } = useGroceryContext();
 
   const book = books.find(b => b.id === selectedBookId) || books[0];
@@ -34,6 +36,7 @@ export const BooksView = ({ books, recipes, selectedBookId, onSelectBook, onReci
     const q = query.trim().toLowerCase();
     const bookRecipes = recipes
       .filter(r => r.bookId === book.id)
+      .filter(r => !quickOnly || isQuick(r))
       .filter(r =>
         !q ||
         r.title.toLowerCase().includes(q) ||
@@ -50,7 +53,9 @@ export const BooksView = ({ books, recipes, selectedBookId, onSelectBook, onReci
     return names
       .map(name => ({ name, recipes: bookRecipes.filter(r => (r.chapter || 'Other') === name) }))
       .filter(chapter => chapter.recipes.length > 0);
-  }, [book, recipes, query]);
+  }, [book, recipes, query, quickOnly]);
+
+  const quickCount = book ? recipes.filter(r => r.bookId === book.id && isQuick(r)).length : 0;
 
   const handleGroceryClick = (e: React.MouseEvent, recipe: Recipe) => {
     e.stopPropagation();
@@ -107,17 +112,32 @@ export const BooksView = ({ books, recipes, selectedBookId, onSelectBook, onReci
               <h1 className="text-text-primary text-2xl md:text-3xl font-normal">{book.title}</h1>
               {book.author && <p className="text-text-secondary text-sm mt-1">{book.author}</p>}
             </div>
-            <input
-              type="text"
-              placeholder="Search this book..."
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              className="w-full md:w-56 px-3 py-1.5 text-sm bg-background-primary border border-border-light focus:border-accent-primary outline-none transition-colors duration-200"
-            />
+            <div className="flex items-center gap-2">
+              {quickCount > 0 && (
+                <button
+                  onClick={() => setQuickOnly(!quickOnly)}
+                  className={`shrink-0 flex items-center gap-1.5 px-3 py-1.5 text-sm border rounded-sm transition-colors duration-200 ${
+                    quickOnly
+                      ? 'bg-accent-primary border-accent-primary text-white'
+                      : 'border-border-light bg-background-primary text-text-secondary hover:border-accent-primary hover:text-accent-primary'
+                  }`}
+                >
+                  <ClockIcon className="w-3.5 h-3.5" />
+                  Quick ({quickCount})
+                </button>
+              )}
+              <input
+                type="text"
+                placeholder="Search this book..."
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                className="w-full md:w-56 px-3 py-1.5 text-sm bg-background-primary border border-border-light focus:border-accent-primary outline-none transition-colors duration-200"
+              />
+            </div>
           </div>
 
           {chapters.length === 0 && (
-            <p className="text-text-secondary">No recipes match "{query}".</p>
+            <p className="text-text-secondary">No recipes match{query && <> "{query}"</>}{quickOnly && ' among the quick ones'}.</p>
           )}
 
           <div className="space-y-8">
@@ -136,7 +156,10 @@ export const BooksView = ({ books, recipes, selectedBookId, onSelectBook, onReci
                         className="flex items-center gap-3 py-2.5 px-1 border-b border-border-light cursor-pointer hover:bg-accent-primary/5 transition-colors duration-200"
                       >
                         <div className="flex-1 min-w-0">
-                          <span className="text-text-primary hover:text-accent-primary">{recipe.title}</span>
+                          <span className="text-text-primary hover:text-accent-primary">
+                            {isQuick(recipe) && <ClockIcon className="w-4 h-4 mr-1.5 -mt-0.5 text-accent-primary" />}
+                            {recipe.title}
+                          </span>
                           {/* Phones: time and page go on a second line */}
                           <div className="sm:hidden text-xs text-text-secondary mt-0.5">
                             {[formatTime(recipe), recipe.page && `p. ${recipe.page}`].filter(Boolean).join(' · ')}

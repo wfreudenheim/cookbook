@@ -1,5 +1,6 @@
 import type { Recipe } from '../types/recipe';
 import type { Book } from '../types/book';
+import { ClockIcon, isQuick } from './ClockIcon';
 
 interface RecipeDetailProps {
   recipe: Recipe;
@@ -52,7 +53,10 @@ export const RecipeDetail = ({ recipe, book, backLabel = 'Back to Recipes', onBa
       </div>
 
       <div className="mb-6">
-        <h1 className="text-text-primary text-3xl font-normal mb-4">{title}</h1>
+        <h1 className="text-text-primary text-3xl font-normal mb-4">
+          {isQuick(recipe) && <ClockIcon className="w-6 h-6 mr-2 -mt-1 text-accent-primary" />}
+          {title}
+        </h1>
         <div className="flex flex-wrap gap-2 mb-6">
           {tags.map(tag => (
             <span 
