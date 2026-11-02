@@ -111,6 +111,7 @@ export const BooksView = ({ books, recipes, selectedBookId, onSelectBook, onReci
             <div>
               <h1 className="text-text-primary text-2xl md:text-3xl font-normal">{book.title}</h1>
               {book.author && <p className="text-text-secondary text-sm mt-1">{book.author}</p>}
+              {book.description && <p className="text-text-secondary text-sm mt-2 max-w-xl">{book.description}</p>}
             </div>
             <div className="flex items-center gap-2">
               {quickCount > 0 && (

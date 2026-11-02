@@ -631,7 +631,8 @@
       "lunch",
       "asian",
       "chicken",
-      "quick"
+      "quick",
+      "indonesian"
     ],
     "sourceType": "manual",
     "photos": [],
@@ -6292,5 +6293,2478 @@
     "id": "7f8d96e9-c440-46f9-b80d-ec40e3bf5a11",
     "createdAt": "2026-11-02T16:32:55.000Z",
     "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Opor Ayam (Chicken in Coconut Milk)",
+    "ingredients": [
+      {
+        "name": "bone-in chicken thighs",
+        "amount": "2",
+        "unit": "lb",
+        "notes": "skin removed"
+      },
+      {
+        "name": "shallots",
+        "amount": "6",
+        "unit": "",
+        "notes": "peeled, for the spice paste"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "4",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "candlenuts or macadamia nuts",
+        "amount": "4",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, for the spice paste"
+      },
+      {
+        "name": "galangal",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, fresh or frozen, for the spice paste"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "white pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "lemongrass",
+        "amount": "2",
+        "unit": "",
+        "notes": "stalks, bruised and tied in a knot"
+      },
+      {
+        "name": "daun salam (Indonesian bay leaf)",
+        "amount": "2",
+        "unit": "",
+        "notes": "optional"
+      },
+      {
+        "name": "makrut lime leaves",
+        "amount": "3",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "full-fat coconut milk",
+        "amount": "400",
+        "unit": "ml",
+        "notes": "one can, shaken well"
+      },
+      {
+        "name": "water",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "sugar",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "notes": "or to taste"
+      },
+      {
+        "name": "fried shallots",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "to serve"
+      },
+      {
+        "name": "steamed rice",
+        "amount": "",
+        "unit": "",
+        "notes": "to serve"
+      }
+    ],
+    "instructions": [
+      "Blend the shallots, garlic, candlenuts, ginger, galangal, coriander, turmeric and white pepper with a splash of water into a smooth paste.",
+      "Set the Instant Pot to Sauté on normal heat. Heat the oil, then fry the paste for 4 to 5 minutes, stirring often, until it smells toasty and the oil begins to separate.",
+      "Add the chicken and turn it in the paste for 1 minute. Tuck in the lemongrass, daun salam and lime leaves, then pour in the water and half of the coconut milk (about 3/4 cup). Scrape the bottom of the pot so nothing sticks.",
+      "Cancel Sauté, lock the lid and set the valve to Sealing. Pressure Cook at High for 8 minutes, then let the pressure release naturally for 5 minutes before turning the valve to Venting.",
+      "Open the lid, press Sauté, and stir in the remaining coconut milk, the sugar and the salt. Simmer gently for 3 to 4 minutes, until the sauce is slightly thickened and the chicken is cooked through.",
+      "Discard the lemongrass and leaves. Serve over rice with fried shallots on top."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 35,
+    "pressure": "8 min high pressure, 5 min natural release then quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "chicken",
+      "instant-pot",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Java",
+    "photos": [],
+    "notes": [
+      {
+        "id": "39dc5dd7-b0c1-4eef-a8cf-914a69a3dae3",
+        "content": "Shortcut: a packet of Bamboe Bumbu Opor replaces the whole spice paste.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "292b84bc-75a9-42a1-9ce4-b017103a7016",
+        "content": "Daun salam (Indonesian bay leaf) is sold dried or frozen at Indo Java. If you can't find it, leave it out, because regular bay leaf tastes different.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "ca0c0a23-a1b2-42aa-ac6d-3f068e4a6ff7",
+        "content": "Opor is a mild, white-to-pale-yellow coconut dish from Central Java, traditionally eaten at Lebaran with ketupat rice cakes. Stir the coconut milk in gently and do not boil it hard.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "d762ab0c-17cf-43b4-b949-33ec6c9f261a",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Soto Ayam (Turmeric Chicken Soup, East Java Style)",
+    "ingredients": [
+      {
+        "name": "bone-in chicken thighs and drumsticks",
+        "amount": "2",
+        "unit": "lb",
+        "notes": "skin removed"
+      },
+      {
+        "name": "shallots",
+        "amount": "6",
+        "unit": "",
+        "notes": "peeled, for the spice paste"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "5",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "candlenuts or macadamia nuts",
+        "amount": "3",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "fresh turmeric",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, or 1 tsp ground turmeric, for the spice paste"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, for the spice paste"
+      },
+      {
+        "name": "galangal",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, for the spice paste"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "white pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "lemongrass",
+        "amount": "2",
+        "unit": "",
+        "notes": "stalks, bruised"
+      },
+      {
+        "name": "makrut lime leaves",
+        "amount": "3",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "daun salam (Indonesian bay leaf)",
+        "amount": "2",
+        "unit": "",
+        "notes": "optional"
+      },
+      {
+        "name": "water",
+        "amount": "6",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "or to taste"
+      },
+      {
+        "name": "glass noodles (soun)",
+        "amount": "3",
+        "unit": "oz",
+        "notes": "soaked in hot water until soft, to serve"
+      },
+      {
+        "name": "eggs",
+        "amount": "4",
+        "unit": "",
+        "notes": "hard-boiled and halved, to serve"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "to serve"
+      },
+      {
+        "name": "scallions",
+        "amount": "3",
+        "unit": "",
+        "notes": "thinly sliced, to serve"
+      },
+      {
+        "name": "celery",
+        "amount": "1",
+        "unit": "",
+        "notes": "stalk, thinly sliced, to serve"
+      },
+      {
+        "name": "shrimp crackers (krupuk udang)",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "crushed, for the koya topping, to serve"
+      },
+      {
+        "name": "fried shallots",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "to serve"
+      },
+      {
+        "name": "limes",
+        "amount": "2",
+        "unit": "",
+        "notes": "cut in wedges, to serve"
+      },
+      {
+        "name": "sambal",
+        "amount": "",
+        "unit": "",
+        "notes": "to serve"
+      }
+    ],
+    "instructions": [
+      "Blend the shallots, garlic, candlenuts, turmeric, ginger, galangal, coriander and white pepper with a splash of water into a smooth paste.",
+      "Set the Instant Pot to Sauté. Heat the oil and fry the paste for 5 minutes, stirring often, until fragrant and deep yellow.",
+      "Add the chicken, lemongrass, lime leaves, daun salam, water and salt. Scrape the bottom well, then lock the lid and set the valve to Sealing.",
+      "Pressure Cook at High for 15 minutes, then let the pressure release naturally for 15 minutes before turning the valve to Venting.",
+      "Lift out the chicken, shred the meat off the bones, and discard the bones, lemongrass and leaves. Taste the broth and add salt if needed. While the pot finishes, boil the eggs and soak the glass noodles.",
+      "Make the koya by mixing the crushed shrimp crackers with half of the fried shallots. Fill each bowl with noodles, bean sprouts, shredded chicken and egg, ladle the hot broth over, and top with scallions, celery, koya and the rest of the fried shallots.",
+      "Serve with lime wedges and sambal on the side."
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 50,
+    "pressure": "15 min high pressure, 15 min natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "chicken",
+      "instant-pot"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Java",
+    "photos": [],
+    "notes": [
+      {
+        "id": "336ce763-e789-4a0a-ad7b-b13f989e65d3",
+        "content": "Shortcut: a packet of Bamboe Bumbu Soto Ayam can replace the spice paste. Check the label for how much to use for 6 cups of water.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "bda77cea-4657-456a-bb6b-c0abceefdb09",
+        "content": "East Java soto (Soto Lamongan) has a clear, bright yellow broth and is finished with koya, a crumbly topping of crushed shrimp crackers and fried garlic or shallots. It is also served over rice or lontong instead of noodles.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "8397f38b-5000-49a9-94e9-8d27db801958",
+        "content": "Indo Java sells krupuk udang and bags of fried shallots, which saves time. If you can't find fresh turmeric, ground turmeric works.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "4f1c5709-63c8-473b-ac4d-623969dcf288",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Bubur Ayam (Chicken Rice Porridge with Toppings)",
+    "ingredients": [
+      {
+        "name": "jasmine rice",
+        "amount": "3/4",
+        "unit": "cup",
+        "notes": "rinsed"
+      },
+      {
+        "name": "boneless, skinless chicken thighs",
+        "amount": "3/4",
+        "unit": "lb",
+        "notes": ""
+      },
+      {
+        "name": "chicken broth",
+        "amount": "5",
+        "unit": "cup",
+        "notes": "low-sodium"
+      },
+      {
+        "name": "water",
+        "amount": "1",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "neutral oil",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "3",
+        "unit": "",
+        "notes": "minced"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "finely grated"
+      },
+      {
+        "name": "daun salam (Indonesian bay leaf)",
+        "amount": "2",
+        "unit": "",
+        "notes": "optional"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "white pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "or to taste"
+      },
+      {
+        "name": "fried shallots",
+        "amount": "3",
+        "unit": "tbsp",
+        "notes": "to serve"
+      },
+      {
+        "name": "scallions",
+        "amount": "3",
+        "unit": "",
+        "notes": "thinly sliced, to serve"
+      },
+      {
+        "name": "celery leaves or cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped, to serve"
+      },
+      {
+        "name": "kecap manis",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "to serve"
+      },
+      {
+        "name": "soy sauce",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "to serve"
+      },
+      {
+        "name": "crackers (krupuk)",
+        "amount": "",
+        "unit": "",
+        "notes": "crumbled, to serve"
+      },
+      {
+        "name": "sambal",
+        "amount": "",
+        "unit": "",
+        "notes": "to serve"
+      }
+    ],
+    "instructions": [
+      "Press Sauté. Heat the oil and cook the garlic and ginger for 1 minute, then stir in the turmeric and white pepper.",
+      "Add the rice, broth, water, salt, daun salam and chicken thighs. Stir well and scrape the bottom of the pot so no rice is stuck on.",
+      "Cancel Sauté, lock the lid and set the valve to Sealing. Pressure Cook at High for 12 minutes, then let the pressure release naturally for 10 minutes before turning the valve to Venting.",
+      "Lift out the chicken and shred it with two forks. Stir the porridge hard for about 1 minute to break the rice down into a creamy texture. For a thinner bubur, stir in a little hot water.",
+      "Taste and add salt if needed. Ladle into bowls and top with the shredded chicken, fried shallots, scallions, celery leaves and crumbled crackers.",
+      "Finish each bowl with a drizzle of kecap manis and soy sauce, and serve sambal on the side."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 40,
+    "pressure": "12 min high pressure, 10 min natural release then quick release",
+    "tags": [
+      "breakfast",
+      "indonesian",
+      "chicken",
+      "instant-pot",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Jakarta",
+    "photos": [],
+    "notes": [
+      {
+        "id": "3fad2eec-2c09-4d6f-b92c-d8ef74599786",
+        "content": "Bubur ayam is a street breakfast across Jakarta, usually sold from a cart with a long list of toppings. Bags of fried shallots and krupuk at Indo Java make the toppings a no-cook step.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "8461fb46-58f4-4c8c-8363-28de24d278d2",
+        "content": "Optional extras that vendors add are a soft-boiled egg, cakwe (fried dough sticks, found frozen at Chinese groceries) and fried soybeans.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "b9763b7f-719e-4c8c-b8ce-658262e16353",
+        "content": "The porridge keeps in the fridge for 3 days and thickens a lot. Reheat with a splash of water or broth.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "89ce9acc-7247-4bd4-bcdb-de101b54ccc3",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Babi Kecap (Pork Braised in Sweet Soy, Chinese-Indonesian)",
+    "ingredients": [
+      {
+        "name": "boneless pork shoulder",
+        "amount": "1 1/2",
+        "unit": "lb",
+        "notes": "cut in 1-inch cubes"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "shallots",
+        "amount": "4",
+        "unit": "",
+        "notes": "thinly sliced"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "6",
+        "unit": "",
+        "notes": "smashed"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": "1",
+        "unit": "",
+        "notes": "inch piece, sliced"
+      },
+      {
+        "name": "kecap manis",
+        "amount": "1/3",
+        "unit": "cup",
+        "notes": "sweet soy sauce"
+      },
+      {
+        "name": "soy sauce",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "star anise",
+        "amount": "1",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "white pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "red chilies",
+        "amount": "2",
+        "unit": "",
+        "notes": "sliced, optional, to serve"
+      },
+      {
+        "name": "steamed rice",
+        "amount": "",
+        "unit": "",
+        "notes": "to serve"
+      }
+    ],
+    "instructions": [
+      "Pat the pork dry. Press Sauté, heat the oil, and brown the pork in two batches for about 2 minutes per side. Move the pork to a plate.",
+      "Add the shallots, garlic and ginger to the pot and stir for 2 minutes, until soft and golden. Add the water and scrape up any stuck bits from the bottom.",
+      "Return the pork to the pot with the kecap manis, soy sauce, star anise and white pepper. Stir to coat.",
+      "Cancel Sauté, lock the lid and set the valve to Sealing. Pressure Cook at High for 15 minutes, then let the pressure release naturally for 5 minutes before turning the valve to Venting.",
+      "Press Sauté and simmer uncovered for 5 to 8 minutes, stirring often, until the sauce is thick and glossy and coats the pork. Remove the star anise.",
+      "Serve over rice with sliced chilies and a side of steamed greens or cucumber."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 45,
+    "pressure": "15 min high pressure, 5 min natural release then quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "pork",
+      "instant-pot",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Jakarta",
+    "photos": [],
+    "notes": [
+      {
+        "id": "1e54996c-43fe-46f0-98bb-2a58ba1ba058",
+        "content": "Kecap manis (ABC or Bango brand) is sold at Indo Java and most Asian groceries. If you can't find it, mix 3 tablespoons soy sauce with 3 tablespoons dark brown sugar.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "8a0a4b93-29c3-449d-80be-4acde1a0d35a",
+        "content": "Babi kecap comes from the Chinese-Indonesian community in Jakarta and is usually made with pork belly. Swap in 1 1/2 pounds of skinless pork belly cubes for a richer dish, and skim the fat before reducing the sauce.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "63be0f0f-c63d-462e-ae91-dc1bdaea6fdc",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Rendang Daging (West Sumatran Beef Rendang)",
+    "ingredients": [
+      {
+        "name": "beef chuck",
+        "amount": "2",
+        "unit": "lb",
+        "notes": "cut in 2-inch cubes"
+      },
+      {
+        "name": "shallots",
+        "amount": "6",
+        "unit": "",
+        "notes": "peeled, for the spice paste"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "5",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, for the spice paste"
+      },
+      {
+        "name": "galangal",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "chopped, fresh or frozen, for the spice paste"
+      },
+      {
+        "name": "fresh turmeric",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, or 1 tsp ground turmeric, for the spice paste"
+      },
+      {
+        "name": "dried red chilies",
+        "amount": "8",
+        "unit": "",
+        "notes": "soaked in hot water 10 minutes, for the spice paste"
+      },
+      {
+        "name": "fresh red chilies",
+        "amount": "2",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "3",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "lemongrass",
+        "amount": "2",
+        "unit": "",
+        "notes": "stalks, bruised"
+      },
+      {
+        "name": "makrut lime leaves",
+        "amount": "4",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "full-fat coconut milk",
+        "amount": "400",
+        "unit": "ml",
+        "notes": "one can, shaken well"
+      },
+      {
+        "name": "water",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "unsweetened shredded coconut",
+        "amount": "1/3",
+        "unit": "cup",
+        "notes": "toasted in a dry pan until deep brown and ground (kerisik)"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "palm sugar",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "or dark brown sugar"
+      },
+      {
+        "name": "salt",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "or to taste"
+      },
+      {
+        "name": "steamed rice",
+        "amount": "",
+        "unit": "",
+        "notes": "to serve"
+      }
+    ],
+    "instructions": [
+      "Blend the shallots, garlic, ginger, galangal, turmeric and both kinds of chilies with a few tablespoons of water into a smooth paste. Toast the shredded coconut in a dry pan over medium heat for 4 to 5 minutes until deep golden brown, then grind it to a coarse paste in a spice grinder or mortar.",
+      "Press Sauté. Heat the oil and fry the spice paste for 6 to 8 minutes, stirring often, until it darkens and the oil separates.",
+      "Add the beef, lemongrass, lime leaves, coconut milk, water, tamarind, palm sugar and salt. Stir and scrape the bottom of the pot.",
+      "Cancel Sauté, lock the lid and set the valve to Sealing. Pressure Cook at High for 35 minutes, then let the pressure release naturally for 15 minutes before turning the valve to Venting.",
+      "Open the lid, stir in the toasted coconut, and press Sauté. Simmer uncovered for 25 to 35 minutes, stirring more often as it thickens, until the sauce has cooked down to a dark, oily coating on the beef. Scrape the bottom often so it does not catch.",
+      "Taste and adjust the salt. Discard the lemongrass and lime leaves, and serve with rice."
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 110,
+    "pressure": "35 min high pressure, 15 min natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "beef",
+      "instant-pot"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Sumatra",
+    "photos": [],
+    "notes": [
+      {
+        "id": "13f8537d-8c90-46b5-a156-80ad02d146f2",
+        "content": "Shortcut: a packet of Bamboe Bumbu Rendang replaces the spice paste. Still add the lemongrass, lime leaves and toasted coconut.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "e728bb8e-9a61-4d2a-a1ac-c990b3afbeed",
+        "content": "Rendang is from the Minangkabau people of West Sumatra. The dish is cooked until the coconut milk fully reduces and the beef turns dark and almost dry. A wetter stage partway through, called kalio, is also good if you want to stop early.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "a008b92d-6917-4ebd-8af0-b6be89f12a46",
+        "content": "Rendang improves overnight and keeps in the fridge for a week. If you can't find galangal, use extra ginger, and if you can't find fresh turmeric, use ground.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "974938ba-2d3e-4d01-8763-c063c093cf56",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Gulai Ayam (Padang-Style Chicken Curry)",
+    "ingredients": [
+      {
+        "name": "bone-in chicken thighs",
+        "amount": "2",
+        "unit": "lb",
+        "notes": "skin removed"
+      },
+      {
+        "name": "shallots",
+        "amount": "6",
+        "unit": "",
+        "notes": "peeled, for the spice paste"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "4",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, for the spice paste"
+      },
+      {
+        "name": "galangal",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, fresh or frozen, for the spice paste"
+      },
+      {
+        "name": "fresh turmeric",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "chopped, or 1 tsp ground turmeric, for the spice paste"
+      },
+      {
+        "name": "candlenuts or macadamia nuts",
+        "amount": "3",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "fresh red chilies",
+        "amount": "3",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "lemongrass",
+        "amount": "2",
+        "unit": "",
+        "notes": "stalks, bruised"
+      },
+      {
+        "name": "makrut lime leaves",
+        "amount": "3",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "daun salam (Indonesian bay leaf)",
+        "amount": "2",
+        "unit": "",
+        "notes": "optional"
+      },
+      {
+        "name": "tamarind paste",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "or 2 pieces asam kandis"
+      },
+      {
+        "name": "full-fat coconut milk",
+        "amount": "400",
+        "unit": "ml",
+        "notes": "one can, shaken well"
+      },
+      {
+        "name": "water",
+        "amount": "1",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "notes": "or to taste"
+      },
+      {
+        "name": "steamed rice",
+        "amount": "",
+        "unit": "",
+        "notes": "to serve"
+      }
+    ],
+    "instructions": [
+      "Blend the shallots, garlic, ginger, galangal, turmeric, candlenuts, chilies, coriander and cumin with a splash of water into a smooth paste.",
+      "Press Sauté. Heat the oil and fry the paste for 5 minutes, stirring often, until it smells deeply aromatic and the oil starts to separate.",
+      "Add the chicken and turn it in the paste for 1 minute. Add the lemongrass, lime leaves, daun salam, tamarind, water, salt and half of the coconut milk. Scrape the bottom of the pot.",
+      "Cancel Sauté, lock the lid and set the valve to Sealing. Pressure Cook at High for 8 minutes, then let the pressure release naturally for 5 minutes before turning the valve to Venting.",
+      "Press Sauté and stir in the rest of the coconut milk. Simmer for 4 to 5 minutes until the curry is hot and slightly thickened. Taste and adjust the salt.",
+      "Discard the lemongrass and leaves. Serve over rice."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 35,
+    "pressure": "8 min high pressure, 5 min natural release then quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "chicken",
+      "instant-pot",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Sumatra",
+    "photos": [],
+    "notes": [
+      {
+        "id": "cc046486-416e-4766-9442-9035f5e10ca5",
+        "content": "Shortcut: a gulai spice packet such as Bamboe Bumbu Gulai replaces the spice paste. Check the label for the amount, and still add the lemongrass, lime leaves and coconut milk.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "8a5ff641-9754-43f1-a701-99a5e5ae3ce2",
+        "content": "Padang gulai is a golden, spicy, slightly sour curry. The sourness comes from asam kandis (dried garcinia), which Indo Java may carry. Tamarind paste is a fine substitute.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "388b0ae7-053f-4107-b8ac-8cae9ed7c0d2",
+        "content": "Cubed potatoes or chunks of cassava leaf are common additions. Add 2 medium potatoes in 1-inch cubes with the chicken, which does not change the pressure time.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "c8dea2b0-c4b8-4b39-b371-30d3ea889c80",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Ayam Betutu (Balinese Spiced Chicken)",
+    "ingredients": [
+      {
+        "name": "whole chicken",
+        "amount": "3",
+        "unit": "lb",
+        "notes": "patted dry"
+      },
+      {
+        "name": "shallots",
+        "amount": "8",
+        "unit": "",
+        "notes": "peeled, for the spice paste (base genep)"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "6",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, for the spice paste"
+      },
+      {
+        "name": "galangal",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, fresh or frozen, for the spice paste"
+      },
+      {
+        "name": "fresh turmeric",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, or 1 tsp ground turmeric, for the spice paste"
+      },
+      {
+        "name": "candlenuts or macadamia nuts",
+        "amount": "4",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "bird's eye chilies",
+        "amount": "5",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "lemongrass",
+        "amount": "2",
+        "unit": "",
+        "notes": "stalks, white part only, sliced, for the spice paste"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "black pepper",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "shrimp paste (terasi)",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "palm sugar",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "salt",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "3",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "makrut lime leaves",
+        "amount": "4",
+        "unit": "",
+        "notes": "bruised"
+      },
+      {
+        "name": "lemongrass",
+        "amount": "2",
+        "unit": "",
+        "notes": "whole stalks, bruised, for the cavity"
+      },
+      {
+        "name": "water",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "for the pot"
+      },
+      {
+        "name": "lime",
+        "amount": "1",
+        "unit": "",
+        "notes": "cut in wedges, to serve"
+      },
+      {
+        "name": "steamed rice",
+        "amount": "",
+        "unit": "",
+        "notes": "to serve"
+      },
+      {
+        "name": "sambal matah or sambal of choice",
+        "amount": "",
+        "unit": "",
+        "notes": "to serve"
+      }
+    ],
+    "instructions": [
+      "Blend all the spice paste ingredients (shallots through salt) with 2 tablespoons of the oil into a thick, fairly smooth paste.",
+      "Press Sauté. Heat the remaining oil and fry the paste for 6 to 8 minutes, stirring constantly, until it is fragrant and darker. Scoop it into a bowl and let it cool for 10 minutes.",
+      "Pour the water into the pot and scrape the bottom well. Set a trivet in the pot. Rub about two thirds of the paste all over the chicken and under the skin of the breasts, then stuff the cavity with the rest of the paste, the lime leaves and the whole lemongrass.",
+      "Set the chicken breast side up on the trivet. Lock the lid, set the valve to Sealing, and Pressure Cook at High for 25 minutes. Let the pressure release naturally for 15 minutes, then turn the valve to Venting.",
+      "Carefully lift the chicken onto a foil-lined baking sheet, spoon over some juices from the pot, and broil on high for 5 to 8 minutes, until the skin is browned and slightly charred in places.",
+      "Rest the chicken for 10 minutes, then carve. Spoon the juices from the pot over the meat and serve with rice, lime wedges and sambal."
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "cookTime": 75,
+    "pressure": "25 min high pressure, 15 min natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "chicken",
+      "instant-pot"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Bali",
+    "photos": [],
+    "notes": [
+      {
+        "id": "ffa239c0-d735-4f82-a426-28d6f3fdb9ef",
+        "content": "Ayam betutu is a Balinese ceremonial dish of a whole chicken packed with the spice mix base genep, traditionally wrapped in leaves and cooked for many hours in embers. The pressure cooker gives the same falling-apart meat in about an hour.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "63346f01-c92b-45fa-a993-2dd59ba574c2",
+        "content": "Use a chicken of about 3 pounds so it fits the pot. If you can't find galangal, use extra ginger, and if you can't find kencur, leave it out. For a milder dish, use fewer chilies.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "28aa698f-6ab1-4cdf-bf1f-3ee6375b9e9f",
+        "content": "If the paste sticks to the pot when you add the water, scrape it well before sealing so the Instant Pot does not show a Burn warning.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "cc1ab274-7f96-4b07-a1e1-f014608d6fe6",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Coto Makassar (South Sulawesi Beef Soup Thickened with Peanuts)",
+    "ingredients": [
+      {
+        "name": "beef shank or chuck",
+        "amount": "2",
+        "unit": "lb",
+        "notes": "cut in 1 1/2-inch cubes"
+      },
+      {
+        "name": "shallots",
+        "amount": "6",
+        "unit": "",
+        "notes": "peeled, for the spice paste"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "6",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": "1 1/2",
+        "unit": "tbsp",
+        "notes": "chopped, for the spice paste"
+      },
+      {
+        "name": "galangal",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, fresh or frozen, for the spice paste"
+      },
+      {
+        "name": "candlenuts or macadamia nuts",
+        "amount": "4",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "white pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "ground nutmeg",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "lemongrass",
+        "amount": "2",
+        "unit": "",
+        "notes": "stalks, bruised"
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": "1",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "whole cloves",
+        "amount": "3",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "daun salam (Indonesian bay leaf)",
+        "amount": "2",
+        "unit": "",
+        "notes": "optional"
+      },
+      {
+        "name": "water",
+        "amount": "7",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "roasted unsalted peanuts",
+        "amount": "3/4",
+        "unit": "cup",
+        "notes": "ground fine in a food processor"
+      },
+      {
+        "name": "uncooked rice",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "toasted in a dry pan until golden and ground, optional thickener"
+      },
+      {
+        "name": "salt",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "or to taste"
+      },
+      {
+        "name": "fried shallots",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "to serve"
+      },
+      {
+        "name": "scallions",
+        "amount": "3",
+        "unit": "",
+        "notes": "thinly sliced, to serve"
+      },
+      {
+        "name": "celery leaves",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped, to serve"
+      },
+      {
+        "name": "limes",
+        "amount": "2",
+        "unit": "",
+        "notes": "cut in wedges, to serve"
+      },
+      {
+        "name": "sambal",
+        "amount": "",
+        "unit": "",
+        "notes": "to serve"
+      },
+      {
+        "name": "steamed rice or rice cakes (ketupat)",
+        "amount": "",
+        "unit": "",
+        "notes": "to serve"
+      }
+    ],
+    "instructions": [
+      "Toast the peanuts and the uncooked rice in a dry pan over medium heat for 4 to 5 minutes until the rice is golden. Let them cool, then grind them together to a fine powder in a spice grinder or food processor. Set aside.",
+      "Blend the shallots, garlic, ginger, galangal, candlenuts, coriander, cumin, white pepper and nutmeg with a splash of water into a smooth paste.",
+      "Press Sauté. Heat the oil and fry the paste with the cinnamon and cloves for 5 minutes, stirring often, until fragrant. Add the beef and stir for 2 minutes.",
+      "Add the lemongrass, daun salam, water and salt. Scrape the bottom of the pot, then lock the lid and set the valve to Sealing.",
+      "Pressure Cook at High for 35 minutes, then let the pressure release naturally for 15 minutes before turning the valve to Venting.",
+      "Open the lid and press Sauté. Whisk the ground peanuts (and the toasted rice, if using) with 1 cup of the hot broth, then stir this back into the pot. Simmer for 10 minutes, stirring often, until the broth has thickened slightly and turned creamy and tan.",
+      "Taste and add salt if needed. Discard the lemongrass and leaves. Ladle into bowls and top with fried shallots, scallions and celery leaves.",
+      "Serve with lime wedges, sambal, and rice or ketupat on the side."
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 85,
+    "pressure": "35 min high pressure, 15 min natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "beef",
+      "instant-pot"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Sulawesi",
+    "photos": [],
+    "notes": [
+      {
+        "id": "73aa2583-146a-4547-b2a1-4701056478a3",
+        "content": "Coto Makassar is the signature soup of Makassar in South Sulawesi. Its broth is thickened with ground peanuts and is traditionally made with a mix of beef cuts and offal; this version uses only beef.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "14230147-05d9-4d4f-8a89-0b5c4581d431",
+        "content": "Use plain roasted unsalted peanuts. Indo Java sells ketupat, and many cooks also add a spoonful of kecap manis or tauco (fermented soybean paste) at the table.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "ed843d61-357c-4cd9-b16a-2ef7413df34f",
+        "content": "The soup is better the next day. Reheat it with a splash of water, since the peanuts keep thickening it.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "acc5c285-66fb-4277-8896-bdb1d126d2fe",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Tempe Orek (Sweet-Spicy Fried Tempeh)",
+    "ingredients": [
+      {
+        "name": "tempeh",
+        "amount": "12",
+        "unit": "oz",
+        "notes": "cut into thin matchsticks about 1/4 inch thick and 1 1/2 inches long"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "for frying"
+      },
+      {
+        "name": "shallots",
+        "amount": "4",
+        "unit": "",
+        "notes": "thinly sliced"
+      },
+      {
+        "name": "garlic",
+        "amount": "3",
+        "unit": "",
+        "notes": "cloves, thinly sliced"
+      },
+      {
+        "name": "red chilies",
+        "amount": "2",
+        "unit": "",
+        "notes": "Fresno or red finger chilies, sliced on the diagonal"
+      },
+      {
+        "name": "daun salam (Indonesian bay leaf)",
+        "amount": "2",
+        "unit": "",
+        "notes": "optional"
+      },
+      {
+        "name": "kecap manis",
+        "amount": "3",
+        "unit": "tbsp",
+        "notes": "sweet soy sauce"
+      },
+      {
+        "name": "soy sauce",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "dark brown sugar",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "3",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "scallions",
+        "amount": "2",
+        "unit": "",
+        "notes": "sliced, to serve"
+      }
+    ],
+    "instructions": [
+      "Heat the oil in a large nonstick skillet over medium-high heat until it shimmers. Add the tempeh matchsticks in one layer, working in two batches if the pan is crowded.",
+      "Fry the tempeh for 6 to 8 minutes, turning now and then, until deep golden and crisp on most sides. Lift it out with a slotted spoon and set aside.",
+      "Pour off all but 1 tablespoon of oil. Over medium heat, cook the shallots, garlic, chilies and daun salam for 2 minutes until soft and fragrant.",
+      "Return the tempeh to the pan. Add the kecap manis, soy sauce, brown sugar and water, and toss over medium-high heat for 2 to 3 minutes until the tempeh is glazed and the pan is nearly dry.",
+      "Taste and add a pinch of salt if needed. Scatter with scallions and serve with steamed rice."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "vegetarian",
+      "vegan",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Java",
+    "photos": [],
+    "notes": [
+      {
+        "id": "1200f9ab-38ab-47f8-b249-72ab36b921a9",
+        "content": "Orek is a Javanese way of stir-frying small pieces in sweet soy until sticky, and tempe orek is the everyday version served with rice and a fried egg.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "5a93e637-1f23-4c3b-8e89-7139b949f015",
+        "content": "Indo Java sells fresh tempeh and kecap manis (ABC and Bango are common brands). If you can't find kecap manis, simmer 2 tbsp soy sauce with 1 tbsp dark brown sugar until syrupy.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "4019f880-d67d-494a-ad1d-77f5d2ea8b2c",
+        "content": "Daun salam is sold dried or frozen at Indo Java. If you can't find it, leave it out.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "aa492178-c0aa-4a07-b2b3-542c637fe853",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Sayur Lodeh (Vegetables in Turmeric Coconut Broth)",
+    "ingredients": [
+      {
+        "name": "shallots",
+        "amount": "4",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "garlic",
+        "amount": "3",
+        "unit": "",
+        "notes": "cloves, for the spice paste"
+      },
+      {
+        "name": "candlenuts",
+        "amount": "3",
+        "unit": "",
+        "notes": "for the spice paste; or macadamia nuts"
+      },
+      {
+        "name": "red chilies",
+        "amount": "2",
+        "unit": "",
+        "notes": "for the spice paste; seeded for a milder broth"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "lemongrass",
+        "amount": "1",
+        "unit": "",
+        "notes": "stalk, bruised and tied in a knot"
+      },
+      {
+        "name": "galangal",
+        "amount": "1",
+        "unit": "",
+        "notes": "inch piece, bruised; or extra ginger"
+      },
+      {
+        "name": "daun salam (Indonesian bay leaf)",
+        "amount": "2",
+        "unit": "",
+        "notes": "optional"
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "chayote",
+        "amount": "1",
+        "unit": "",
+        "notes": "peeled, cored and cut into 1-inch pieces"
+      },
+      {
+        "name": "long beans or green beans",
+        "amount": "6",
+        "unit": "oz",
+        "notes": "cut into 2-inch lengths"
+      },
+      {
+        "name": "firm tofu",
+        "amount": "8",
+        "unit": "oz",
+        "notes": "cut into 1-inch cubes"
+      },
+      {
+        "name": "green cabbage",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "coarsely shredded"
+      },
+      {
+        "name": "coconut milk",
+        "amount": "14",
+        "unit": "oz",
+        "notes": "1 can, shaken well"
+      },
+      {
+        "name": "salt",
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "notes": "plus more to taste"
+      },
+      {
+        "name": "palm sugar or dark brown sugar",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Blend the shallots, garlic, candlenuts, chilies, turmeric and coriander with 1/4 cup of water into a smooth paste.",
+      "Heat the oil in a large pot over medium heat. Fry the paste with the lemongrass, galangal and daun salam for 3 to 4 minutes, stirring, until fragrant and no longer raw-smelling.",
+      "Add the 2 cups of water and the chayote. Bring to a boil, then cover and simmer for 8 minutes.",
+      "Add the long beans and tofu and simmer, covered, for 4 minutes more.",
+      "Stir in the coconut milk, cabbage, salt and sugar. Keep the heat low and cook for 5 minutes until the cabbage is tender. Do not let it boil hard or the coconut milk may split.",
+      "Taste for salt, remove the lemongrass, galangal and bay leaves if you like, and serve with steamed rice."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "vegetarian",
+      "vegan",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Java",
+    "photos": [],
+    "notes": [
+      {
+        "id": "a4f9344e-bd41-46c0-b404-33e254e0b92d",
+        "content": "Sayur lodeh is a Javanese everyday dish of mixed vegetables in a mild turmeric coconut broth, usually served with rice and fried tempeh or krupuk.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "b59db2a8-cef9-4e32-9413-798d023d0b6a",
+        "content": "A packet of Bamboe Lodeh seasoning can replace the spice paste. Check the label first, since some packets contain shrimp.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "aa3f0538-930b-46e7-b2d0-72346077bf44",
+        "content": "Chayote, long beans and candlenuts are all easy to find at Indo Java or an Asian grocery. Use zucchini for the chayote and macadamia nuts for the candlenuts if you need to.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "be386e51-a287-4127-aeb8-431ff5873f50",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Mie Goreng Jawa (Javanese Fried Noodles)",
+    "ingredients": [
+      {
+        "name": "fresh yellow wheat noodles",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "or 8 oz dried egg noodles"
+      },
+      {
+        "name": "boneless chicken thighs",
+        "amount": "8",
+        "unit": "oz",
+        "notes": "sliced thin"
+      },
+      {
+        "name": "shallots",
+        "amount": "3",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "garlic",
+        "amount": "3",
+        "unit": "",
+        "notes": "cloves, for the spice paste"
+      },
+      {
+        "name": "candlenuts",
+        "amount": "2",
+        "unit": "",
+        "notes": "for the spice paste; or macadamia nuts"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "3",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "eggs",
+        "amount": "2",
+        "unit": "",
+        "notes": "lightly beaten"
+      },
+      {
+        "name": "bok choy or choy sum",
+        "amount": "3",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "green cabbage",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "shredded"
+      },
+      {
+        "name": "tomato",
+        "amount": "1",
+        "unit": "",
+        "notes": "cut into wedges"
+      },
+      {
+        "name": "scallions",
+        "amount": "3",
+        "unit": "",
+        "notes": "cut into 1-inch pieces"
+      },
+      {
+        "name": "kecap manis",
+        "amount": "3",
+        "unit": "tbsp",
+        "notes": "sweet soy sauce"
+      },
+      {
+        "name": "soy sauce",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "oyster sauce",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "white pepper",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "fried shallots",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "to serve"
+      },
+      {
+        "name": "sambal oelek",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "to serve, or to taste"
+      }
+    ],
+    "instructions": [
+      "Cook the noodles according to the package, usually 1 to 2 minutes for fresh and 4 minutes for dried. Drain, rinse briefly with cold water, and toss with 1 teaspoon of the oil so they don't clump.",
+      "Mince or pound the shallots, garlic and candlenuts into a rough paste. Stir the kecap manis, soy sauce, oyster sauce and white pepper together in a small bowl.",
+      "Heat a wok or large skillet over high heat. Add 2 tablespoons of oil, then the chicken, and stir-fry for 3 minutes until nearly cooked through.",
+      "Push the chicken aside, pour the eggs into the gap and scramble for 30 seconds. Add the spice paste and stir everything together for 1 minute until fragrant.",
+      "Add the bok choy, cabbage, tomato and scallions and stir-fry for 2 minutes until the greens just wilt.",
+      "Add the noodles and the sauce and toss for 3 minutes over high heat, until evenly glazed and a little dry. Top with fried shallots and serve with sambal on the side."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 15,
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "chicken",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Java",
+    "photos": [],
+    "notes": [
+      {
+        "id": "8e3a953b-59e5-4f66-8347-7cd7c8b9bad0",
+        "content": "The Javanese style is sweeter and drier than other mie goreng because of the kecap manis, and street vendors make it by the plateful over a roaring flame.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "bb473187-3376-43e5-a01b-70ff1fa243cd",
+        "content": "Fried shallots come in tubs at Indo Java and most Asian groceries, and a spoonful of sambal oelek stirred into the sauce makes it spicier.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "cbc2a7b5-ff57-4806-91fc-bb0e328b6be5",
+        "content": "Any fresh Chinese egg noodle or even ramen noodles from the supermarket will work. Skip the candlenuts if you don't have them.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "67f58694-9551-40ec-9829-9b5368638a50",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Kolak Pisang (Banana and Sweet Potato in Coconut Milk and Palm Sugar)",
+    "ingredients": [
+      {
+        "name": "palm sugar (gula jawa)",
+        "amount": "100",
+        "unit": "g",
+        "notes": "chopped, or 1/2 cup packed dark brown sugar"
+      },
+      {
+        "name": "water",
+        "amount": "3",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "pandan leaves",
+        "amount": "2",
+        "unit": "",
+        "notes": "tied in a knot, fresh or frozen"
+      },
+      {
+        "name": "orange sweet potatoes",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "peeled and cut in 1-inch chunks"
+      },
+      {
+        "name": "full-fat coconut milk",
+        "amount": "400",
+        "unit": "ml",
+        "notes": "one can, shaken well"
+      },
+      {
+        "name": "ripe plantains or firm-ripe bananas",
+        "amount": "3",
+        "unit": "",
+        "notes": "peeled and cut in 1-inch pieces"
+      },
+      {
+        "name": "salt",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "crushed ice",
+        "amount": "",
+        "unit": "",
+        "notes": "optional, to serve"
+      }
+    ],
+    "instructions": [
+      "Press Sauté. Add the water, palm sugar and pandan knot, and stir for 3 to 4 minutes until the sugar has dissolved.",
+      "Add the sweet potato chunks. Cancel Sauté, lock the lid and set the valve to Sealing.",
+      "Pressure Cook at High for 3 minutes, then turn the valve to Venting for a quick release.",
+      "Press Sauté on low heat. Stir in the coconut milk, bananas and salt. Simmer gently for 5 to 7 minutes, stirring now and then, until the bananas are tender but still holding their shape.",
+      "Taste and add a little more sugar or a pinch of salt if you want. Discard the pandan and serve warm in bowls, or chill and serve over crushed ice."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 30,
+    "pressure": "3 min high pressure, quick release",
+    "tags": [
+      "dessert",
+      "indonesian",
+      "vegetarian",
+      "vegan",
+      "instant-pot"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Java",
+    "photos": [],
+    "notes": [
+      {
+        "id": "86143780-2ab5-4d74-835b-85b8f378bedf",
+        "content": "Frozen pandan leaves are sold at Asian groceries, and Indo Java also carries pandan extract. If you only have extract, stir in 1/2 teaspoon at the end instead of the leaves.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "7142fd7e-f1e5-49e1-b633-78785a8c966d",
+        "content": "Plantains (pisang raja or saba) are the traditional choice and hold up best. Regular bananas work if they are firm and just ripe, since overripe ones fall apart.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "6906d930-dda7-4014-ab8e-c2e9d996a3e6",
+        "content": "Kolak is a Javanese sweet soup that is especially popular for breaking the fast during Ramadan. Keep it at a gentle simmer after the coconut milk goes in so it stays smooth.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "f9349e12-00d5-4fd5-8d67-ea63870b8ac0",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Gado-Gado (Jakarta Vegetable Salad with Peanut Sauce)",
+    "ingredients": [
+      {
+        "name": "baby potatoes",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "halved or quartered into 1-inch pieces"
+      },
+      {
+        "name": "eggs",
+        "amount": "4",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "green beans",
+        "amount": "8",
+        "unit": "oz",
+        "notes": "trimmed and cut into 2-inch lengths"
+      },
+      {
+        "name": "green cabbage",
+        "amount": "3",
+        "unit": "cup",
+        "notes": "coarsely shredded"
+      },
+      {
+        "name": "bean sprouts",
+        "amount": "2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "firm tofu",
+        "amount": "8",
+        "unit": "oz",
+        "notes": "pressed dry with paper towels and cut into 1/2-inch slabs"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "for the tofu"
+      },
+      {
+        "name": "cucumber",
+        "amount": "1",
+        "unit": "",
+        "notes": "sliced, to serve"
+      },
+      {
+        "name": "natural peanut butter",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "unsweetened, for the peanut sauce"
+      },
+      {
+        "name": "garlic",
+        "amount": "1",
+        "unit": "",
+        "notes": "clove, finely grated, for the peanut sauce"
+      },
+      {
+        "name": "sambal oelek",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "for the peanut sauce; or 1 to 2 chopped red chilies"
+      },
+      {
+        "name": "kecap manis",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "for the peanut sauce"
+      },
+      {
+        "name": "lime juice",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "for the peanut sauce"
+      },
+      {
+        "name": "dark brown sugar",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the peanut sauce"
+      },
+      {
+        "name": "salt",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the peanut sauce"
+      },
+      {
+        "name": "hot water",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "for the peanut sauce, plus more to thin"
+      },
+      {
+        "name": "fried shallots",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "to serve"
+      },
+      {
+        "name": "krupuk (shrimp or vegetable crackers)",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "to serve, optional"
+      }
+    ],
+    "instructions": [
+      "Put the potatoes in a large pot, cover with cold water, add a generous pinch of salt and bring to a boil. Once boiling, gently lower in the eggs and cook for 9 minutes.",
+      "Lift the eggs out into a bowl of cold water. Keep the potatoes boiling until just tender, about 12 to 15 minutes in total, then remove them with a slotted spoon. Peel and halve the eggs.",
+      "In the same boiling water, blanch the green beans for 2 minutes, then the cabbage for 1 minute, then the bean sprouts for 20 seconds. Drain each one and rinse briefly under cold water.",
+      "Fry the tofu in the oil in a nonstick skillet over medium-high heat for 3 to 4 minutes per side until golden.",
+      "For the sauce, whisk the peanut butter, garlic, sambal oelek, kecap manis, lime juice, sugar and salt with the hot water until smooth. Add more water a spoonful at a time until it flows like heavy cream.",
+      "Arrange the potatoes, eggs, vegetables, tofu and cucumber on a platter. Spoon the sauce over, top with fried shallots, and serve with krupuk."
+    ],
+    "servings": 4,
+    "prepTime": 20,
+    "cookTime": 25,
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "vegetarian",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Jakarta",
+    "photos": [],
+    "notes": [
+      {
+        "id": "46e5f779-20c1-4ff8-93cd-ea46785be58c",
+        "content": "Gado-gado is Jakarta's best-known street salad, a mix of cooked vegetables, egg and fried tofu or tempeh under a thick peanut sauce.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "379a98e8-0189-4642-b086-744e02c3eea2",
+        "content": "The weeknight sauce uses natural peanut butter and needs no grinding. For a more traditional flavor, add 1/4 teaspoon of toasted terasi, though that makes it non-vegetarian. A packet of bumbu pecel (peanut sauce mix) from Indo Java also works.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "392dd540-cd3f-4eac-afbe-aab4aaf8f986",
+        "content": "Swap in any blanched vegetables you have, such as spinach, snow peas or corn.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "a05670a1-e8ef-4444-b91b-e2421a6fbe2a",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Telur Balado (Eggs in Red Chili Sambal)",
+    "ingredients": [
+      {
+        "name": "eggs",
+        "amount": "6",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "neutral oil",
+        "amount": "1/3",
+        "unit": "cup",
+        "notes": "for frying the eggs"
+      },
+      {
+        "name": "red chilies",
+        "amount": "6",
+        "unit": "",
+        "notes": "Fresno or red finger chilies, roughly chopped, for the sambal"
+      },
+      {
+        "name": "bird's eye chilies",
+        "amount": "2",
+        "unit": "",
+        "notes": "optional, for extra heat, for the sambal"
+      },
+      {
+        "name": "shallots",
+        "amount": "4",
+        "unit": "",
+        "notes": "for the sambal"
+      },
+      {
+        "name": "garlic",
+        "amount": "3",
+        "unit": "",
+        "notes": "cloves, for the sambal"
+      },
+      {
+        "name": "ripe tomato",
+        "amount": "1",
+        "unit": "",
+        "notes": "small, quartered, for the sambal"
+      },
+      {
+        "name": "sugar",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "plus more to taste"
+      },
+      {
+        "name": "lime juice",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Put the eggs in a pot, cover with cold water and bring to a boil. Turn off the heat, cover and leave for 9 minutes, then cool in ice water and peel. Pat the eggs very dry.",
+      "Pulse the chilies, shallots, garlic and tomato in a blender or food processor into a coarse paste. Don't add water.",
+      "Heat the 1/3 cup of oil in a nonstick skillet over medium-high heat. Fry the eggs for 3 to 4 minutes, turning, until the whites are golden and blistered. Stand back, as they can spit. Remove and drain.",
+      "Pour off all but 2 tablespoons of oil. Cook the chili paste over medium heat for 8 to 10 minutes, stirring often, until it darkens, thickens and the oil begins to separate out.",
+      "Stir in the sugar, salt and lime juice, then taste and adjust. Return the eggs to the pan and turn them for 2 minutes until coated in the sambal. Serve with steamed rice."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 30,
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "vegetarian",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Sumatra",
+    "photos": [],
+    "notes": [
+      {
+        "id": "5ca26196-81c8-4e87-a069-f830379ce9f4",
+        "content": "Balado is the red chili sambal of West Sumatra (Padang), and the same sauce is used on potatoes, eggplant, shrimp and fried beef.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "6438f435-3d29-4b9a-91f1-3602fa0fbc0d",
+        "content": "For a shortcut, fry 1/3 cup of sambal oelek with the shallots and garlic and a chopped tomato instead of blending fresh chilies.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "8bdbe8dc-67f6-4efd-a386-79d057e4fc7f",
+        "content": "Patting the eggs dry before frying cuts down on spattering. Fresno chilies are a good substitute for the long red chilies used in Padang.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "e15545f1-d3b8-48d6-9de7-d87a29c10917",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Sambal Matah (Raw Balinese Shallot and Lemongrass Sambal)",
+    "ingredients": [
+      {
+        "name": "shallots",
+        "amount": "6",
+        "unit": "",
+        "notes": "small, peeled and sliced paper-thin"
+      },
+      {
+        "name": "lemongrass",
+        "amount": "2",
+        "unit": "",
+        "notes": "stalks, tender white part only, sliced paper-thin"
+      },
+      {
+        "name": "bird's eye chilies",
+        "amount": "4",
+        "unit": "",
+        "notes": "thinly sliced, or to taste"
+      },
+      {
+        "name": "makrut lime leaves",
+        "amount": "3",
+        "unit": "",
+        "notes": "center vein removed, cut into very fine shreds"
+      },
+      {
+        "name": "lime juice",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "plus more to taste"
+      },
+      {
+        "name": "sugar",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "coconut oil",
+        "amount": "3",
+        "unit": "tbsp",
+        "notes": "or neutral oil"
+      }
+    ],
+    "instructions": [
+      "Slice the shallots, lemongrass, chilies and lime leaves as thinly as you can and put them in a heatproof bowl.",
+      "Add the salt and sugar and rub everything together with your fingers for about 30 seconds to bruise the shallots and release their juices.",
+      "Warm the oil in a small pan over medium heat for 1 to 2 minutes, just until it is hot enough to sizzle a slice of shallot. Pour it over the bowl and stir.",
+      "Add the lime juice, taste, and adjust the salt and lime. Let it sit for 10 minutes before serving at room temperature."
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 2,
+    "tags": [
+      "indonesian",
+      "staple",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Bali",
+    "photos": [],
+    "notes": [
+      {
+        "id": "081c4ad1-5b38-41bf-bfc8-afed04f0e6fb",
+        "content": "Sambal matah is a raw sambal from Bali, served at room temperature over grilled fish or chicken, fried tofu, or plain rice. It is best eaten the day it is made.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "cf8c9a61-d57a-41ed-9fee-ef3e81923a4b",
+        "content": "Fresh lime leaves and lemongrass are the key flavors and are sold at Indo Java and most Southeast Asian groceries, often frozen. Use lime zest if you can't find the leaves.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "5c8e29aa-2c00-44dd-ba2b-0b239b94cabb",
+        "content": "Traditional versions often include toasted terasi (shrimp paste). Add 1/2 teaspoon if you like, though it is then no longer vegetarian.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "1247f36a-5536-4451-b8d2-b2ee49ab498b",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Ayam Rica-Rica (Manado Spicy Chicken with Chili and Basil)",
+    "ingredients": [
+      {
+        "name": "boneless, skinless chicken thighs",
+        "amount": "1 1/2",
+        "unit": "lb",
+        "notes": "cut into 1 1/2-inch pieces"
+      },
+      {
+        "name": "shallots",
+        "amount": "6",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "garlic",
+        "amount": "5",
+        "unit": "",
+        "notes": "cloves, for the spice paste"
+      },
+      {
+        "name": "red chilies",
+        "amount": "8",
+        "unit": "",
+        "notes": "Fresno or red finger chilies, for the spice paste"
+      },
+      {
+        "name": "bird's eye chilies",
+        "amount": "3",
+        "unit": "",
+        "notes": "for the spice paste; use fewer for less heat"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": "1",
+        "unit": "",
+        "notes": "inch piece, peeled, for the spice paste"
+      },
+      {
+        "name": "candlenuts",
+        "amount": "3",
+        "unit": "",
+        "notes": "for the spice paste; or macadamia nuts"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "3",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "lemongrass",
+        "amount": "2",
+        "unit": "",
+        "notes": "stalks, bruised and tied in a knot"
+      },
+      {
+        "name": "makrut lime leaves",
+        "amount": "4",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "ripe tomato",
+        "amount": "1",
+        "unit": "",
+        "notes": "chopped"
+      },
+      {
+        "name": "water",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "notes": "plus more to taste"
+      },
+      {
+        "name": "sugar",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "lime juice",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "Thai basil or kemangi",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "loosely packed leaves, to finish"
+      }
+    ],
+    "instructions": [
+      "Blend the shallots, garlic, both chilies, ginger, candlenuts and turmeric into a coarse paste, adding a splash of water only if the blender needs it.",
+      "Heat the oil in a large, deep skillet or Dutch oven over medium heat. Cook the paste with the lemongrass and lime leaves for 6 minutes, stirring often, until it darkens and the oil starts to separate.",
+      "Add the chicken and stir for 3 minutes until the outside turns opaque and is coated in paste.",
+      "Add the tomato, water, salt and sugar. Cover and simmer over medium-low heat for 12 minutes, stirring once or twice.",
+      "Uncover and cook for 4 to 5 minutes more over medium heat until the sauce clings to the chicken and the chicken is cooked through.",
+      "Turn off the heat, stir in the lime juice and basil until just wilted, and serve with steamed rice."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 28,
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "chicken",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Sulawesi",
+    "photos": [],
+    "notes": [
+      {
+        "id": "052a9a94-a18f-4e7e-afb8-7d9fcec09e84",
+        "content": "Rica-rica is the fiery chili-and-herb seasoning of Manado in North Sulawesi, and this chicken version gets its fresh finish from a big handful of basil.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "55cf14a1-1f1d-4842-8cbf-049f7712a5f0",
+        "content": "A packet of Bamboe Bumbu Rica-Rica replaces the whole spice paste. Indo Java also stocks kemangi, which is the traditional basil, when it is in season.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "62354a54-c17e-4d6a-bac6-2d488bcb9de4",
+        "content": "Cut the heat by removing the seeds from the red chilies or using only one bird's eye chili.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "c9c92883-cac1-44c6-94c7-738a448f0ad1",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
+  },
+  {
+    "title": "Ikan Kuah Kuning (Yellow Turmeric Fish Soup)",
+    "ingredients": [
+      {
+        "name": "firm white fish fillets or steaks",
+        "amount": "1 1/2",
+        "unit": "lb",
+        "notes": "such as snapper, mahi-mahi or Spanish mackerel, cut into 2-inch chunks"
+      },
+      {
+        "name": "salt",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the fish"
+      },
+      {
+        "name": "shallots",
+        "amount": "5",
+        "unit": "",
+        "notes": "for the spice paste"
+      },
+      {
+        "name": "garlic",
+        "amount": "4",
+        "unit": "",
+        "notes": "cloves, for the spice paste"
+      },
+      {
+        "name": "fresh ginger",
+        "amount": "1 1/2",
+        "unit": "",
+        "notes": "inch piece, peeled, for the spice paste"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "notes": "for the spice paste; or 1 tbsp grated fresh turmeric"
+      },
+      {
+        "name": "red chilies",
+        "amount": "3",
+        "unit": "",
+        "notes": "for the spice paste; seeded for less heat"
+      },
+      {
+        "name": "neutral oil",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "lemongrass",
+        "amount": "2",
+        "unit": "",
+        "notes": "stalks, bruised and tied in a knot"
+      },
+      {
+        "name": "makrut lime leaves",
+        "amount": "3",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "notes": "for the broth, plus more to taste"
+      },
+      {
+        "name": "ripe tomato",
+        "amount": "1",
+        "unit": "",
+        "notes": "cut into wedges"
+      },
+      {
+        "name": "lime juice",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "Thai basil or kemangi",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "loosely packed leaves, to finish"
+      }
+    ],
+    "instructions": [
+      "Toss the fish with 1/2 teaspoon salt and set aside while you make the broth.",
+      "Blend the shallots, garlic, ginger, turmeric and chilies with 1/4 cup of the water into a smooth paste.",
+      "Heat the oil in a large pot over medium heat. Cook the paste for 4 minutes, stirring, until fragrant and the color deepens to a rich yellow.",
+      "Add the remaining water, the lemongrass, lime leaves and 1 1/2 teaspoons salt. Bring to a boil, then simmer for 8 minutes so the flavors infuse.",
+      "Add the tomato and the fish. Simmer gently for 5 to 6 minutes, without stirring much, until the fish is just cooked through and flakes easily.",
+      "Turn off the heat, stir in the lime juice and basil, and taste for salt. Serve in bowls over steamed rice."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "tags": [
+      "dinner",
+      "lunch",
+      "indonesian",
+      "fish",
+      "quick"
+    ],
+    "sourceType": "other",
+    "bookId": "indonesian",
+    "chapter": "Maluku & Papua",
+    "photos": [],
+    "notes": [
+      {
+        "id": "30651752-b9d0-405f-9a2e-a68ec14eda43",
+        "content": "Kuah kuning is the signature fish soup of Maluku and Papua. It is traditionally eaten with papeda, a glossy sago porridge, but steamed rice is an easy weeknight stand-in.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "626f03be-501e-401f-919e-4f970d2c99a0",
+        "content": "A tangy touch of belimbing wuluh (bilimbi) is traditional and sold frozen at some Indonesian groceries. Extra lime juice is a fine substitute.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      },
+      {
+        "id": "cccbb688-0fee-41ba-b2e4-d2f71635a40c",
+        "content": "Cut the fish into big chunks and add it last so it stays in whole pieces.",
+        "createdAt": "2026-11-02T17:47:07.000Z"
+      }
+    ],
+    "id": "7ff71dc6-3b83-440d-81da-938e960ba589",
+    "createdAt": "2026-11-02T17:47:07.000Z",
+    "updatedAt": "2026-11-02T17:47:07.000Z"
   }
 ]

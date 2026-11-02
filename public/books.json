@@ -10,5 +10,18 @@
       "Fish, Chicken & Meat",
       "Drinks & Desserts"
     ]
+  },
+  {
+    "id": "indonesian",
+    "title": "Indonesian Recipes",
+    "description": "Most of the specialty ingredients, including bumbu spice pastes, kecap manis, tempeh and daun salam, are at Indo Java, 85-12 Queens Blvd in Elmhurst.",
+    "chapters": [
+      "Java",
+      "Jakarta",
+      "Sumatra",
+      "Bali",
+      "Sulawesi",
+      "Maluku & Papua"
+    ]
   }
 ]
