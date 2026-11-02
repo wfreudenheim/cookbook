@@ -4,24 +4,26 @@ import { RecipeCard } from './components/RecipeCard';
 import { RecipeDetail } from './components/RecipeDetail';
 import { AddRecipe } from './components/AddRecipe';
 import { GroceryList } from './components/GroceryList';
+import { BooksView } from './components/BooksView';
 import { GroceryProvider } from './context/GroceryContext';
 import { useRecipes } from './hooks/useRecipes';
+import { useBooks } from './hooks/useBooks';
 import type { Recipe } from './types/recipe';
+import { getTagCategory } from './utils/tags';
 
-type View = 'grid' | 'detail' | 'add' | 'grocery';
-
-// Helper function to get category for a tag
-const getTagCategory = (tag: string): string => {
-  if (['breakfast', 'lunch', 'dinner', 'dessert', 'snack'].includes(tag)) return 'meal';
-  if (['asian', 'italian', 'mexican', 'american', 'other'].includes(tag)) return 'cuisine';
-  if (['chicken', 'beef', 'pork', 'fish', 'vegetarian'].includes(tag)) return 'protein';
-  return '';
-};
+type View = 'grid' | 'detail' | 'add' | 'grocery' | 'books';
 
 function AppContent() {
   const { recipes, loading, addRecipe, updateRecipe, deleteRecipe } = useRecipes();
+  const books = useBooks();
   const [currentView, setCurrentView] = React.useState<View>('grid');
   const [selectedRecipe, setSelectedRecipe] = React.useState<string | null>(null);
+  const [selectedBookId, setSelectedBookId] = React.useState<string | null>(null);
+  // Where the detail page's back button goes
+  const [returnView, setReturnView] = React.useState<'grid' | 'books'>('grid');
+  const returnScrollY = React.useRef(0);
+  const restoreScroll = React.useRef(false);
+  const [includeBookRecipes, setIncludeBookRecipes] = React.useState(false);
   const [recipeToEdit, setRecipeToEdit] = React.useState<Recipe | undefined>();
   const [searchQuery, setSearchQuery] = React.useState('');
   const [selectedTags, setSelectedTags] = React.useState<string[]>([]);
@@ -68,9 +70,16 @@ function AppContent() {
     return () => clearTimeout(timer);
   }, [searchQuery]);
 
+  // Cookbook recipes only show in the main grid when the toggle is on
+  const gridRecipes = React.useMemo(
+    () => (includeBookRecipes ? recipes : recipes.filter(r => !r.bookId)),
+    [recipes, includeBookRecipes]
+  );
+  const bookRecipeCount = recipes.length - recipes.filter(r => !r.bookId).length;
+
   // Filter recipes based on search and tags
   const filteredRecipes = React.useMemo(() => {
-    return recipes.filter(recipe => {
+    return gridRecipes.filter(recipe => {
       // Search filter
       if (debouncedSearch) {
         const searchLower = debouncedSearch.toLowerCase();
@@ -101,29 +110,41 @@ function AppContent() {
 
       return true;
     });
-  }, [debouncedSearch, selectedTags, recipes]);
+  }, [debouncedSearch, selectedTags, gridRecipes]);
 
   // Calculate tag counts from all recipes
   const tagCounts = React.useMemo(() => {
     const counts: Record<string, number> = {};
-    recipes.forEach(recipe => {
+    gridRecipes.forEach(recipe => {
       recipe.tags.forEach(tag => {
         counts[tag] = (counts[tag] || 0) + 1;
       });
     });
     return counts;
-  }, [recipes]);
+  }, [gridRecipes]);
 
   const handleRecipeClick = (recipeId: string) => {
+    setReturnView(currentView === 'books' ? 'books' : 'grid');
+    returnScrollY.current = window.scrollY;
     setSelectedRecipe(recipeId);
     setCurrentView('detail');
+    window.scrollTo(0, 0);
   };
 
   const handleBackClick = () => {
     setSelectedRecipe(null);
     setRecipeToEdit(undefined);
-    setCurrentView('grid');
+    setCurrentView(returnView);
+    restoreScroll.current = true;
   };
+
+  // Put the list back where it was once it has rendered again
+  React.useLayoutEffect(() => {
+    if (restoreScroll.current && currentView !== 'detail') {
+      restoreScroll.current = false;
+      window.scrollTo(0, returnScrollY.current);
+    }
+  }, [currentView]);
 
   const handleEditClick = (recipe: Recipe) => {
     setRecipeToEdit(recipe);
@@ -135,7 +156,7 @@ function AppContent() {
       try {
         await deleteRecipe(recipe.id);
         setSelectedRecipe(null);
-        setCurrentView('grid');
+        setCurrentView(returnView);
       } catch (error) {
         console.error('Error deleting recipe:', error);
         alert('Failed to delete recipe. Please try again.');
@@ -156,10 +177,11 @@ function AppContent() {
       if (recipeToEdit) {
         await updateRecipe(recipeToEdit.id, recipe);
         setRecipeToEdit(undefined);
+        setCurrentView('detail');
       } else {
         await addRecipe(recipe);
+        setCurrentView('grid');
       }
-      setCurrentView('grid');
     } catch (error) {
       console.error('Error saving recipe:', error);
       alert('Failed to save recipe. Please try again.');
@@ -167,7 +189,7 @@ function AppContent() {
   };
 
   const handleNavigate = (view: View) => {
-    if (view === 'grid') {
+    if (view === 'grid' || view === 'books') {
       setSelectedRecipe(null);
       setRecipeToEdit(undefined);
     }
@@ -183,6 +205,9 @@ function AppContent() {
         onTagToggle={handleTagToggle}
         tagCounts={tagCounts}
         showFilters={currentView === 'grid'}
+        includeBookRecipes={includeBookRecipes}
+        onIncludeBookRecipesToggle={() => setIncludeBookRecipes(prev => !prev)}
+        bookRecipeCount={bookRecipeCount}
         onNavigate={handleNavigate}
         isAuthenticated={isAuthenticated}
         onPassphraseSubmit={handlePassphraseSubmit}
@@ -196,6 +221,8 @@ function AppContent() {
         ) : currentView === 'detail' && selectedRecipe ? (
           <RecipeDetail
             recipe={recipes.find(r => r.id === selectedRecipe)!}
+            book={books.find(b => b.id === recipes.find(r => r.id === selectedRecipe)?.bookId)}
+            backLabel={returnView === 'books' ? 'Back to Book' : 'Back to Recipes'}
             onBack={handleBackClick}
             onEdit={handleEditClick}
             onDelete={handleDeleteRecipe}
@@ -209,6 +236,14 @@ function AppContent() {
           />
         ) : currentView === 'grocery' ? (
           <GroceryList onBack={() => handleNavigate('grid')} />
+        ) : currentView === 'books' ? (
+          <BooksView
+            books={books}
+            recipes={recipes}
+            selectedBookId={selectedBookId}
+            onSelectBook={setSelectedBookId}
+            onRecipeClick={handleRecipeClick}
+          />
         ) : (
           <div className="max-w-6xl mx-auto px-4 md:px-6 py-4 md:py-8">
             {filteredRecipes.length === 0 ? (

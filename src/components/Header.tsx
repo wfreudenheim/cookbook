@@ -10,7 +10,10 @@ interface HeaderProps {
   onTagToggle: (tag: string) => void;
   tagCounts: Record<string, number>;
   showFilters?: boolean;
-  onNavigate: (view: 'grid' | 'add' | 'grocery') => void;
+  includeBookRecipes: boolean;
+  onIncludeBookRecipesToggle: () => void;
+  bookRecipeCount: number;
+  onNavigate: (view: 'grid' | 'add' | 'grocery' | 'books') => void;
   isAuthenticated: boolean;
   onPassphraseSubmit: (passphrase: string) => Promise<boolean>;
   onPassphraseClear: () => void;
@@ -23,6 +26,9 @@ export const Header = ({
   onTagToggle,
   tagCounts,
   showFilters = true,
+  includeBookRecipes,
+  onIncludeBookRecipesToggle,
+  bookRecipeCount,
   onNavigate,
   isAuthenticated,
   onPassphraseSubmit,
@@ -58,6 +64,12 @@ export const Header = ({
           </h1>
           {/* Mobile: compact nav row */}
           <nav className="flex items-center space-x-4 md:hidden">
+            <button
+              onClick={() => onNavigate('books')}
+              className="text-sm text-text-primary hover:text-accent-primary transition-colors duration-200"
+            >
+              Books
+            </button>
             {isAuthenticated && (
               <button
                 onClick={() => onNavigate('add')}
@@ -166,6 +178,12 @@ export const Header = ({
           >
             All Recipes
           </button>
+          <button
+            onClick={() => onNavigate('books')}
+            className="text-text-primary hover:text-accent-primary transition-colors duration-200"
+          >
+            Books
+          </button>
           {isAuthenticated && (
             <button
               onClick={() => onNavigate('add')}
@@ -252,6 +270,17 @@ export const Header = ({
               onTagToggle={onTagToggle}
               tagCounts={tagCounts}
             />
+            {bookRecipeCount > 0 && (
+              <label className="mt-2 md:mt-4 flex items-center gap-2 text-xs md:text-sm text-text-secondary cursor-pointer select-none">
+                <input
+                  type="checkbox"
+                  checked={includeBookRecipes}
+                  onChange={onIncludeBookRecipesToggle}
+                  className="accent-accent-primary"
+                />
+                Include cookbook recipes ({bookRecipeCount})
+              </label>
+            )}
           </div>
         </div>
       )}

@@ -1,12 +1,7 @@
 import React from 'react';
 import type { Recipe, Ingredient } from '../types/recipe';
 import { parseRecipeText } from '../utils/claudeParser';
-
-const tagCategories = {
-  'Meal Type': ['breakfast', 'lunch', 'dinner', 'dessert', 'snack'],
-  'Cuisine': ['asian', 'italian', 'mexican', 'american', 'other'],
-  'Protein': ['chicken', 'beef', 'pork', 'fish', 'vegetarian']
-};
+import { TAG_CATEGORIES } from '../utils/tags';
 
 const commonUnits = [
   'cup',
@@ -122,14 +117,14 @@ export const AddRecipe = ({ onSave, onCancel, initialRecipe }: AddRecipeProps) =
       instructions,
       servings,
       tags: selectedTags,
-      sourceType: sourceUrl ? (
+      sourceType: initialRecipe?.bookId ? initialRecipe.sourceType : sourceUrl ? (
         sourceUrl.includes('instagram.com') ? 'instagram' :
         sourceUrl.includes('tiktok.com') ? 'tiktok' :
         'other'
       ) : 'manual',
       sourceUrl: sourceUrl || undefined,
-      photos: [], // Initialize empty arrays for photos and notes
-      notes: []
+      photos: initialRecipe?.photos || [],
+      notes: initialRecipe?.notes || []
     });
   };
 
@@ -217,7 +212,7 @@ export const AddRecipe = ({ onSave, onCancel, initialRecipe }: AddRecipeProps) =
         {/* Tags */}
         <div className="space-y-4">
           <label className="block text-sm text-text-secondary">Tags</label>
-          {Object.entries(tagCategories).map(([category, tags]) => (
+          {Object.entries(TAG_CATEGORIES).map(([category, tags]) => (
             <div key={category} className="space-y-2">
               <span className="text-sm text-text-secondary">{category}:</span>
               <div className="flex flex-wrap gap-2">

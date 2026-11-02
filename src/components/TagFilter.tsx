@@ -1,23 +1,5 @@
 
-interface TagCategory {
-  name: string;
-  tags: string[];
-}
-
-const categories: TagCategory[] = [
-  {
-    name: 'Meal Type',
-    tags: ['breakfast', 'lunch', 'dinner', 'dessert', 'snack']
-  },
-  {
-    name: 'Cuisine',
-    tags: ['asian', 'italian', 'mexican', 'american', 'other']
-  },
-  {
-    name: 'Protein',
-    tags: ['chicken', 'beef', 'pork', 'fish', 'vegetarian']
-  }
-];
+import { TAG_CATEGORIES } from '../utils/tags';
 
 interface TagFilterProps {
   selectedTags: string[];
@@ -28,10 +10,10 @@ interface TagFilterProps {
 export const TagFilter = ({ selectedTags, onTagToggle, tagCounts }: TagFilterProps) => {
   return (
     <div className="space-y-2 md:space-y-4">
-      {categories.map(category => (
-        <div key={category.name} className="flex flex-wrap items-center gap-1.5 md:gap-2">
-          <span className="text-text-secondary text-xs md:text-sm mr-1">{category.name}:</span>
-          {category.tags.map(tag => {
+      {Object.entries(TAG_CATEGORIES).map(([name, tags]) => (
+        <div key={name} className="flex flex-wrap items-center gap-1.5 md:gap-2">
+          <span className="text-text-secondary text-xs md:text-sm mr-1">{name}:</span>
+          {tags.map(tag => {
             const isSelected = selectedTags.includes(tag);
             const count = tagCounts?.[tag];
 

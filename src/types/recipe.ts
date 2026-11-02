@@ -9,6 +9,10 @@ export interface Recipe {
   prepTime?: number; // in minutes
   cookTime?: number; // in minutes
   tags: string[];
+  pressure?: string; // Instant Pot setting and release, e.g. "6 min high pressure, natural release"
+  bookId?: string; // set for recipes imported from a cookbook (see public/books.json)
+  chapter?: string;
+  page?: number;
   photos?: Photo[];
   notes?: Note[];
   createdAt: Date;

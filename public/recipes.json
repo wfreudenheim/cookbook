@@ -113,7 +113,8 @@
       "dinner",
       "lunch",
       "asian",
-      "vegetarian"
+      "vegetarian",
+      "instant-pot"
     ],
     "sourceType": "manual",
     "photos": [],
@@ -879,5 +880,5401 @@
     "notes": [],
     "createdAt": "2024-03-03T00:00:00.000Z",
     "updatedAt": "2024-03-03T00:00:00.000Z"
+  },
+  {
+    "title": "Garam Masala",
+    "ingredients": [
+      {
+        "name": "coriander seeds",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "whole cloves",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "cardamom seeds",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "from green or white pods"
+      },
+      {
+        "name": "bay leaves",
+        "amount": "2",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "or 1/2 tsp red pepper flakes or 3 dried red chiles"
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": "1",
+        "unit": "",
+        "notes": "broken up"
+      }
+    ],
+    "instructions": [
+      "Put all the spices in a clean coffee or spice grinder.",
+      "Grind to a medium-fine powder, stopping to shake the grinder a few times so everything is ground evenly.",
+      "Tip the powder into a small jar with a tight lid. Store in a cool, dry place for up to 4 weeks."
+    ],
+    "servings": 4,
+    "prepTime": 5,
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 54,
+    "photos": [],
+    "notes": [],
+    "id": "2f2027e1-1571-4bd0-ad57-514d205baa4f",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Punjabi Garam Masala",
+    "ingredients": [
+      {
+        "name": "coriander seeds",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "whole cloves",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "black peppercorns",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "cinnamon sticks",
+        "amount": "3",
+        "unit": "",
+        "notes": "broken up"
+      },
+      {
+        "name": "bay leaves",
+        "amount": "3",
+        "unit": "",
+        "notes": "broken up"
+      }
+    ],
+    "instructions": [
+      "Toast all the spices in a small skillet over medium heat for 2 to 3 minutes, until fragrant but not browned. Take them off the heat a little early, since they keep cooking in the pan's heat.",
+      "Spread the spices on a plate or paper towel and let them cool completely.",
+      "Grind the cooled spices in a coffee or spice grinder to a medium-fine powder, shaking the grinder a few times so everything is ground evenly.",
+      "Store in a small jar with a tight lid in a cool, dry place for up to 4 weeks."
+    ],
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 3,
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 56,
+    "photos": [],
+    "notes": [],
+    "id": "fe19f109-a24c-45df-ba40-19eab4f75686",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Goda Masala",
+    "ingredients": [
+      {
+        "name": "peanut oil",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "divided; 1 tbsp plus 3 tsp"
+      },
+      {
+        "name": "coriander seeds",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "black peppercorns",
+        "amount": "2 to 3",
+        "unit": "tsp",
+        "notes": "adjust to taste"
+      },
+      {
+        "name": "whole cloves",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "cinnamon sticks",
+        "amount": "3 or 4",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "unsweetened coconut flakes",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "or coconut flour"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "dried red chiles",
+        "amount": "2 or 3",
+        "unit": "",
+        "notes": "adjust to taste"
+      }
+    ],
+    "instructions": [
+      "Heat 1 tablespoon of the oil in a small skillet over medium heat. Add the coriander, cumin, peppercorns, cloves and cinnamon and toast, stirring constantly, for about 30 seconds until fragrant. Do not let them brown.",
+      "Move the spices to a plate or paper towel to cool.",
+      "Add 1 teaspoon of oil to the skillet and toast the coconut for about 30 seconds until light golden. Add it to the cooling spices.",
+      "Add 1 teaspoon of oil and toast the sesame seeds, stirring, for about 30 seconds until golden brown. Add them to the spices.",
+      "Add the last teaspoon of oil and toast the chiles very lightly for about 30 seconds, with the fan on or the room ventilated. Add them to the spices.",
+      "When everything is cool, grind it in a spice or coffee grinder to a medium-fine powder, shaking the grinder a few times so it grinds evenly.",
+      "Store in a small jar with a tight lid in a cool, dry place for up to 2 months."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 5,
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 58,
+    "photos": [],
+    "notes": [],
+    "id": "cdac281b-f7b6-44f4-9a32-567522fdbda3",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Onion Masala",
+    "ingredients": [
+      {
+        "name": "peanut oil",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "garlic",
+        "amount": "4",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "green serrano or jalapeño chile",
+        "amount": "1",
+        "unit": "",
+        "notes": "minced"
+      },
+      {
+        "name": "onions",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "diced"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cumin",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "tomato",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "water",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Select Sauté on More (high heat). When the pot is hot, add the oil, then the garlic, ginger and chile. Sauté for 1 to 2 minutes until fragrant.",
+      "Add the onions and sauté for 6 to 8 minutes, stirring once or twice, until browned and slightly crisp.",
+      "Stir in the turmeric, cayenne, cumin, coriander, garam masala and salt.",
+      "Add the tomato and water and scrape up all the browned bits from the bottom of the pot. Lock the lid.",
+      "Cook on Manual at High pressure for 15 minutes, then let the pressure release naturally.",
+      "Open the lid and stir. The masala thickens as it cools. Once cool, store in an airtight container in the refrigerator for up to 1 week or in the freezer for up to 3 months."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 50,
+    "pressure": "15 min high pressure, natural release",
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 60,
+    "photos": [],
+    "notes": [],
+    "id": "d69d2594-97e4-42fa-a11a-4e2a6a5ddda7",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Ghee",
+    "ingredients": [
+      {
+        "name": "butter",
+        "amount": "1",
+        "unit": "lb",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Melt the butter in a heavy-bottomed pan over low heat and let it foam. There is no need to stir.",
+      "When the foaming stops, the milk solids will turn brown and sink to the bottom. Let them brown well, since this gives ghee its nutty flavor.",
+      "Take the pan off the heat, let it cool a little, then pour the ghee through a fine strainer into a jar and close the lid. It is shelf-stable and can be kept on the counter."
+    ],
+    "servings": 4,
+    "prepTime": 2,
+    "cookTime": 10,
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 62,
+    "photos": [],
+    "notes": [],
+    "id": "91b68ef8-d927-45c4-8f05-2f07814f972b",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Ginger-Garlic Paste",
+    "ingredients": [
+      {
+        "name": "water",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "peeled"
+      },
+      {
+        "name": "ginger",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "sliced, no need to peel"
+      }
+    ],
+    "instructions": [
+      "Pour the water into a blender jar or food processor.",
+      "Add the garlic and ginger and blend until fairly smooth.",
+      "Refrigerate in an airtight container for 2 to 3 weeks. To freeze, put 1 tablespoon in each cube of an ice cube tray, then move the frozen cubes to a zip-top bag and keep in the freezer.",
+      "Where a recipe calls for 2 teaspoons garlic and 1 teaspoon ginger, use 1 tablespoon of the paste, fresh or frozen."
+    ],
+    "servings": 4,
+    "prepTime": 5,
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 63,
+    "photos": [],
+    "notes": [],
+    "id": "4f740d4c-10e4-4e13-a004-3516f80d31de",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Paneer",
+    "ingredients": [
+      {
+        "name": "half-and-half",
+        "amount": "4",
+        "unit": "cup",
+        "notes": "1 quart"
+      },
+      {
+        "name": "white vinegar",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Combine the half-and-half and vinegar in the inner pot and lock the lid.",
+      "Cook on Manual at Low pressure for 4 minutes. Let the pressure release naturally for 10 minutes, then quick-release the rest.",
+      "Open the lid. The milk will have separated into curds and whey. Stir well.",
+      "Line a sieve or mold with cheesecloth and set it over a bowl. Pour in the curds, gather the cloth over the top, and weight it down. Drain for 1 to 2 hours, until the paneer holds together as a block or ball. The whey can be saved for other uses.",
+      "Wrap the paneer in plastic wrap and refrigerate in an airtight container for up to 2 days."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 25,
+    "pressure": "4 min low pressure, 10 min natural release then quick release",
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 64,
+    "photos": [],
+    "notes": [],
+    "id": "fbaf5bb1-df3a-4064-8f38-4e7f6340de5b",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Greek Yogurt",
+    "ingredients": [
+      {
+        "name": "whole milk",
+        "amount": "2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "yogurt starter",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "store-bought Greek yogurt"
+      }
+    ],
+    "instructions": [
+      "Microwave the milk for 2 minutes, until it feels warm to the finger but not hot (about 110°F).",
+      "Stir the starter into 1/2 cup of the warm milk until dissolved, then mix that back into the rest of the milk.",
+      "Pour into a heatproof jar or crock that fits in the Instant Pot (pint mason jars work), or make it directly in the inner pot.",
+      "Set the jar in the inner pot, press Yogurt, set 8 hours, and cover with a glass lid. If using the pot's own lid, set the vent to Venting.",
+      "When the yogurt has set, line a stainless steel strainer with cheesecloth or a large coffee filter, set it over a bowl, and refrigerate overnight to drain.",
+      "Move the yogurt to an airtight container and refrigerate for up to 2 weeks."
+    ],
+    "servings": 4,
+    "prepTime": 5,
+    "cookTime": 480,
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 67,
+    "photos": [],
+    "notes": [],
+    "id": "98a6a958-271b-4360-8513-6b92da0e4a21",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Meyer Lemon Chutney",
+    "ingredients": [
+      {
+        "name": "Meyer lemons",
+        "amount": "2 1/2",
+        "unit": "cup",
+        "notes": "chopped, rinds and flesh"
+      },
+      {
+        "name": "onion",
+        "amount": "1/2",
+        "unit": "",
+        "notes": "small, diced"
+      },
+      {
+        "name": "raw sugar",
+        "amount": "3/4",
+        "unit": "cup",
+        "notes": "or brown sugar"
+      },
+      {
+        "name": "vinegar",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "raisins",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "diced"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/8",
+        "unit": "tsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Put all the ingredients in the inner pot and lock the lid.",
+      "Cook on Manual at High pressure for 15 minutes. Let the pressure release naturally for 10 minutes, then quick-release the rest.",
+      "Open the lid, stir, and taste, adjusting the spices if needed.",
+      "Select Sauté on More (high heat) and boil for 3 to 5 minutes to cook off excess liquid. It thickens further as it cools.",
+      "Transfer to an airtight container and refrigerate for up to 3 weeks."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 50,
+    "pressure": "15 min high pressure, 10 min natural release then quick release",
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 72,
+    "photos": [],
+    "notes": [],
+    "id": "a065494d-50aa-4596-88eb-f449f8e1656e",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Coconut Green Chutney",
+    "ingredients": [
+      {
+        "name": "unsweetened shredded coconut",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "hot water",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "for soaking the coconut"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "6",
+        "unit": "",
+        "notes": "chopped"
+      },
+      {
+        "name": "serrano or jalapeño chile",
+        "amount": "1/2 to 1",
+        "unit": "",
+        "notes": "chopped"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "fresh mint",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "lemon",
+        "amount": "1",
+        "unit": "",
+        "notes": "juiced"
+      },
+      {
+        "name": "water",
+        "amount": "1/4 to 3/4",
+        "unit": "cup",
+        "notes": "as needed"
+      }
+    ],
+    "instructions": [
+      "Put the coconut in a blender or food processor, add the hot water, and let it soak for about 5 minutes while you prep the rest.",
+      "Add the garlic, chile, cilantro, mint, lemon juice and 1/4 cup water. Blend on low, stopping to push the ingredients down, and add more water a little at a time only as needed to keep things moving.",
+      "Once the mixture moves freely, blend on high until puréed."
+    ],
+    "servings": 4,
+    "prepTime": 25,
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 74,
+    "photos": [],
+    "notes": [],
+    "id": "f743cc5c-7761-47dd-8170-992ff2377f2d",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Mango Chutney",
+    "ingredients": [
+      {
+        "name": "unripe green mango",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "peeled and grated"
+      },
+      {
+        "name": "onion",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "sugar",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "or honey, or more to taste"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "or more to taste"
+      },
+      {
+        "name": "ground roasted cumin",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "peanut oil",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "black mustard seeds",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": "or cumin seeds"
+      }
+    ],
+    "instructions": [
+      "Mix the mango and onion in a small bowl.",
+      "Add the sugar, cayenne, cumin and salt and taste. Aim for a balance of hot, salty, tart and sweet, and adjust the sugar to suit the mango.",
+      "Heat the oil in a small saucepan over high heat until shimmering. Add the mustard seeds and let them pop for about 10 seconds.",
+      "Pour the hot oil over the chutney and mix well.",
+      "Let it stand for 10 to 15 minutes before serving."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 1,
+    "tags": [
+      "indian",
+      "instant-pot",
+      "staple",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Kitchen Staples",
+    "page": 76,
+    "photos": [],
+    "notes": [],
+    "id": "74f48acf-8f40-43ca-848e-642615dd1746",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Basmati Pilau",
+    "ingredients": [
+      {
+        "name": "green cardamom pods",
+        "amount": "3 or 4",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "black peppercorns",
+        "amount": "6 to 8",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "whole cloves",
+        "amount": "4",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": "1",
+        "unit": "",
+        "notes": "2-inch piece"
+      },
+      {
+        "name": "Ghee",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "red onion",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "thinly sliced"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "basmati rice",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "rinsed and drained"
+      },
+      {
+        "name": "water",
+        "amount": "1 1/4",
+        "unit": "cup",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Put the cardamom, peppercorns, cloves and cinnamon in a muslin bag or spice infuser and crush them slightly.",
+      "Select Sauté on More (high heat). When the pot is hot, heat the ghee until shimmering, add the cumin seeds, and cook about 30 seconds until they sputter.",
+      "Add the onion and salt and cook, stirring, until the edges are browned and crisp but not burned.",
+      "Stir in the rice to coat it with ghee, then add the spice bag and water.",
+      "Lock the lid and cook on Manual at High pressure for 5 minutes. Let the pressure release naturally for 10 minutes, then quick-release the rest.",
+      "Open the lid, remove the spice bag, and serve. If you like, stir in 1/3 cup green peas right after releasing the pressure and let them steam briefly."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 35,
+    "pressure": "5 min high pressure, 10 min natural release then quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 80,
+    "photos": [],
+    "notes": [],
+    "id": "184ef045-6da8-4334-bfc9-832489370350",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Masalé Bhat (Marathi Spiced Rice)",
+    "ingredients": [
+      {
+        "name": "Ghee",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "or peanut oil"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "black mustard seeds",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": "omit if you don't have them"
+      },
+      {
+        "name": "mixed vegetables",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "chopped, such as cauliflower, peas, green beans, cabbage, broccoli or mushrooms"
+      },
+      {
+        "name": "basmati rice",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "rinsed and drained"
+      },
+      {
+        "name": "water",
+        "amount": "1 1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Goda Masala",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Spanish peanuts",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "or other roasted peanuts"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped"
+      }
+    ],
+    "instructions": [
+      "Select Sauté on More (high heat). When the pot is hot, heat the ghee until shimmering, then add the cumin and mustard seeds and cook about 1 minute until they sputter.",
+      "Add the vegetables and stir to coat in the spiced ghee.",
+      "Add the rice, water, salt, goda masala, turmeric and peanuts.",
+      "Lock the lid and select the Rice setting, or Manual at Low pressure for 12 minutes.",
+      "Let the pressure release naturally for 10 minutes, then quick-release the rest.",
+      "Stir in the cilantro and serve."
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 35,
+    "pressure": "12 min low pressure (Rice setting), 10 min natural release then quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 82,
+    "photos": [],
+    "notes": [],
+    "id": "1f010840-eec0-4e58-b671-882bb39fa7f7",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Khichadi (Rice with Lentils)",
+    "ingredients": [
+      {
+        "name": "short-grain rice",
+        "amount": "3/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "moong dal",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "or any split dal, or a mix"
+      },
+      {
+        "name": "Ghee",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "plus more for serving"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Spanish red peanuts",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "or other roasted peanuts"
+      },
+      {
+        "name": "water",
+        "amount": "1 3/4",
+        "unit": "cup",
+        "notes": "plus more as needed"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "yogurt",
+        "amount": "",
+        "unit": "",
+        "notes": "for serving, optional"
+      }
+    ],
+    "instructions": [
+      "Mix the rice and dal in a sieve and rinse well under running water.",
+      "Select Sauté on More (high heat). When the pot is hot, heat the ghee until shimmering, add the cumin seeds, and cook about 1 minute until they sputter.",
+      "Add the turmeric and let it sizzle a few seconds, then quickly stir in the peanuts. Add the rice and dal and stir to coat with ghee. Pour in the water and add the salt.",
+      "Lock the lid and cook on Manual at High pressure for 10 minutes, then let the pressure release naturally.",
+      "Open the lid. If all the liquid has been absorbed, stir in up to 1/4 cup water to reach an oatmeal-like consistency.",
+      "Stir well and serve with extra ghee or a little yogurt."
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 35,
+    "pressure": "10 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 84,
+    "photos": [],
+    "notes": [],
+    "id": "4a7ccf63-5378-4b27-b620-8810b3b1e693",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Dal Fry (Lentils with Fried Onions)",
+    "ingredients": [
+      {
+        "name": "water",
+        "amount": "2 3/4",
+        "unit": "cup",
+        "notes": "divided"
+      },
+      {
+        "name": "chana dal",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "or any split dal"
+      },
+      {
+        "name": "Ghee",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "dried red chiles",
+        "amount": "2",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "4",
+        "unit": "",
+        "notes": "minced"
+      },
+      {
+        "name": "red onion",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "thinly sliced"
+      },
+      {
+        "name": "tomato",
+        "amount": "1",
+        "unit": "",
+        "notes": "large, chopped"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped"
+      }
+    ],
+    "instructions": [
+      "Pour 1 cup of the water into the inner pot and set a trivet inside.",
+      "Put the dal and 1 cup of water in a heatproof bowl and set it on the trivet.",
+      "Lock the lid and cook on Manual at High pressure for 6 minutes, then let the pressure release naturally.",
+      "Meanwhile, heat the ghee in a medium saucepan on the stove over medium-high heat. When it shimmers, add the cumin seeds, chiles and garlic and cook for 1 minute.",
+      "Add the onion and cook, stirring now and then, for 5 to 8 minutes until crisp and lightly browned.",
+      "Add the tomato and mash it gently with a spoon as it heats through. Stir in the turmeric, salt and ground cumin.",
+      "When the dal is done, lift out the bowl and add the dal to the saucepan along with the remaining 3/4 cup water. Simmer on low for 5 to 10 minutes. Top with the cilantro and serve."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 50,
+    "pressure": "6 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 86,
+    "photos": [],
+    "notes": [],
+    "id": "d04a7b2f-8236-4203-8d99-b2b69ca45af8",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Dal Makhani (Creamy Lentils)",
+    "ingredients": [
+      {
+        "name": "whole black urad dal",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "for the dal"
+      },
+      {
+        "name": "bay leaves",
+        "amount": "2",
+        "unit": "",
+        "notes": "for the dal"
+      },
+      {
+        "name": "garlic",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "chopped, for the dal"
+      },
+      {
+        "name": "ginger",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "minced, for the dal"
+      },
+      {
+        "name": "water",
+        "amount": "1 1/2",
+        "unit": "cup",
+        "notes": "for the dal"
+      },
+      {
+        "name": "Greek Yogurt",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "for the dal"
+      },
+      {
+        "name": "half-and-half",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "or cream or a nondairy milk, for the dal"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the dal"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the dal"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": "for the dal"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": "for the dal"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the dal"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the dal"
+      },
+      {
+        "name": "Ghee",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "for finishing the dal"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for finishing the dal"
+      },
+      {
+        "name": "tomato paste",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "for finishing the dal"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "",
+        "unit": "",
+        "notes": "chopped, for garnish, optional"
+      }
+    ],
+    "instructions": [
+      "Rinse the dal and put it in the inner pot with the bay leaves, garlic, ginger and water.",
+      "Lock the lid and cook on Manual at High pressure for 30 minutes, then let the pressure release naturally.",
+      "While it cooks, stir together the yogurt, half-and-half, salt, turmeric, cayenne, cumin, coriander and garam masala in a small bowl.",
+      "Open the lid and gently mash some of the dal with the back of a spoon, leaving most whole. Select Warm.",
+      "Heat the ghee in a small saucepan over medium heat until shimmering. Add the cumin seeds until they sputter, then add the tomato paste and cook, stirring, about 2 minutes until it absorbs the ghee. Stir this into the dal.",
+      "Stir in the yogurt mixture and garnish with cilantro if using."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 55,
+    "pressure": "30 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 88,
+    "photos": [],
+    "notes": [],
+    "id": "b0fca17f-ae86-41eb-ace3-a2bdfc6bd73a",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Langar Ki Dal (Creamy Mixed Lentils)",
+    "ingredients": [
+      {
+        "name": "whole black urad dal",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "for the dal"
+      },
+      {
+        "name": "chana dal",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "for the dal"
+      },
+      {
+        "name": "water",
+        "amount": "5",
+        "unit": "cup",
+        "notes": "for the dal"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the dal"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the dal"
+      },
+      {
+        "name": "Ghee",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "or coconut oil or vegetable oil, for finishing the dal"
+      },
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "chopped, for finishing the dal"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced, for finishing the dal"
+      },
+      {
+        "name": "garlic",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced, for finishing the dal"
+      },
+      {
+        "name": "tomatoes",
+        "amount": "2",
+        "unit": "",
+        "notes": "chopped, for finishing the dal"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for finishing the dal"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for finishing the dal"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "or more to taste, for finishing the dal"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for finishing the dal"
+      },
+      {
+        "name": "water",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "for finishing the dal"
+      }
+    ],
+    "instructions": [
+      "Put both dals, the water, salt and turmeric in the inner pot and stir.",
+      "Lock the lid and cook on the Bean/Chili setting at High pressure for 30 minutes.",
+      "Let the pressure release naturally for 10 minutes, then quick-release the rest. Open the lid and crush the dals well with a spoon for a creamy texture, leaving some whole.",
+      "While the dals cook, heat the ghee in a nonstick pan over medium-high heat until shimmering. Add the onion and sauté 30 seconds, then add the ginger and garlic and cook about 5 minutes until the onion edges start to brown.",
+      "Add the tomatoes, cumin seeds, turmeric, cayenne, salt and water. Cook for 1 to 2 minutes, crushing the tomatoes with a spoon. Set aside until the dals are done.",
+      "Stir the tomato and onion mixture into the dal and serve."
+    ],
+    "servings": 8,
+    "prepTime": 10,
+    "cookTime": 60,
+    "pressure": "30 min high pressure (Bean/Chili), 10 min natural release then quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 91,
+    "photos": [],
+    "notes": [],
+    "id": "cd8b6a9c-691f-4c88-8960-5880f4da96ea",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Chana Masala",
+    "ingredients": [
+      {
+        "name": "dried chickpeas",
+        "amount": "1",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "bay leaves",
+        "amount": "2 to 3",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "3",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "Ghee",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "Onion Masala",
+        "amount": "1/3",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "chana masala powder",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "ready-made"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "lemon",
+        "amount": "1",
+        "unit": "",
+        "notes": "juiced"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped"
+      }
+    ],
+    "instructions": [
+      "Soak the chickpeas for 1 hour beforehand. Put them in the inner pot with the bay leaves and water and lock the lid.",
+      "Cook on Manual at High pressure for 18 minutes, then let the pressure release naturally.",
+      "Open the lid and drain the chickpeas, keeping the cooking water. Mash about half the chickpeas roughly with a potato masher to thicken the sauce.",
+      "Rinse and dry the inner pot and return it to the cooker.",
+      "Select Sauté on More (high heat). When hot, add the ghee, then the onion masala, and sauté 2 to 3 minutes until heated through. Stir in the chana masala powder and salt.",
+      "Add the chickpeas and enough of the reserved cooking water to reach an oatmeal-like consistency, and heat through.",
+      "Stir in the lemon juice, top with the cilantro, and serve with rice, naan or chapatis."
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 45,
+    "pressure": "18 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 94,
+    "photos": [],
+    "notes": [],
+    "id": "b51d435b-1851-496e-9c0f-036a73a56f40",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Chana Salaad (Chickpea Salad)",
+    "ingredients": [
+      {
+        "name": "dried chickpeas",
+        "amount": "1",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "bay leaves",
+        "amount": "3",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "3",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "red onion",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "finely minced"
+      },
+      {
+        "name": "tomato",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "diced"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "lemon juice",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "freshly squeezed"
+      }
+    ],
+    "instructions": [
+      "Put the chickpeas, bay leaves and water in the inner pot and lock the lid.",
+      "Cook on the Bean/Chili setting at High pressure for 20 minutes.",
+      "Let the pressure release naturally for 10 minutes, then quick-release the rest.",
+      "While the chickpeas cool slightly, combine the onion, tomato and cilantro in a large bowl.",
+      "Drain the chickpeas and add them to the bowl with the salt, cayenne and lemon juice. Mix and taste, aiming for a balance of tangy, salty and spicy."
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 40,
+    "pressure": "20 min high pressure (Bean/Chili), 10 min natural release then quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 99,
+    "photos": [],
+    "notes": [],
+    "id": "a3f5ef93-d38c-4054-8220-506a812263e7",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Punjabi Lobia (Black-Eyed Peas with Spinach)",
+    "ingredients": [
+      {
+        "name": "Ghee",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "or peanut oil"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1/8",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "black mustard seeds",
+        "amount": "1/8",
+        "unit": "tsp",
+        "notes": "or omit and double the cumin seeds"
+      },
+      {
+        "name": "garlic",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "tomato",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "diced"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "dried black-eyed peas",
+        "amount": "1",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "raw spinach",
+        "amount": "4",
+        "unit": "cup",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Select Sauté on More (high heat). When the pot is hot, heat the ghee until shimmering, add the cumin and mustard seeds until they sputter, then add the garlic and ginger and sauté 30 seconds.",
+      "Add the tomato and cook 1 to 2 minutes until softened.",
+      "Stir in the turmeric, cayenne, ground cumin, coriander and salt.",
+      "Add the black-eyed peas and water and mix, then lay the spinach on top without stirring it in.",
+      "Lock the lid and cook on Manual at High pressure for 10 minutes. Let the pressure release naturally for 10 minutes, then quick-release the rest.",
+      "Open the lid, stir, and add more salt or cayenne if needed. Serve with rice, chapatis or naan."
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 35,
+    "pressure": "10 min high pressure, 10 min natural release then quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 101,
+    "photos": [],
+    "notes": [],
+    "id": "3379d9e0-28a2-4a0d-8251-e9d6596ca32f",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Matki Chi Ussal (Spiced Sprouted Beans)",
+    "ingredients": [
+      {
+        "name": "peanut oil",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "or black mustard seeds"
+      },
+      {
+        "name": "onion",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "tomato",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "3",
+        "unit": "",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "minced"
+      },
+      {
+        "name": "sprouted beans",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "about 1/2 cup dried moth beans, sprouted"
+      },
+      {
+        "name": "unsweetened shredded coconut",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "fresh grated coconut",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "optional"
+      }
+    ],
+    "instructions": [
+      "Select Sauté on More (high heat). When the pot is hot, heat the oil until shimmering and add the cumin seeds until they sputter.",
+      "Add the onion, tomato, garlic and ginger and sauté about 2 minutes, until the onion is soft and translucent.",
+      "Add the sprouted beans, shredded coconut, salt, turmeric, cayenne, coriander, ground cumin and water and stir.",
+      "Lock the lid and cook on Manual at High pressure for 4 minutes, then quick-release.",
+      "Open the lid and top with the cilantro and fresh coconut if using.",
+      "To sprout moth beans in the pot: soak 1 cup dried beans in 2 cups very hot water for 3 to 4 hours, tip them and any water into a steamer basket set over the pot, and run the Yogurt setting for 8 hours. Run it again if tails have not appeared."
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 15,
+    "pressure": "4 min high pressure, quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 103,
+    "photos": [],
+    "notes": [],
+    "id": "806d21f9-b225-4f70-bbad-1ca5347cf5d3",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Punjabi Rajma (Red Kidney Beans)",
+    "ingredients": [
+      {
+        "name": "peanut oil",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "onion",
+        "amount": "1 1/2",
+        "unit": "cup",
+        "notes": "diced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "garlic",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "tomato",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "diced"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "dried red kidney beans",
+        "amount": "1",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Put the oil, onion, ginger, garlic, tomato, cayenne, turmeric, garam masala, cumin, salt and coriander in the inner pot and stir. (With Onion Masala on hand, skip this and the trivet step and use it instead.)",
+      "Set a trivet on top of the onion mixture.",
+      "Put the beans and water in a heatproof bowl, cover it with foil, and set it on the trivet.",
+      "Lock the lid and cook on the Bean/Chili setting at High pressure for 30 minutes.",
+      "Let the pressure release naturally for 10 minutes, then quick-release the rest. Open the lid and lift out the bowl and trivet.",
+      "Mash about half the beans lightly with a spoon.",
+      "Turn the pot off, then select Sauté on More (high heat). Add the beans and their liquid to the onion mixture, mix well, and bring to a boil for about 5 minutes so the flavors meld."
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 55,
+    "pressure": "30 min high pressure (Bean/Chili), 10 min natural release then quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Rice, Dals & Beans",
+    "page": 106,
+    "photos": [],
+    "notes": [],
+    "id": "921d0c6e-ca3e-423c-9c51-a7e899708b12",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Aloo Gobi (Potatoes and Cauliflower)",
+    "ingredients": [
+      {
+        "name": "peanut oil",
+        "amount": "1",
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "potatoes",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "sliced about 1/4 inch thick"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      {
+        "name": "tomato",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "diced"
+      },
+      {
+        "name": "water",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "large cauliflower florets",
+        "amount": "4",
+        "unit": "cup",
+        "notes": "about 1 medium cauliflower"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "chopped, for garnish, optional"
+      }
+    ],
+    "instructions": [
+      "Set the pot to Sauté on More. When hot, heat the oil until it shimmers, then add the cumin seeds and stir until they sputter.",
+      "Add the potato slices and sauté, stirring now and then, for 2 to 3 minutes until they start to brown and crisp.",
+      "Stir in the salt, garam masala, turmeric, ground cumin, coriander and cayenne and sauté for 1 minute.",
+      "Add the tomato and water and stir, scraping up the browned bits from the bottom. Add the cauliflower and stir gently.",
+      "Lock the lid and cook on Manual at Low pressure for 2 minutes, then quick-release.",
+      "Garnish with cilantro if using."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 25,
+    "pressure": "2 min low pressure, quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 110,
+    "photos": [],
+    "notes": [],
+    "id": "a2553626-289c-43ae-80fe-0fb8e8541a09",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Aloo Jeera (Cumin-Spiced Potatoes)",
+    "ingredients": [
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "for steaming"
+      },
+      {
+        "name": "potatoes",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "cubed"
+      },
+      {
+        "name": "Ghee",
+        "amount": "1",
+        "unit": "tbsp"
+      },
+      {
+        "name": "serrano chile",
+        "amount": "1/2",
+        "unit": "",
+        "notes": "cut into thick slices"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": "optional"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped, for garnish"
+      }
+    ],
+    "instructions": [
+      "Pour the water into the pot, set a steamer basket inside and put in the cubed potatoes.",
+      "Lock the lid and steam on High pressure for 6 minutes, then quick-release.",
+      "Lift out the basket and set the potatoes aside. Rinse and dry the inner pot and return it to the cooker.",
+      "Set the pot to Sauté on More. Heat the ghee until it shimmers, add the serrano and cumin seeds and cook about 15 seconds until the seeds sputter.",
+      "Stir in the turmeric if using, then add the potatoes and salt and toss gently to coat without breaking the potatoes.",
+      "Garnish with cilantro and serve."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "pressure": "6 min high pressure steam, quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 112,
+    "photos": [],
+    "notes": [],
+    "id": "a68cde45-f881-4376-b3d5-d9e8dabadc0e",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Beet Koshimbir (Beetroot Salad)",
+    "ingredients": [
+      {
+        "name": "medium beets",
+        "amount": "2",
+        "unit": "",
+        "notes": "halved, for the salad"
+      },
+      {
+        "name": "water",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "for the salad"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped, for the salad"
+      },
+      {
+        "name": "Spanish peanuts",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped, for the salad"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the salad"
+      },
+      {
+        "name": "Greek yogurt",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "or more as needed, for the salad"
+      },
+      {
+        "name": "peanut oil",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "or other high-smoke-point oil, for tempering"
+      },
+      {
+        "name": "mustard seeds",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": "for tempering"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": "for tempering"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for tempering"
+      }
+    ],
+    "instructions": [
+      "Put a trivet or steamer basket in the pot, arrange the beets on it in one layer and pour in the water.",
+      "Lock the lid and cook on Manual at High pressure for 12 minutes, then let the pressure release naturally.",
+      "When the beets are cool enough to handle, trim and peel them and dice into 1/2-inch pieces. Mix in a bowl with the cilantro, peanuts, salt and yogurt, adding more yogurt if needed to coat.",
+      "To temper, heat the oil in a small pan over medium-high heat until shimmering. Add the mustard and cumin seeds (use double the cumin if you have no mustard seeds). When they sputter, take the pan off the heat and stir in the turmeric.",
+      "Pour the hot oil over the beet mixture and stir. Taste and add salt if needed.",
+      "Chill for at least 1 hour before serving."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 40,
+    "pressure": "12 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 114,
+    "photos": [],
+    "notes": [],
+    "id": "0f525fed-5d1d-4f89-9a84-9c1e26c194b0",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Bundh Gobi Mutter (Cabbage and Peas)",
+    "ingredients": [
+      {
+        "name": "peanut oil",
+        "amount": "1",
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "minced"
+      },
+      {
+        "name": "red onion",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "thinly sliced"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      {
+        "name": "cabbage",
+        "amount": "3",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "water",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": "",
+        "unit": "",
+        "notes": "to taste"
+      },
+      {
+        "name": "green peas",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "fresh or frozen"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "",
+        "unit": "",
+        "notes": "chopped, for garnish"
+      }
+    ],
+    "instructions": [
+      "Set the pot to Sauté on More. When hot, heat the oil until shimmering and add the cumin seeds. Cook about 1 minute until they sputter.",
+      "Add the garlic and ginger and cook about 30 seconds. Add the onion and sauté about 5 minutes until browned and crisp at the edges, then stir in the turmeric.",
+      "Add the cabbage, water and salt and stir.",
+      "Lock the lid and cook on Manual at High pressure for 1 minute, then quick-release.",
+      "Stir in the peas to warm them through and garnish with cilantro.",
+      "For crunchier cabbage, cook at 0 minutes, or at Low pressure for 1 minute."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 20,
+    "pressure": "1 min high pressure, quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 116,
+    "photos": [],
+    "notes": [],
+    "id": "f9f373ce-fed7-41a2-8fbc-bb7780e158a1",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Baingan Bharta (Smoky Mashed Eggplant)",
+    "ingredients": [
+      {
+        "name": "vegetable oil",
+        "amount": "1/3",
+        "unit": "cup",
+        "notes": "plus more as needed"
+      },
+      {
+        "name": "medium eggplant",
+        "amount": "1",
+        "unit": "",
+        "notes": "peeled, halved, then sliced lengthwise"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "3",
+        "unit": "",
+        "notes": "minced"
+      },
+      {
+        "name": "onion",
+        "amount": "1/2",
+        "unit": "",
+        "notes": "diced"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/8",
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "plus more to taste"
+      },
+      {
+        "name": "tomatoes",
+        "amount": "1/3",
+        "unit": "cup",
+        "notes": "diced"
+      },
+      {
+        "name": "water",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "liquid smoke",
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      {
+        "name": "cilantro",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "chopped"
+      }
+    ],
+    "instructions": [
+      "Set the pot to Sauté on More. When hot, add a few tablespoons of oil and heat until shimmering. Lay in a layer of eggplant slices and leave them undisturbed until charred on the bottom.",
+      "Scrape up the char, then add the next batch of slices with more oil as needed, scraping between batches. Charring all the eggplant takes 10 to 15 minutes.",
+      "Add the garlic, onion, turmeric, cayenne and salt and let the spices cook in the oil for 1 minute.",
+      "Add the tomatoes, scraping up the browned bits, then pour in the water.",
+      "Lock the lid and cook on Manual at High pressure for 3 minutes, then quick-release.",
+      "If there is a lot of liquid, Sauté and simmer until most has evaporated; it thickens as it cools.",
+      "Stir in the liquid smoke, garnish with cilantro and serve with naan."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 35,
+    "pressure": "3 min high pressure, quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 118,
+    "photos": [],
+    "notes": [],
+    "id": "97e7711a-73ea-46f7-8dbb-7c7dd98d57db",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Coconut-Tomato Soup",
+    "ingredients": [
+      {
+        "name": "can coconut milk",
+        "amount": "1",
+        "unit": ""
+      },
+      {
+        "name": "red onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "diced"
+      },
+      {
+        "name": "large tomatoes",
+        "amount": "6",
+        "unit": "",
+        "notes": "cut into quarters"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "garlic",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "minced"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "agave nectar",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "or honey"
+      }
+    ],
+    "instructions": [
+      "Put all the ingredients in the pot.",
+      "Lock the lid and cook on Manual at High pressure for 5 minutes.",
+      "Let the pressure release naturally, then unlock the lid.",
+      "Blend with an immersion blender until smooth and serve."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 30,
+    "pressure": "5 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 120,
+    "photos": [],
+    "notes": [],
+    "id": "0446cbe7-c86f-4115-8d3e-3f37980e99d1",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Marathi Kadhi (Tangy Yogurt Soup)",
+    "ingredients": [
+      {
+        "name": "full-fat yogurt",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "or soy yogurt"
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      {
+        "name": "chickpea flour",
+        "amount": "4",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Ghee",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "or coconut oil"
+      },
+      {
+        "name": "black mustard seeds",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "serrano chile",
+        "amount": "1",
+        "unit": "",
+        "notes": "thinly sliced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Whisk the yogurt, water, salt, sugar, cayenne and chickpea flour together in a bowl until smooth, without making it too frothy. Set aside.",
+      "Set the pot to Sauté on More. When hot, heat the ghee until shimmering, add the mustard and cumin seeds and let them sputter for 10 to 20 seconds.",
+      "Add the serrano, ginger and turmeric, then pour in the yogurt mixture and stir.",
+      "Lock the lid and cook on the Soup setting at High pressure for 6 minutes (Soup keeps the yogurt from boiling hard).",
+      "Let the pressure release naturally for 10 minutes, then quick-release the rest. Stir well and serve with rice."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 30,
+    "pressure": "6 min high pressure (Soup setting), natural release 10 min then quick",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 123,
+    "photos": [],
+    "notes": [],
+    "id": "903e6b4e-b973-4568-85ad-15f492361f43",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Marathi Rassa (Mixed Vegetables with Coconut)",
+    "ingredients": [
+      {
+        "name": "unsweetened shredded coconut",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "hot water",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "divided, plus more as needed"
+      },
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "chopped"
+      },
+      {
+        "name": "tomatoes",
+        "amount": "2",
+        "unit": "",
+        "notes": "chopped"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "4",
+        "unit": "",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": "up to 1 tsp if desired"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "peanut oil",
+        "amount": "1",
+        "unit": "tbsp"
+      },
+      {
+        "name": "mixed vegetables",
+        "amount": "5 to 6",
+        "unit": "cup",
+        "notes": "chopped into large pieces"
+      }
+    ],
+    "instructions": [
+      "Put the coconut in a blender and cover with 1/4 cup of the hot water. Let it soak about 10 minutes.",
+      "Add the onion, tomatoes, garlic, ginger, cilantro, cumin, turmeric, cayenne and salt and blend to a smooth purée, using as little extra water as possible.",
+      "Set the pot to Sauté on More. When hot, heat the oil until it smokes slightly and add the purée.",
+      "Cook without stirring for 3 to 5 minutes until most of the water evaporates, then stir constantly for about 2 more minutes until it loses its fresh green color.",
+      "Add the vegetables and the remaining 1/4 cup water and stir.",
+      "Lock the lid and cook on Manual at Low pressure for 3 minutes, then quick-release.",
+      "Adjust the salt and serve with naan, chapatis or rice. Any quick-cooking vegetables work, such as cabbage, cauliflower, broccoli, carrots, potatoes, peas, squash or corn."
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 20,
+    "pressure": "3 min low pressure, quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 125,
+    "photos": [],
+    "notes": [],
+    "id": "65091543-d7d4-4fd7-b5e8-ded56c0f40a0",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Sindhi Sai Bhaji (Sindhi-Style Mixed Vegetables)",
+    "ingredients": [
+      {
+        "name": "tomato",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "butternut squash",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "potato",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "chana dal",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "fresh dill",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "5",
+        "unit": "",
+        "notes": "peeled"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "jalapeño",
+        "amount": "1/2 to 1",
+        "unit": "",
+        "notes": "or other green chile"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "amount": "1",
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Put all the ingredients in the pot and stir.",
+      "Lock the lid and cook on Manual at High pressure for 20 minutes.",
+      "Let the pressure release naturally for 10 minutes, then quick-release the rest.",
+      "Purée with an immersion blender, leaving some pieces for texture, and serve."
+    ],
+    "servings": 8,
+    "prepTime": 10,
+    "cookTime": 40,
+    "pressure": "20 min high pressure, natural release 10 min then quick",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 128,
+    "photos": [],
+    "notes": [],
+    "id": "bcf54d46-7326-43b1-beb6-1de258834921",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Paneer Biryani",
+    "ingredients": [
+      {
+        "name": "Ghee",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "or peanut oil"
+      },
+      {
+        "name": "small onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "thinly sliced"
+      },
+      {
+        "name": "ginger",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "minced"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "4",
+        "unit": "",
+        "notes": "peeled and crushed"
+      },
+      {
+        "name": "jalapeños",
+        "amount": "2",
+        "unit": "",
+        "notes": "diced"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "2",
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "Paneer",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "cut into cubes"
+      },
+      {
+        "name": "frozen mixed vegetables",
+        "amount": "1",
+        "unit": "cup"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "fresh mint sprigs",
+        "amount": "6 to 8",
+        "unit": "",
+        "notes": "finely chopped"
+      },
+      {
+        "name": "basmati rice",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "rinsed and drained"
+      },
+      {
+        "name": "water",
+        "amount": "1",
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Set the pot to Sauté on More. When hot, heat the ghee until shimmering, add the onion and cook until well browned. Add the ginger, garlic and jalapeños and cook 2 to 3 minutes.",
+      "Stir in the garam masala and salt, using enough salt to season the rice too.",
+      "Spread the paneer and frozen vegetables over the bottom of the pot and sprinkle the cilantro and mint on top.",
+      "Spread the rinsed rice over everything without stirring, pour in the water and gently press the rice down so it is mostly covered.",
+      "Lock the lid and cook on Manual at High pressure for 5 minutes, then let the pressure release naturally.",
+      "Mix gently from the bottom or scoop from top to bottom so each serving gets everything. Whole spices can replace the garam masala: after heating the oil, add 1/2 tsp cumin seeds, 1 cinnamon stick, 3 or 4 cloves, 4 or 5 black peppercorns and 4 or 5 green cardamom pods, then add the onion and the rest."
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 35,
+    "pressure": "5 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 130,
+    "photos": [],
+    "notes": [],
+    "id": "296c609f-0075-45ec-ab5f-6ec98b97056f",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Palak Paneer",
+    "ingredients": [
+      {
+        "name": "peanut oil",
+        "amount": "2",
+        "unit": "tsp"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "5",
+        "unit": "",
+        "notes": "chopped"
+      },
+      {
+        "name": "ginger",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "minced"
+      },
+      {
+        "name": "serrano or jalapeño chile",
+        "amount": "1",
+        "unit": "",
+        "notes": "minced"
+      },
+      {
+        "name": "fresh baby spinach",
+        "amount": "1",
+        "unit": "lb"
+      },
+      {
+        "name": "large yellow onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "chopped"
+      },
+      {
+        "name": "medium tomatoes",
+        "amount": "2",
+        "unit": "",
+        "notes": "chopped"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "2",
+        "unit": "tsp"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "Paneer",
+        "amount": "1 1/2",
+        "unit": "cup",
+        "notes": "cut into 1/2-inch cubes"
+      }
+    ],
+    "instructions": [
+      "Set the pot to Sauté on More. When hot, heat the oil until shimmering, add the garlic, ginger and chile and sauté 1 minute until fragrant.",
+      "Add the spinach, onion, tomatoes, cumin, cayenne, garam masala, turmeric, salt and water and stir.",
+      "Lock the lid and cook on Manual at High pressure for 4 minutes, then quick-release.",
+      "Purée with an immersion blender to your preferred texture, tilting the pot as needed.",
+      "Gently stir in the paneer and serve."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 15,
+    "pressure": "4 min high pressure, quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Vegetables & Vegetarian",
+    "page": 133,
+    "photos": [],
+    "notes": [],
+    "id": "68c83fe9-a6f5-4d1f-83bc-4b2e77094195",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Aam Panha (Raw Mango Drink)",
+    "ingredients": [
+      {
+        "name": "green mango",
+        "amount": "1",
+        "unit": "",
+        "notes": "unripe and hard"
+      },
+      {
+        "name": "water",
+        "amount": "4 1/4",
+        "unit": "cup",
+        "notes": "divided, plus more as needed"
+      },
+      {
+        "name": "sugar",
+        "amount": "1/3",
+        "unit": "cup",
+        "notes": "or brown sugar"
+      },
+      {
+        "name": "ground cardamom",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "or more to taste"
+      },
+      {
+        "name": "ice cubes",
+        "amount": "1/2",
+        "unit": "cup"
+      }
+    ],
+    "instructions": [
+      "Slice the mango lengthwise into 3 pieces (one is the seed) and put it in a heatproof bowl that fits in the pot. Add 1/4 cup water and cover the bowl tightly with foil.",
+      "Pour 2 cups water into the pot, set a trivet inside and place the bowl on it.",
+      "Lock the lid and cook on Manual at High pressure for 15 minutes, then let the pressure release naturally.",
+      "Check that the mango is soft and pulpy; if not, cook a few minutes longer.",
+      "When cool, peel the mango and squeeze all the pulp off the peel and seed. Keep any cooking liquid in the bowl.",
+      "Push the pulp and liquid through a wire-mesh strainer, which should give about 1 cup of purée.",
+      "Stir in the sugar and cardamom until dissolved, then add the remaining 2 cups water and the ice. Taste and adjust the sugar and cardamom.",
+      "Serve in small cups as a dessert drink, or dilute further as mango-ade."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 40,
+    "pressure": "15 min high pressure, natural release",
+    "tags": [
+      "drink",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Drinks & Desserts",
+    "page": 174,
+    "photos": [],
+    "notes": [],
+    "id": "1492a49b-959e-45b3-932e-178d2fb9627c",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Gulabi Doodh (Rose Milk)",
+    "ingredients": [
+      {
+        "name": "raw cashews",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "whole milk",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "or nondairy milk"
+      },
+      {
+        "name": "dried rose petals",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "or honey"
+      },
+      {
+        "name": "red food coloring",
+        "amount": "4",
+        "unit": "",
+        "notes": "drops, optional"
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "for the pot"
+      }
+    ],
+    "instructions": [
+      "Combine the cashews, milk, rose petals, sugar and food coloring if using in a heatproof bowl that fits in the pot. Cover the bowl with foil.",
+      "Pour the water into the pot, set a trivet inside and place the bowl on it.",
+      "Lock the lid and cook on Manual at High pressure for 4 minutes, then let the pressure release naturally so the flavor infuses fully.",
+      "When cool enough, blend the milk until smooth and chill.",
+      "Serve cold in small cups."
+    ],
+    "servings": 6,
+    "prepTime": 5,
+    "cookTime": 30,
+    "pressure": "4 min high pressure, natural release",
+    "tags": [
+      "drink",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Drinks & Desserts",
+    "page": 176,
+    "photos": [],
+    "notes": [],
+    "id": "4fc3f1f4-486e-4155-892d-53365f43f549",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Masala Chai (Spiced Tea)",
+    "ingredients": [
+      {
+        "name": "tea bags",
+        "amount": "2 or 3",
+        "unit": ""
+      },
+      {
+        "name": "water",
+        "amount": "1 1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "milk",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "or nondairy substitute"
+      },
+      {
+        "name": "sugar",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "or honey"
+      },
+      {
+        "name": "whole cloves",
+        "amount": "2",
+        "unit": ""
+      },
+      {
+        "name": "cinnamon sticks",
+        "amount": "3 or 4",
+        "unit": ""
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "fennel seeds",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "green cardamom pods",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "for the pot"
+      }
+    ],
+    "instructions": [
+      "Combine the tea bags, 1 1/2 cups water, milk, sugar, cloves, cinnamon, ginger, fennel and cardamom in a heatproof container that fits in the pot, ideally one with a spout. Cover with foil.",
+      "Pour the 2 cups water into the pot, set a trivet inside and place the container on it.",
+      "Lock the lid and cook on Manual at High pressure for 4 minutes.",
+      "Let the pressure release naturally for 5 minutes, then quick-release the rest.",
+      "Strain into 2 cups and serve."
+    ],
+    "servings": 2,
+    "prepTime": 5,
+    "cookTime": 20,
+    "pressure": "4 min high pressure, natural release 5 min then quick",
+    "tags": [
+      "drink",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Drinks & Desserts",
+    "page": 178,
+    "photos": [],
+    "notes": [],
+    "id": "0cb06e69-e26a-4126-85a0-707a93148b86",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Caramel Custard",
+    "ingredients": [
+      {
+        "name": "sugar",
+        "amount": "5",
+        "unit": "tbsp",
+        "notes": "for the caramel"
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "for the caramel"
+      },
+      {
+        "name": "eggs",
+        "amount": "3",
+        "unit": ""
+      },
+      {
+        "name": "whole milk",
+        "amount": "2",
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "or other sweetener, for the custard"
+      },
+      {
+        "name": "vanilla extract",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "for the pot"
+      }
+    ],
+    "instructions": [
+      "Heat the 5 tablespoons sugar and 2 tablespoons water in a small pot over medium-high heat, stirring occasionally until it boils, then stop stirring. Cook until caramel-colored and thickened, and carefully pour into a 6-inch soufflé dish that fits in the pot.",
+      "Whisk the eggs, milk, 1/4 cup sugar and vanilla together.",
+      "Strain the custard mixture over the hardened caramel and cover the dish with foil.",
+      "Pour the 2 cups water into the pot, set a trivet inside and place the dish on it. Lock the lid with the valve on Venting; this is not pressure cooked.",
+      "Select Sauté on More and set a separate timer for 22 minutes, since the cooker will not time it.",
+      "Turn off the pot and open the lid. A toothpick in the center should come out clean, though the center will be jiggly. If not, cover and Sauté another 2 to 3 minutes.",
+      "Refrigerate 4 to 6 hours until well chilled.",
+      "To serve, loosen the edges with a knife, put a plate on top, invert, and tap the bottom of the dish if needed."
+    ],
+    "servings": 6,
+    "prepTime": 25,
+    "cookTime": 25,
+    "tags": [
+      "dessert",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Drinks & Desserts",
+    "page": 180,
+    "photos": [],
+    "notes": [],
+    "id": "214c8457-fd50-4525-9529-fbe7655b924e",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Elaichi Dahi (Creamy Cardamom Yogurt)",
+    "ingredients": [
+      {
+        "name": "whole milk",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "divided"
+      },
+      {
+        "name": "heavy (whipping) cream",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "unflavored gelatin",
+        "amount": "1 1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "plain unsweetened yogurt",
+        "amount": "2 to 3",
+        "unit": "tbsp",
+        "notes": "any type with live cultures, as starter"
+      },
+      {
+        "name": "ground cardamom",
+        "amount": "1/2",
+        "unit": "tsp"
+      },
+      {
+        "name": "sugar",
+        "amount": "5",
+        "unit": "tbsp",
+        "notes": "or honey"
+      },
+      {
+        "name": "honey",
+        "amount": "1 1/2",
+        "unit": "tsp",
+        "notes": "plus more as needed, optional"
+      }
+    ],
+    "instructions": [
+      "Microwave the milk (reserving 1/4 cup) and the cream for about 2 minutes, until between 98 and 110°F.",
+      "Stir the gelatin into the reserved 1/4 cup warm milk until smooth, then add to the rest of the milk and cream.",
+      "Whisk in the starter yogurt, sugar and cardamom, then pour into 8 to 10 small (6-ounce) glass jars and screw on the lids.",
+      "Put a trivet in the pot, set the jars on it, and run the Yogurt function for 8 hours.",
+      "Take out the jars, stir the yogurt, and add the honey if using. Adjust the sweetness.",
+      "Refrigerate 6 to 8 hours so the gelatin sets."
+    ],
+    "servings": 8,
+    "prepTime": 15,
+    "cookTime": 480,
+    "tags": [
+      "dessert",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Drinks & Desserts",
+    "page": 182,
+    "photos": [],
+    "notes": [],
+    "id": "57bdd384-f4c8-4f74-9123-7c792809cd29",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Mitha Dahi (Steamed Yogurt Custard)",
+    "ingredients": [
+      {
+        "name": "Greek Yogurt",
+        "amount": "1",
+        "unit": "cup"
+      },
+      {
+        "name": "sweetened condensed milk",
+        "amount": "1",
+        "unit": "cup"
+      },
+      {
+        "name": "whole milk",
+        "amount": "1",
+        "unit": "cup"
+      },
+      {
+        "name": "ground cardamom",
+        "amount": "2",
+        "unit": "tsp"
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "for the pot"
+      }
+    ],
+    "instructions": [
+      "Mix the yogurt, condensed milk, whole milk and cardamom in a heatproof bowl that fits in the pot. Cover with foil.",
+      "Pour the water into the pot, set a trivet inside and place the bowl on it.",
+      "Lock the lid and cook on Manual at High pressure for 20 minutes.",
+      "Let the pressure release naturally for 10 minutes, then quick-release the rest.",
+      "Lift out the bowl and insert a knife; it should come out clean. If not, cover and leave in the hot pot for 1 or 2 minutes.",
+      "Refrigerate until well chilled."
+    ],
+    "servings": 6,
+    "prepTime": 5,
+    "cookTime": 40,
+    "pressure": "20 min high pressure, natural release 10 min then quick",
+    "tags": [
+      "dessert",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Drinks & Desserts",
+    "page": 184,
+    "photos": [],
+    "notes": [],
+    "id": "8c381f31-344e-4eea-a322-d9ff22242593",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Shrikhand (Greek Yogurt Dessert)",
+    "ingredients": [
+      {
+        "name": "saffron",
+        "amount": "1",
+        "unit": "pinch"
+      },
+      {
+        "name": "hot water",
+        "amount": "2",
+        "unit": "tbsp"
+      },
+      {
+        "name": "Greek Yogurt",
+        "amount": "2",
+        "unit": "cup"
+      },
+      {
+        "name": "powdered sugar",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "ground cardamom",
+        "amount": "1/4 to 1/2",
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Stir the saffron into the hot water and let it sit 5 to 10 minutes.",
+      "Mix the yogurt, powdered sugar and cardamom in a bowl. Taste and adjust so it tastes sweet first, with the tang coming after.",
+      "Mash the saffron into its water, add it to the yogurt and mix again.",
+      "Refrigerate 4 to 6 hours, stirring occasionally, until chilled and a light orange-yellow."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "tags": [
+      "dessert",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Drinks & Desserts",
+    "page": 186,
+    "photos": [],
+    "notes": [],
+    "id": "1d7a2264-882d-4e35-8f50-6198478c6757",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Gajjar Halva (Carrot with Raisins)",
+    "ingredients": [
+      {
+        "name": "Ghee",
+        "amount": "2",
+        "unit": "tbsp"
+      },
+      {
+        "name": "raw cashews",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "whole"
+      },
+      {
+        "name": "raisins",
+        "amount": "2",
+        "unit": "tbsp"
+      },
+      {
+        "name": "carrots",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "shredded"
+      },
+      {
+        "name": "whole milk",
+        "amount": "1",
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "or other sweetener"
+      },
+      {
+        "name": "ground cashews",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "to thicken the milk"
+      },
+      {
+        "name": "ground cardamom",
+        "amount": "1/4",
+        "unit": "tsp"
+      },
+      {
+        "name": "pistachios",
+        "amount": "",
+        "unit": "",
+        "notes": "chopped, for garnish"
+      }
+    ],
+    "instructions": [
+      "Set the pot to Sauté on More. When hot, heat the ghee until shimmering, then cook the whole cashews and raisins about 4 minutes until the cashews are golden.",
+      "Add the carrots, milk, sugar and ground cashews and stir.",
+      "Lock the lid and cook on Manual at High pressure for 10 minutes, then let the pressure release naturally.",
+      "The mixture will look curdled. Stir well, mashing the carrots slightly, then Sauté and stir for a few minutes to thicken.",
+      "Press Cancel, stir in the cardamom and rest 10 minutes to thicken.",
+      "Garnish with pistachios. Serve hot, cold or at room temperature."
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 40,
+    "pressure": "10 min high pressure, natural release",
+    "tags": [
+      "dessert",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Drinks & Desserts",
+    "page": 187,
+    "photos": [],
+    "notes": [],
+    "id": "dca7afcb-3b08-4d85-9890-0c7a573cfec7",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Chawal Ki Kheer (Indian Rice Pudding)",
+    "ingredients": [
+      {
+        "name": "Ghee",
+        "amount": "2",
+        "unit": "tbsp"
+      },
+      {
+        "name": "raisins",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "cashews",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "basmati rice",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "rinsed"
+      },
+      {
+        "name": "whole milk",
+        "amount": "2",
+        "unit": "cup"
+      },
+      {
+        "name": "sugar",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "water",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "half-and-half",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "ground cardamom",
+        "amount": "1/4 to 1/2",
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Set the pot to Sauté on More. When hot, heat the ghee until shimmering, then cook the raisins and cashews about 4 minutes until the cashews are lightly browned and the raisins plump. Add the rice, milk, sugar and water.",
+      "Lock the lid and cook on Manual at High pressure for 15 minutes, then let the pressure release naturally.",
+      "Stir well, adding the half-and-half a little at a time to thin it. The curdled look smooths out as you stir.",
+      "Stir in the cardamom, transfer to a bowl and chill overnight (it can be eaten hot but is better the next day)."
+    ],
+    "servings": 6,
+    "prepTime": 10,
+    "cookTime": 45,
+    "pressure": "15 min high pressure, natural release",
+    "tags": [
+      "dessert",
+      "indian",
+      "instant-pot",
+      "vegetarian"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Drinks & Desserts",
+    "page": 189,
+    "photos": [],
+    "notes": [],
+    "id": "f8a8d12b-7862-408b-9ecd-b6f00d85e459",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Narali Bhat (Sweet Coconut Rice)",
+    "ingredients": [
+      {
+        "name": "water",
+        "amount": "1 1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "unsweetened shredded coconut",
+        "amount": "1/2",
+        "unit": "cup"
+      },
+      {
+        "name": "jasmine rice",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "rinsed and drained"
+      },
+      {
+        "name": "brown sugar",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "or palm sugar"
+      },
+      {
+        "name": "raisins",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      {
+        "name": "Ghee",
+        "amount": "2",
+        "unit": "tsp"
+      },
+      {
+        "name": "saffron",
+        "amount": "1",
+        "unit": "pinch"
+      },
+      {
+        "name": "whole cloves",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": "1",
+        "unit": "",
+        "notes": "cut into 3 or 4 pieces"
+      },
+      {
+        "name": "green cardamom pods",
+        "amount": "4",
+        "unit": ""
+      },
+      {
+        "name": "ground cardamom",
+        "amount": "1/2",
+        "unit": "tsp"
+      }
+    ],
+    "instructions": [
+      "Put the water, coconut, rice, sugar, raisins, ghee, saffron, cloves, cinnamon and cardamom pods in the pot.",
+      "Lock the lid and use the Rice setting, which defaults to Low pressure for 12 minutes.",
+      "Let the pressure release naturally.",
+      "Stir in the ground cardamom. Serve as a sweet side or dessert, and eat around the whole spices."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 35,
+    "pressure": "12 min low pressure (Rice setting), natural release",
+    "tags": [
+      "dessert",
+      "indian",
+      "instant-pot",
+      "vegetarian",
+      "vegan"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Drinks & Desserts",
+    "page": 191,
+    "photos": [],
+    "notes": [],
+    "id": "23be5b91-f240-4252-b72f-a9b39324e98f",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Patra ni Macchi (Fish with Green Chutney)",
+    "ingredients": [
+      {
+        "name": "tilapia fillets",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "about 2 large fillets, or other firm, white, mild fish"
+      },
+      {
+        "name": "Coconut Green Chutney",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "1 1/2",
+        "unit": "cup",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Cut the fillets in half to make 4 pieces. Cut 4 sheets of parchment, each big enough to wrap one piece of fish, and 4 sheets of foil, each big enough to wrap a parchment packet.",
+      "Coat both sides of each piece of fish with 2 tbsp of the green chutney, wrap it in parchment, then wrap the parchment packet in foil.",
+      "Pour the water into the pot, set a trivet inside, and stand the packets on the trivet above the water.",
+      "Lock the lid and cook on Manual, low pressure, for 2 minutes. Quick release.",
+      "Open one packet to check the fish. If it is not done, reseal it, close the lid with the pot turned off, and let the residual heat finish the cooking.",
+      "Serve with rice, naan, cauliflower rice or another mild side."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 10,
+    "pressure": "2 min low pressure, quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "fish"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 137,
+    "photos": [],
+    "notes": [],
+    "id": "e08186f1-b790-420a-9b09-b2a11e6f3695",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Jhinga Nariyal Wala (Shrimp Coconut Curry)",
+    "ingredients": [
+      {
+        "name": "shrimp",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "shelled and deveined, about 26 to 30 count"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "garlic",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "unsweetened coconut milk",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "or more to taste"
+      },
+      {
+        "name": "water",
+        "amount": "2",
+        "unit": "cup",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Put the shrimp in a bowl that fits inside the pot. Add the ginger, garlic, turmeric, salt, cayenne, garam masala and coconut milk, then cover the bowl with foil.",
+      "Pour the water into the pot, set a trivet on top, and place the covered bowl on the trivet.",
+      "Lock the lid and cook on Manual, low pressure, for 3 minutes. Quick release.",
+      "Open the lid, stir in a little extra coconut milk if you like, and serve with rice or another side."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 15,
+    "pressure": "3 min low pressure, quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "fish"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 139,
+    "photos": [],
+    "notes": [],
+    "id": "dd3eaf9b-8de7-4ae7-9d6e-f45a6193d46a",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Chicken Biryani",
+    "ingredients": [
+      {
+        "name": "Ghee or butter",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "cinnamon stick",
+        "amount": "1",
+        "unit": "",
+        "notes": "whole"
+      },
+      {
+        "name": "whole cloves",
+        "amount": "3 to 4",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "black peppercorns",
+        "amount": "4 to 5",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "green cardamom pods",
+        "amount": "4 to 5",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "small, thinly sliced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "4",
+        "unit": "",
+        "notes": "crushed"
+      },
+      {
+        "name": "jalapeño chiles",
+        "amount": "2",
+        "unit": "",
+        "notes": "diced"
+      },
+      {
+        "name": "boneless, skinless chicken thighs",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "cut into bite-size pieces"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "fresh mint sprigs",
+        "amount": "6 to 8",
+        "unit": "",
+        "notes": "chopped fine"
+      },
+      {
+        "name": "basmati rice",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "rinsed and drained"
+      },
+      {
+        "name": "salt",
+        "amount": "",
+        "unit": "",
+        "notes": "to taste"
+      },
+      {
+        "name": "water",
+        "amount": "1",
+        "unit": "cup",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Set the pot to Sauté on More (high). When hot, melt the ghee, then add the cumin seeds, cinnamon, cloves, peppercorns and cardamom. Cook 1 to 2 minutes until sizzling.",
+      "Add the onion and cook until well browned and crisp at the edges.",
+      "Add the ginger, garlic and jalapeños and cook 2 to 3 minutes. Add the chicken and sear lightly on both sides.",
+      "Spread the mixture evenly over the bottom of the pot and sprinkle the cilantro and mint over it.",
+      "Layer the rice on top and sprinkle with salt without stirring. Pour in the water and gently press the rice down until mostly covered.",
+      "Lock the lid and cook on Manual, high pressure, for 5 minutes. Let the pressure release naturally.",
+      "Open the lid and either stir gently from the bottom or scoop from top to bottom so every serving has chicken, herbs and rice. If you skip the whole spices, add 1 to 2 tsp Garam Masala after searing the chicken."
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 35,
+    "pressure": "5 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "chicken"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 141,
+    "photos": [],
+    "notes": [],
+    "id": "0f73e0ac-6b20-48bf-a764-664eb7e9fdbe",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Murgh Makhani (Butter Chicken)",
+    "ingredients": [
+      {
+        "name": "canned diced tomatoes",
+        "amount": "14",
+        "unit": "oz",
+        "notes": "1 can, do not drain"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "5 to 6",
+        "unit": "",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground paprika",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "divided"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "boneless, skinless chicken",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "breasts or thighs"
+      },
+      {
+        "name": "butter",
+        "amount": "4",
+        "unit": "oz",
+        "notes": "cut into cubes, or 1/2 cup coconut oil"
+      },
+      {
+        "name": "heavy (whipping) cream",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "or full-fat coconut milk"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4 to 1/2",
+        "unit": "cup",
+        "notes": "chopped"
+      }
+    ],
+    "instructions": [
+      "Put the tomatoes, garlic, ginger, turmeric, cayenne, paprika, 1 tsp of the garam masala, cumin and salt in the pot and mix well. Lay the chicken on top.",
+      "Lock the lid and cook on Manual, high pressure, for 10 minutes. Let the pressure release naturally.",
+      "Remove the chicken and set it aside. Blend the contents of the pot with an immersion blender until smooth, then let the sauce cool a few minutes.",
+      "Stir in the butter, cream, remaining 1 tsp garam masala and cilantro until fully combined and thick enough to coat the back of a spoon.",
+      "The recipe makes about twice the sauce needed. Remove half and freeze it, or refrigerate up to 3 days.",
+      "Return the chicken to the pot, select Sauté on Less (low) and heat it through, breaking it into smaller pieces without shredding.",
+      "Serve over rice or raw cucumber noodles. For a meatless version, swap the chicken for paneer, tofu or steamed vegetables added after the sauce is cooked, and add 1/4 cup water to the sauce before pressure cooking."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 40,
+    "pressure": "10 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "chicken"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 144,
+    "photos": [],
+    "notes": [],
+    "id": "64530d2c-8dee-4f14-9e65-c9a0056c74e8",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Punjabi Chicken Curry",
+    "ingredients": [
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "peeled and quartered"
+      },
+      {
+        "name": "Ginger-Garlic Paste",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "or 1 tbsp each minced ginger and garlic"
+      },
+      {
+        "name": "tomatoes",
+        "amount": "2",
+        "unit": "",
+        "notes": "quartered"
+      },
+      {
+        "name": "Greek Yogurt",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "cornstarch",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "divided"
+      },
+      {
+        "name": "water",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "boneless, skinless chicken thighs",
+        "amount": "1 1/2",
+        "unit": "lb",
+        "notes": "cut into large bite-size pieces"
+      },
+      {
+        "name": "fresh spinach",
+        "amount": "10",
+        "unit": "oz",
+        "notes": "chopped"
+      }
+    ],
+    "instructions": [
+      "Blend the onion, ginger-garlic paste, tomatoes, yogurt, cornstarch, salt, cayenne, turmeric, 1 tsp of the garam masala and the water until smooth.",
+      "Put the chicken in the pot and pour the sauce over it.",
+      "Lock the lid and cook on Soup, high pressure, for 8 minutes. Release naturally for 10 minutes, then quick release the rest.",
+      "Remove the chicken to a board. Select Sauté on medium heat and add the spinach to the sauce.",
+      "Cut the chicken into smaller pieces and return it to the pot. Simmer with the lid off until the sauce thickens and the spinach cooks down.",
+      "Stir in the remaining 1 tsp garam masala. Serve with rice, cauliflower rice, naan or mashed potatoes."
+    ],
+    "servings": 6,
+    "prepTime": 15,
+    "cookTime": 35,
+    "pressure": "8 min high pressure (Soup), 10 min natural release then quick",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "chicken"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 147,
+    "photos": [],
+    "notes": [],
+    "id": "c86884fd-de3d-4dbc-8a14-e3e3871108a6",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Chicken Vindaloo",
+    "ingredients": [
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "diced"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "5",
+        "unit": "",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "peanut oil",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "white vinegar",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "tomato",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "smoked paprika",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "adjust to taste"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "boneless, skinless chicken thighs",
+        "amount": "1",
+        "unit": "lb",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Combine the onion, garlic, ginger and oil in a large microwave-safe bowl. Microwave on full power 5 to 7 minutes, until browned at the edges.",
+      "Move the mixture to a blender. Add the vinegar, tomato, salt, garam masala, paprika, cayenne, coriander and cumin, and blend to a smooth paste.",
+      "Put the chicken in the same bowl and coat it with the paste. Pulse the water in the blender to rinse out the remaining spices and pour it over the chicken.",
+      "Stir in the turmeric (adding it earlier can stain the blender). Cover and marinate 30 minutes to 8 hours, refrigerated if longer than 30 minutes.",
+      "Pour the chicken and marinade into the pot. Lock the lid and cook on Manual, high pressure, for 5 minutes. Release naturally for 10 minutes, then quick release the rest.",
+      "If the sauce is thin, select Sauté on More (high), remove the chicken, and boil the sauce to reduce it. Return the chicken and serve."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 35,
+    "pressure": "5 min high pressure, 10 min natural release then quick",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "chicken"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 149,
+    "photos": [],
+    "notes": [],
+    "id": "ecc34791-52e1-4852-afa9-3c9021e6e708",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Chicken Korma",
+    "ingredients": [
+      {
+        "name": "raw almonds",
+        "amount": "1",
+        "unit": "oz",
+        "notes": "or cashews; for the sauce"
+      },
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "small, chopped; for the sauce"
+      },
+      {
+        "name": "tomato",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "diced; for the sauce"
+      },
+      {
+        "name": "green serrano chile",
+        "amount": "1/2",
+        "unit": "",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "5",
+        "unit": "",
+        "notes": "peeled; for the sauce"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced; for the sauce"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "water",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "boneless, skinless chicken",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "breasts, thighs or drumsticks; for the korma"
+      },
+      {
+        "name": "full-fat coconut milk",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "or more to taste; for the korma"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the korma"
+      },
+      {
+        "name": "tomato paste",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "for the korma"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped, optional; for the korma"
+      },
+      {
+        "name": "slivered almonds",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "for the garnish"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped; for the garnish"
+      },
+      {
+        "name": "saffron strands",
+        "amount": "1",
+        "unit": "pinch",
+        "notes": "soaked in 2 tablespoons milk; for the garnish"
+      }
+    ],
+    "instructions": [
+      "Blend the almonds, onion, tomato, serrano, garlic, ginger, turmeric, salt, garam masala, cumin, coriander, cayenne and water into a smooth purée.",
+      "Pour the sauce into the pot and set the chicken on top, pushing it down slightly if frozen.",
+      "Lock the lid and cook on Manual, high pressure, for 10 minutes. Let the pressure release naturally.",
+      "Remove the chicken to a board and cut it into bite-size pieces.",
+      "Stir the coconut milk, garam masala and tomato paste into the sauce, then return the chicken.",
+      "Garnish with the slivered almonds and cilantro, and pour the saffron milk with the saffron strands over the rice when serving. Raisins and cashews can be added for a sweeter korma."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 35,
+    "pressure": "10 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "chicken"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 152,
+    "photos": [],
+    "notes": [],
+    "id": "63dc9428-84da-4eaa-9a7a-4a60b1f6c8b0",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Chicken Tikka Masala",
+    "ingredients": [
+      {
+        "name": "Greek Yogurt",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "4",
+        "unit": "",
+        "notes": "minced; for the marinade"
+      },
+      {
+        "name": "ginger",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "minced; for the marinade"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "smoked paprika",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "liquid smoke",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "optional; for the marinade"
+      },
+      {
+        "name": "boneless, skinless chicken",
+        "amount": "1 1/2",
+        "unit": "lb",
+        "notes": "breasts or thighs, cut into large pieces; for the marinade"
+      },
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "chopped; for the sauce"
+      },
+      {
+        "name": "canned diced tomatoes",
+        "amount": "14",
+        "unit": "oz",
+        "notes": "1 can, do not drain; for the sauce"
+      },
+      {
+        "name": "carrot",
+        "amount": "1",
+        "unit": "",
+        "notes": "chopped; for the sauce"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "5",
+        "unit": "",
+        "notes": "minced; for the sauce"
+      },
+      {
+        "name": "ginger",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "minced; for the sauce"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "ground paprika",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the sauce"
+      },
+      {
+        "name": "half-and-half",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "or heavy cream or full-fat coconut milk; for finishing"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for finishing"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/4 to 1/2",
+        "unit": "cup",
+        "notes": "chopped; for finishing"
+      }
+    ],
+    "instructions": [
+      "Mix the yogurt, garlic, ginger, turmeric, cayenne, paprika, salt, garam masala, cumin and liquid smoke (if using) in a large bowl. Add the chicken, coat it, and marinate 1 to 2 hours.",
+      "Put the onion, tomatoes, carrot, garlic, ginger, turmeric, cayenne, paprika, salt, garam masala and cumin in the pot and mix. Lay the marinated chicken, with its yogurt, on top.",
+      "Lock the lid and cook on Manual, high pressure, for 10 minutes. Quick release.",
+      "Remove the chicken and set it aside; it can be browned under the broiler or in an air fryer. Purée the sauce with an immersion blender.",
+      "Stir the half-and-half and garam masala into the sauce. Remove half the sauce and freeze it for later.",
+      "Return the chicken to the remaining sauce, garnish with cilantro and serve."
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 20,
+    "pressure": "10 min high pressure, quick release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "chicken"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 156,
+    "photos": [],
+    "notes": [],
+    "id": "066c025c-9655-4503-9e61-f178ba43e3ea",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Beef Curry",
+    "ingredients": [
+      {
+        "name": "tomatoes",
+        "amount": "2",
+        "unit": "",
+        "notes": "cut into quarters"
+      },
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "small, cut into quarters"
+      },
+      {
+        "name": "garlic cloves",
+        "amount": "4",
+        "unit": "",
+        "notes": "peeled and chopped"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "plus more to taste"
+      },
+      {
+        "name": "beef chuck roast",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "cut into 1-inch cubes"
+      }
+    ],
+    "instructions": [
+      "Put the tomatoes in the blender first, then the onion, garlic and cilantro, so the tomatoes liquefy first and no water is needed. Blend until smooth.",
+      "Add the cumin, coriander, garam masala, cayenne and salt and blend a few more seconds.",
+      "Put the beef in the pot and pour the purée over it.",
+      "Lock the lid and cook on Manual, high pressure, for 20 minutes. Let the pressure release naturally.",
+      "Stir, taste, add more salt if needed, and serve with naan."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 45,
+    "pressure": "20 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "beef"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 159,
+    "photos": [],
+    "notes": [],
+    "id": "2db0f52b-2071-4050-8716-9a7c965d2a95",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Kheema Nariyal Saag (Ground Beef Coconut Curry and Spinach)",
+    "ingredients": [
+      {
+        "name": "Ghee or vegetable oil",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "cumin seeds",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "garlic",
+        "amount": "4",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ground beef",
+        "amount": "1",
+        "unit": "lb",
+        "notes": ""
+      },
+      {
+        "name": "onion",
+        "amount": "2",
+        "unit": "cup",
+        "notes": "diced"
+      },
+      {
+        "name": "tomato",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "green serrano or jalapeño chile",
+        "amount": "1",
+        "unit": "",
+        "notes": "minced"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "spinach",
+        "amount": "4",
+        "unit": "cup",
+        "notes": "chopped, or more to taste"
+      },
+      {
+        "name": "water",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "coconut milk",
+        "amount": "15",
+        "unit": "oz",
+        "notes": "1 can, divided"
+      }
+    ],
+    "instructions": [
+      "Set the pot to Sauté on More (high). When hot, add the ghee.",
+      "When the ghee shimmers, add the cumin seeds and cook about 1 minute until they sputter.",
+      "Add the garlic and ginger and cook 1 to 2 minutes until sizzling.",
+      "Add the beef and cook, stirring, about 4 minutes until mostly broken up.",
+      "Add the onion, tomato, chile, turmeric, cayenne, coriander, garam masala, salt, spinach, water and half the can of coconut milk. Stir.",
+      "Lock the lid and cook on Manual, high pressure, for 10 minutes. Let the pressure release naturally.",
+      "Stir in the remaining coconut milk to thicken. Add more spinach if you like and stir until wilted."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 45,
+    "pressure": "10 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "beef"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 161,
+    "photos": [],
+    "notes": [],
+    "id": "5178416b-b7a5-494d-9a99-4917251480b7",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Kheema Matar (Spiced Ground Beef)",
+    "ingredients": [
+      {
+        "name": "frozen peas",
+        "amount": "1",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "Ghee or peanut oil",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "cinnamon sticks",
+        "amount": "3 to 4",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "green or white cardamom pods",
+        "amount": "4",
+        "unit": "",
+        "notes": ""
+      },
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "garlic",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "lean ground beef",
+        "amount": "1",
+        "unit": "lb",
+        "notes": ""
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "adjust to taste"
+      },
+      {
+        "name": "ground coriander",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cumin",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      }
+    ],
+    "instructions": [
+      "Measure the peas into a small bowl and leave them to thaw.",
+      "Set the pot to Sauté on More (high). When hot, heat the ghee until shimmering, then add the cinnamon and cardamom for 10 seconds.",
+      "Add the onion, garlic and ginger and sauté 3 to 5 minutes until the onion softens.",
+      "Add the beef and sauté 3 to 4 minutes, breaking up the clumps.",
+      "Add the garam masala, salt, turmeric, cayenne, coriander, cumin and water.",
+      "Lock the lid and cook on Manual, high pressure, for 5 minutes. Release naturally for 10 minutes, then quick release the rest.",
+      "Open the lid, stir in the peas, let them heat through and serve."
+    ],
+    "servings": 4,
+    "prepTime": 15,
+    "cookTime": 35,
+    "pressure": "5 min high pressure, 10 min natural release then quick",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "beef"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 163,
+    "photos": [],
+    "notes": [],
+    "id": "b8d446a1-32c6-481c-8511-da775740d1a3",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Pork Saag",
+    "ingredients": [
+      {
+        "name": "half-and-half",
+        "amount": "1/3",
+        "unit": "cup",
+        "notes": "plus more as needed; for the marinade"
+      },
+      {
+        "name": "garlic",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "minced; for the marinade"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "minced; for the marinade"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "for the marinade"
+      },
+      {
+        "name": "pork shoulder",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "cut into bite-size cubes; for the marinade"
+      },
+      {
+        "name": "Ghee or peanut oil",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "for finishing"
+      },
+      {
+        "name": "tomato paste",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "for finishing"
+      },
+      {
+        "name": "water",
+        "amount": "3/4",
+        "unit": "cup",
+        "notes": "for finishing"
+      },
+      {
+        "name": "fresh baby spinach",
+        "amount": "5",
+        "unit": "oz",
+        "notes": "chopped; for finishing"
+      },
+      {
+        "name": "salt",
+        "amount": "",
+        "unit": "",
+        "notes": "to taste; for finishing"
+      }
+    ],
+    "instructions": [
+      "In a large bowl mix the half-and-half, garlic, ginger, turmeric, cayenne, garam masala and salt. Add the pork and coat it. Marinate at least 30 minutes and up to 8 hours, refrigerated if longer than 30 minutes.",
+      "Set the pot to Sauté on More (high). When hot, heat the ghee until shimmering. Add the pork with its marinade and the tomato paste, and cook 5 to 10 minutes until lightly seared and the paste is mixed in. Pour in the water.",
+      "Lock the lid and cook on Manual, high pressure, for 10 minutes. Quick release.",
+      "Open the lid, add the spinach and mix well.",
+      "Lock the lid again and cook on Manual, high pressure, for 2 minutes. Let the pressure release naturally.",
+      "Stir well and adjust the seasoning, adding more salt or half-and-half if you like."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 45,
+    "pressure": "10 min high pressure, quick release; then 2 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "pork"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 165,
+    "photos": [],
+    "notes": [],
+    "id": "3512435b-fc2a-4bf7-9c8f-ccf0a82ed839",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Lamb Rogan Josh (Lamb Curry)",
+    "ingredients": [
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "cup",
+        "notes": "diced"
+      },
+      {
+        "name": "garlic",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": "minced"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": "minced"
+      },
+      {
+        "name": "Greek Yogurt",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "tomato paste",
+        "amount": "2",
+        "unit": "tbsp",
+        "notes": ""
+      },
+      {
+        "name": "paprika",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cinnamon",
+        "amount": "1/2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground nutmeg",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "boneless leg of lamb",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "cut into 1-inch cubes"
+      }
+    ],
+    "instructions": [
+      "Mix everything except the lamb in a large bowl, then add the lamb and coat it.",
+      "Cover and marinate in the refrigerator 1 to 24 hours. If short on time, skip the marinating.",
+      "Transfer the lamb and marinade to the pot. Lock the lid and cook on Manual, high pressure, for 20 minutes (15 minutes for chewier meat).",
+      "Let the pressure release naturally, then open the lid and serve."
+    ],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 45,
+    "pressure": "20 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "lamb"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 167,
+    "photos": [],
+    "notes": [],
+    "id": "15ac9f56-f7e4-4a74-985f-d3457eb8dac5",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
+  },
+  {
+    "title": "Lamb Dum Biryani (Lamb and Rice Casserole)",
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": "1",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "Greek Yogurt",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "onion",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "minced; for the marinade"
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "chopped; for the marinade"
+      },
+      {
+        "name": "fresh mint",
+        "amount": "1/4",
+        "unit": "cup",
+        "notes": "chopped"
+      },
+      {
+        "name": "ginger",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "garlic",
+        "amount": "1",
+        "unit": "tbsp",
+        "notes": "minced"
+      },
+      {
+        "name": "Garam Masala",
+        "amount": "2",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "salt",
+        "amount": "1 3/4",
+        "unit": "tsp",
+        "notes": "divided: 1 tsp for the marinade, 3/4 tsp for the onions"
+      },
+      {
+        "name": "ground turmeric",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cayenne pepper",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cardamom",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cinnamon",
+        "amount": "1/4",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "ground cloves",
+        "amount": "1/8",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "serrano pepper",
+        "amount": "1",
+        "unit": "",
+        "notes": "seeded and minced"
+      },
+      {
+        "name": "boneless shoulder or leg of lamb",
+        "amount": "1",
+        "unit": "lb",
+        "notes": "cut into cubes, all visible fat removed"
+      },
+      {
+        "name": "onion",
+        "amount": "1",
+        "unit": "",
+        "notes": "thinly sliced; to broil"
+      },
+      {
+        "name": "peanut oil",
+        "amount": "1",
+        "unit": "tsp",
+        "notes": ""
+      },
+      {
+        "name": "water",
+        "amount": "1",
+        "unit": "cup",
+        "notes": ""
+      },
+      {
+        "name": "fresh cilantro",
+        "amount": "1/2",
+        "unit": "cup",
+        "notes": "chopped; for serving"
+      }
+    ],
+    "instructions": [
+      "Rinse the rice and set it aside to soften.",
+      "In a large bowl mix the yogurt, minced onion, cilantro, mint, ginger, garlic, garam masala, 1 tsp of the salt, turmeric, cayenne, cardamom, cinnamon, cloves and serrano. Add the lamb, coat it, and marinate 30 minutes.",
+      "Heat the oven to broil and line a baking pan with foil. Separate the sliced onion onto the pan, toss with the remaining 3/4 tsp salt and the peanut oil, and broil about 15 minutes, stirring once or twice, until well browned and crisp. Set aside.",
+      "Pour the lamb and all of its marinade into the pot and spread it over the bottom. Spread the rice over the meat in an even layer.",
+      "Pour in the water and gently press the rice under it. Do not mix the rice and lamb.",
+      "Lock the lid and cook on Manual, high pressure, for 6 minutes. Let the pressure release naturally.",
+      "Open the lid and serve topped with the browned onions and the 1/2 cup cilantro. Beef or pork can be used instead, changing only the pressure cooking time."
+    ],
+    "servings": 6,
+    "prepTime": 20,
+    "cookTime": 45,
+    "pressure": "6 min high pressure, natural release",
+    "tags": [
+      "dinner",
+      "lunch",
+      "indian",
+      "instant-pot",
+      "lamb"
+    ],
+    "sourceType": "other",
+    "bookId": "indian-instant-pot",
+    "chapter": "Fish, Chicken & Meat",
+    "page": 169,
+    "photos": [],
+    "notes": [],
+    "id": "7f8d96e9-c440-46f9-b80d-ec40e3bf5a11",
+    "createdAt": "2026-11-02T16:32:55.000Z",
+    "updatedAt": "2026-11-02T16:32:55.000Z"
   }
 ]

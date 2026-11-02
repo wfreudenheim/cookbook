@@ -1,7 +1,10 @@
 import type { Recipe } from '../types/recipe';
+import type { Book } from '../types/book';
 
 interface RecipeDetailProps {
   recipe: Recipe;
+  book?: Book;
+  backLabel?: string;
   onBack: () => void;
   onEdit: (recipe: Recipe) => void;
   onDelete: (recipe: Recipe) => void;
@@ -18,8 +21,8 @@ const getSourceDisplay = (sourceType?: string, sourceUrl?: string) => {
   return sourceType;
 };
 
-export const RecipeDetail = ({ recipe, onBack, onEdit, onDelete, isAuthenticated }: RecipeDetailProps) => {
-  const { title, sourceUrl, sourceType, ingredients, instructions, servings, tags } = recipe;
+export const RecipeDetail = ({ recipe, book, backLabel = 'Back to Recipes', onBack, onEdit, onDelete, isAuthenticated }: RecipeDetailProps) => {
+  const { title, sourceUrl, sourceType, ingredients, instructions, servings, tags, prepTime, cookTime, pressure, notes } = recipe;
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-8">
@@ -28,7 +31,7 @@ export const RecipeDetail = ({ recipe, onBack, onEdit, onDelete, isAuthenticated
           onClick={onBack}
           className="text-text-secondary hover:text-accent-primary transition-colors duration-200"
         >
-          ← Back to Recipes
+          ← {backLabel}
         </button>
         {isAuthenticated && (
           <div className="flex items-center space-x-6">
@@ -71,13 +74,23 @@ export const RecipeDetail = ({ recipe, onBack, onEdit, onDelete, isAuthenticated
             </div>
           </div>
           <div>
-            {sourceUrl ? (
+            {book ? (
+              <>From: <span className="text-text-primary">{book.title}</span>{recipe.page && <>, p. {recipe.page}</>}</>
+            ) : sourceUrl ? (
               <>From: <a href={sourceUrl} className="text-accent-primary hover:underline" target="_blank" rel="noopener noreferrer">{getSourceDisplay(sourceType, sourceUrl)}</a></>
             ) : (
               <>Source: <span className="text-text-secondary">{getSourceDisplay(sourceType, sourceUrl)}</span></>
             )}
           </div>
         </div>
+
+        {(prepTime || cookTime || pressure) && (
+          <div className="flex flex-wrap gap-x-8 gap-y-1 text-sm text-text-secondary -mt-4 mb-8">
+            {prepTime ? <span>Prep: {prepTime} min</span> : null}
+            {cookTime ? <span>Cook: {cookTime} min</span> : null}
+            {pressure && <span>Instant Pot: {pressure}</span>}
+          </div>
+        )}
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -107,6 +120,13 @@ export const RecipeDetail = ({ recipe, onBack, onEdit, onDelete, isAuthenticated
 
       <div className="border-t border-border-light pt-8">
         <h2 className="text-text-primary text-xl mb-4">Photos & Notes</h2>
+        {notes && notes.length > 0 && (
+          <ul className="space-y-2 mb-6">
+            {notes.map(note => (
+              <li key={note.id} className="text-text-secondary">{note.content}</li>
+            ))}
+          </ul>
+        )}
         <div className="flex space-x-4">
           <button className="px-4 py-2 border border-border-light hover:border-accent-primary text-text-secondary hover:text-accent-primary transition-colors duration-200">
             Add Photo
